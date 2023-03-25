@@ -1,0 +1,3 @@
+payload:
+  - DOMAIN-SUFFIX,vxtrans.com,DIRECT   #钛盘上传
+  - DOMAIN-SUFFIX,vx-cdn.com,DIRECT    #钛盘下载
