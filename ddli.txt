@@ -1,3 +1,4 @@
 payload:
   - DOMAIN-SUFFIX,uianxi.xyz
   - DOMAIN-SUFFIX,vcuixb.xyz
+  - DOMAIN-SUFFIX,sspai.com
