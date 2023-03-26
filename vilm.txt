@@ -1,3 +1,4 @@
 payload:
-  - DOMAIN-SUFFIX,vxtrans.com,DIRECT   #钛盘上传
-  - DOMAIN-SUFFIX,vx-cdn.com,DIRECT    #钛盘下载
+  - DOMAIN-SUFFIX,vxtrans.com   #钛盘上传
+  - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
+  - DOMAIN-SUFFIX,kubedown.com  #KubeDown百度网盘脚本
