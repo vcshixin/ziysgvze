@@ -4,4 +4,4 @@ payload:
   - DOMAIN-SUFFIX,kubedown.com  #KubeDown百度网盘脚本
   - DOMAIN-SUFFIX,ddli.uianxi.xyz   #自建节点
   - DOMAIN-SUFFIX,onedrive.uianxi.xyz   #cloudflare代理onedrive
-  - DOMAIN-SUFFIX,imtt.qq.com
+  - DOMAIN-SUFFIX,l.qq.com
