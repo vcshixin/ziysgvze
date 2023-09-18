@@ -2,7 +2,4 @@ payload:
   - DOMAIN-SUFFIX,vxtrans.com   #钛盘上传
   - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
   - DOMAIN-SUFFIX,kubedown.com  #KubeDown百度网盘脚本
-  - DOMAIN-SUFFIX,ddli.uianxi.xyz   #自建节点
   - DOMAIN-SUFFIX,onedrive.uianxi.xyz   #cloudflare代理onedrive
-  - DOMAIN-SUFFIX,home.uianxi.xyz
-  - DOMAIN-SUFFIX,ghxi.com
