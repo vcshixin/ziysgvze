@@ -1,2 +1,3 @@
 payload:
   - DOMAIN-SUFFIX,apiauth.quickconnect.to
+  - DOMAIN-SUFFIX,jable.tv
