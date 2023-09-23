@@ -3,7 +3,7 @@ payload:
   - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
   - DOMAIN-SUFFIX,kubedown.com  #KubeDown百度网盘脚本
   - DOMAIN-SUFFIX,uianxi.xyz
-  - DOMAIN-SUFFIX,vcuixb.xyz
+  #- DOMAIN-SUFFIX,vcuixb.xyz
   - DOMAIN-SUFFIX,hhh.xn--ed-c72c.com  #tg代理
   - DOMAIN-SUFFIX,hhhh.nmsl.sb      #tg代理
 
