@@ -6,4 +6,4 @@ payload:
   - DOMAIN-SUFFIX,vcuixb.xyz
   - DOMAIN-SUFFIX,hhh.xn--ed-c72c.com  #tg代理
   - DOMAIN-SUFFIX,hhhh.nmsl.sb      #tg代理
-
+  - DOMAIN-SUFFIX,applog.reader.qq.com
