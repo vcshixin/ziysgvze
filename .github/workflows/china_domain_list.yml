@@ -1,0 +1,17 @@
+name: Add domain prefix
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  add-domain-prefix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Add domain prefix
+        run: |
+          echo "payload:"
+          for line in $(cat links.txt); do
+            echo "- DOMAIN,$line"
+          done
