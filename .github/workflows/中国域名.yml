@@ -1,4 +1,4 @@
-name: Convert China Domain List
+name: Convert Links
 
 于:
   workflow_dispatch: # 手动触发工作流程
@@ -11,30 +11,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Download China Domain List
+    - name: Download Links
       run: |
-        # 下载原链接中的文件
-        wget -O china_domain_list.txt https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
+        # 下载链接文件到工作目录中
+        wget -O links.txt https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
         # 检查文件是否下载成功
         if [ $? -ne 0 ]; then
-          echo "Failed to download China Domain List file"
+          echo "Failed to download links file"
           exit 1
         fi
 
-    - name: Convert and Write to YAML
+    - name: Convert Links
       run: |
-        # 打开原链接文件
-        cat china_domain_list.txt | while read -r link; do
+        # 打开包含链接的文件
+        cat links.txt | while read -r link; do
           # 去除链接两端的空白字符（例如换行符）
           link=$(echo "$link" | tr -d '\n\r')
-          # 输出格式化后的链接到YAML文件
-          echo "- DOMAIN,$link" >> rule/china_domain_list.yaml
-        done
+          # 输出格式化后的链接
+          echo "- DOMAIN,$link"
+        done > china_domain_list.yaml
 
     - name: Commit and Push Changes
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        git add rule/china_domain_list.yaml
-        git commit -m "Convert China Domain List to YAML format"
+        git add china_domain_list.yaml
+        git commit -m "Convert links to DOMAIN format"
         git push
