@@ -1,0 +1,33 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  convert-domain-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y curl
+
+      - name: Download domain list
+        run: curl -o domain_list.txt https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
+
+      - name: Convert domain list
+        run: |
+          cat << EOF > converted_domain_list.txt
+payload:
+ - DOMAIN-SUFFIX,
+EOF
+          for domain in $(cat domain_list.txt); do
+            echo " - DOMAIN-SUFFIX,$domain" >> converted_domain_list.txt
+          done
+
+      - name: Upload converted domain list
+        uses: actions/upload-artifact@v2
+        with:
+          name: converted_domain_list
+          path: converted_domain_list.txt
