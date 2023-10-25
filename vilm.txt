@@ -4,6 +4,5 @@ payload:
   - DOMAIN-SUFFIX,kubedown.com  #KubeDown百度网盘脚本
   - DOMAIN-SUFFIX,uianxi.xyz
   - DOMAIN-SUFFIX,vcuixb.xyz
-  - DOMAIN-SUFFIX,hhh.xn--ed-c72c.com  #tg代理
-  - DOMAIN-SUFFIX,hhhh.nmsl.sb      #tg代理
-  #- DOMAIN-SUFFIX,applog.reader.qq.com
+  - DOMAIN-SUFFIX,xn--ed-c72c.com  #tg代理
+  - DOMAIN-SUFFIX,nmsl.sb      #tg代理
