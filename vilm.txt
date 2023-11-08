@@ -1,4 +1,7 @@
 payload:
+  - IP-CIDR,5.5.5.5/22
+  - IP-CIDR,23.94.211.102
+  - IP-CIDR,74.48.51.8
   - DOMAIN-SUFFIX,vxtrans.com   #钛盘上传
   - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
   - DOMAIN-SUFFIX,kubedown.com  #KubeDown百度网盘脚本
@@ -6,6 +9,5 @@ payload:
   - DOMAIN-SUFFIX,vcuixb.xyz
   - DOMAIN-SUFFIX,xn--ed-c72c.com  #tg代理
   - DOMAIN-SUFFIX,nmsl.sb      #tg代理
-  - IP-CIDR,5.5.5.5/22
-  - IP-CIDR,23.94.211.102
-  - IP-CIDR,74.48.51.8
+  - DOMAIN-SUFFIX,apad.pro      #tg代理
+  - DOMAIN-SUFFIX,cooluc.com      #tg代理
