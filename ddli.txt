@@ -2,3 +2,11 @@ payload:
 #  - DOMAIN-SUFFIX,uianxi.xyz
 #  - DOMAIN-SUFFIX,vcuixb.xyz
   - DOMAIN-SUFFIX,69shuba.com  #69书吧
+  - DOMAIN-SUFFIX,edgeservices.bing.com
+  - DOMAIN-SUFFIX,d.docs.live.net
+  - DOMAIN-SUFFIX,edge.microsoft.com
+  - DOMAIN-SUFFIX,proteus-assetstore.azurewebsites.net
+  - DOMAIN-SUFFIX,nexusrules.officeapps.live.com
+  - DOMAIN-SUFFIX,functional.events.data.microsoft.com
+  - DOMAIN-SUFFIX,browser.events.data.msn.cn
+  - DOMAIN-SUFFIX,services.bingapis.com
