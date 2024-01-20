@@ -8,6 +8,4 @@ payload:
   - DOMAIN-SUFFIX,uianxi.xyz
   - DOMAIN-SUFFIX,vcuixb.xyz
   - DOMAIN-SUFFIX,xn--ed-c72c.com  #tg代理
-  - DOMAIN-SUFFIX,nmsl.sb      #tg代理
-  - DOMAIN-SUFFIX,apad.pro      #tg代理
-  - DOMAIN-SUFFIX,cooluc.com      #tg代理
+  - DOMAIN-SUFFIX,yckceo.com  #源仓库
