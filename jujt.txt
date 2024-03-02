@@ -1,4 +1,4 @@
 payload:
   - DOMAIN-SUFFIX,apiauth.quickconnect.to
-  - DOMAIN-SUFFIX,jable.tv
-  - DOMAIN-SUFFIX,sis001.com
+ #- DOMAIN-SUFFIX,jable.tv
+ # - DOMAIN-SUFFIX,sis001.com
