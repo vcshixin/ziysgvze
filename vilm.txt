@@ -10,3 +10,5 @@ payload:
   - DOMAIN-SUFFIX,vcuixb.lol
   - DOMAIN-SUFFIX,xn--ed-c72c.com  #tg代理
   - DOMAIN-SUFFIX,yckceo.com  #源仓库
+  - DOMAIN-SUFFIX,chatanywhere.tech  #chatgpt api代理
+  - DOMAIN-SUFFIX,chatanywhere.com.cn  #chatgpt api代理
