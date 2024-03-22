@@ -5,6 +5,7 @@ payload:
   - IP-CIDR,38.47.103.166
   - DOMAIN-SUFFIX,vxtrans.com   #钛盘上传
   - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
+  - DOMAIN-SUFFIX,deeplx.org   #deeplx
   - DOMAIN-SUFFIX,kubedown.com  #KubeDown百度网盘脚本
   - DOMAIN-SUFFIX,uianxi.lol
   - DOMAIN-SUFFIX,vcuixb.lol
