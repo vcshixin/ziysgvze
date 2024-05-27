@@ -8,7 +8,7 @@ payload:
   - DOMAIN-SUFFIX,deeplx.org   #deeplx
   - DOMAIN-SUFFIX,kubedown.com  #KubeDown百度网盘脚本
   - DOMAIN-SUFFIX,uianxi.lol
-  - DOMAIN-SUFFIX,vcuixb.lol
+#  - DOMAIN-SUFFIX,vcuixb.lol
   - DOMAIN-SUFFIX,xn--ed-c72c.com  #tg代理
   - DOMAIN-SUFFIX,yckceo.com  #源仓库
   - DOMAIN-SUFFIX,chatanywhere.tech  #chatgpt api代理
