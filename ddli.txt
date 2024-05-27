@@ -1,6 +1,6 @@
 payload:
 #  - DOMAIN-SUFFIX,uianxi.xyz
-#  - DOMAIN-SUFFIX,vcuixb.xyz
+  - DOMAIN-SUFFIX,vcuixb.xyz
   - DOMAIN-SUFFIX,69xinshu.com  #69书吧
   - DOMAIN-SUFFIX,edgeservices.bing.com
   - DOMAIN-SUFFIX,d.docs.live.net
