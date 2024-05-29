@@ -13,3 +13,4 @@ payload:
   - DOMAIN-SUFFIX,yckceo.com  #源仓库
   - DOMAIN-SUFFIX,chatanywhere.tech  #chatgpt api代理
   - DOMAIN-SUFFIX,chatanywhere.com.cn  #chatgpt api代理
+  - DOMAIN-SUFFIX,api.nio.gs
