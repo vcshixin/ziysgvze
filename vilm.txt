@@ -3,8 +3,11 @@ payload:
   - IP-CIDR,23.94.211.102
   - IP-CIDR,74.48.51.8
   - IP-CIDR,38.47.103.166
+  - IP-CIDR,8.134.187.254 #apad dsn
   - DOMAIN-SUFFIX,vxtrans.com   #钛盘上传
   - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
+  - DOMAIN-SUFFIX,apad.pro  #dns
+  - DOMAIN-SUFFIX,cooluc.com  #dns
   - DOMAIN-SUFFIX,deeplx.org   #deeplx
   - DOMAIN-SUFFIX,kubedown.com  #KubeDown百度网盘脚本
   - DOMAIN-SUFFIX,uianxi.lol
