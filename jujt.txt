@@ -1,5 +1,6 @@
 payload:
   AND, ((NOT, ((GEOIP, CN))), (PROTOCOL, QUIC)), REJECT
   - DOMAIN-SUFFIX,apiauth.quickconnect.to
+  - DOMAIN-SUFFIX,dns.weixin.qq.com
  #- DOMAIN-SUFFIX,jable.tv
  # - DOMAIN-SUFFIX,sis001.com
