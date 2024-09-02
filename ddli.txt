@@ -1,6 +1,6 @@
 payload:
-#  - DOMAIN-SUFFIX,uianxi.lol
-#  - DOMAIN-SUFFIX,vcuixb.lol
+  - DOMAIN-SUFFIX,uianxi.lol
+  - DOMAIN-SUFFIX,vcuixb.lol
   - DOMAIN-SUFFIX,69xinshu.com  #69书吧
   - DOMAIN-SUFFIX,edgeservices.bing.com
   - DOMAIN-SUFFIX,d.docs.live.net
@@ -13,7 +13,4 @@ payload:
   - DOMAIN-SUFFIX,sydney.bing.com
   - DOMAIN-SUFFIX,ab.chatgpt.com
   - DOMAIN-SUFFIX,andriod.chat.openai.com
-  
-
-
 
