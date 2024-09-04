@@ -13,4 +13,4 @@ payload:
   - DOMAIN-SUFFIX,sydney.bing.com
   - DOMAIN-SUFFIX,ab.chatgpt.com
   - DOMAIN-SUFFIX,andriod.chat.openai.com
-
+  - DOMAIN-SUFFIX,emby.misakaf.org
