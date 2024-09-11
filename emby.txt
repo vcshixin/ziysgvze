@@ -1,3 +1,4 @@
+payload:
   - DOMAIN-SUFFIX,misakaf.org
   - DOMAIN-SUFFIX,bangumi.ca
   - DOMAIN-SUFFIX,789.123456.al
