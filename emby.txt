@@ -1,0 +1,4 @@
+  - DOMAIN-SUFFIX,misakaf.org
+  - DOMAIN-SUFFIX,bangumi.ca
+  - DOMAIN-SUFFIX,789.123456.al
+  - DOMAIN-SUFFIX,gd.9521732.xyz           #纸片人Emby视频链接
