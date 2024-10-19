@@ -1,0 +1,10 @@
+payload:
+  - IP-CIDR,74.48.51.8
+  - IP-CIDR,8.134.187.254 #apad dns
+  - DOMAIN-SUFFIX,vxtrans.com   #钛盘上传
+  - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
+  - DOMAIN-SUFFIX,apad.pro  #dns
+  - DOMAIN-SUFFIX,yckceo.com  #源仓库
+  - DOMAIN-SUFFIX,graph.microsoft.com  #onedrive上传
+  - DOMAIN,deeplx.vcuixb.eu.org   #deeplx
+  - DOMAIN-SUFFIX,deepseek.com  #deepseek ai
