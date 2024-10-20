@@ -1,2 +1,4 @@
 https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_ip_list.txt
 https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
+https://raw.githubusercontent.com/pmkol/easymosdns/rules/gfw_ip_list.txt
+https://raw.githubusercontent.com/pmkol/easymosdns/rules/gfw_domain_list.txt
