@@ -1,0 +1,15 @@
+payload:
+  - IP-CIDR,74.48.51.8
+  - IP-CIDR,8.218.111.116
+  - IP-CIDR,8.134.187.254 #apad dns
+  - DOMAIN-SUFFIX,ibm.com
+  - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,steamserver.net # 用于判断用户所在地区分配下载CDN的地址
+  - AND,((GEOIP,CN),(DOMAIN,pitaya.bytedance.com)) # 此为抖音和TikTok共用域名，仅国外解析结果走代理
+  - DOMAIN-SUFFIX,vxtrans.com   #钛盘上传
+  - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
+  - DOMAIN-SUFFIX,apad.pro  #dns
+  - DOMAIN-SUFFIX,yckceo.com  #源仓库
+  - DOMAIN-SUFFIX,graph.microsoft.com  #onedrive上传
+  - DOMAIN,deeplx.vcuixb.eu.org   #deeplx
+  - DOMAIN-SUFFIX,deepseek.com  #deepseek ai
