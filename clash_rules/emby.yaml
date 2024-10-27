@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN,emby.misakaf.org # MisakaF
   - DOMAIN,stream1.misakaf.org # MisakaF
   - DOMAIN,stream2.misakaf.org # MisakaF
   - DOMAIN,stream3.misakaf.org # MisakaF
