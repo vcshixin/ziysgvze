@@ -2,6 +2,7 @@ payload:
   - DOMAIN,dns.weixin.qq.com
   - DOMAIN,dns.weixin.qq.com.cn
   - DOMAIN,aedns.weixin.qq.com
+  - DOMAIN,apiauth.quickconnect.to
   - IP-CIDR,42.187.182.106/32,no-resolve
   - IP-CIDR,42.187.182.123/32,no-resolve
   - IP-CIDR,42.187.184.154/32,no-resolve
