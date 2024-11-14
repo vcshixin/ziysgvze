@@ -5809,6 +5809,7 @@ payload:
   - DOMAIN-SUFFIX,chase.ac.uk
   - DOMAIN-SUFFIX,chasestudy.ac.uk
   - DOMAIN-SUFFIX,chatango.com
+  - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,chatgptvideob.buzz
   - DOMAIN-SUFFIX,chatgptvideo.xyz
@@ -13644,6 +13645,7 @@ payload:
   - DOMAIN-SUFFIX,icloudpay.net
   - DOMAIN-SUFFIX,icloud.pt
   - DOMAIN-SUFFIX,icloud.ro
+  - DOMAIN-SUFFIX,icloud-sandbox.com
   - DOMAIN-SUFFIX,icloud.se
   - DOMAIN-SUFFIX,icloudsecure.net
   - DOMAIN-SUFFIX,icloudsetup.com
