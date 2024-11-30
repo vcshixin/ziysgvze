@@ -10,6 +10,5 @@ payload:
   - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
   - DOMAIN-SUFFIX,apad.pro  #dns
   - DOMAIN-SUFFIX,yckceo.com  #源仓库
-  - DOMAIN-SUFFIX,graph.microsoft.com  #onedrive上传
   - DOMAIN,deeplx.vcuixb.eu.org   #deeplx
   - DOMAIN-SUFFIX,deepseek.com  #deepseek ai
