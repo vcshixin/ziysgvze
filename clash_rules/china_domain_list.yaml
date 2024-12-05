@@ -7400,6 +7400,7 @@ payload:
   - DOMAIN-SUFFIX,883dai.com
   - DOMAIN-SUFFIX,884358.com
   - DOMAIN-SUFFIX,8844.com
+  - DOMAIN-SUFFIX,88453392.com
   - DOMAIN-SUFFIX,884838dh4.com
   - DOMAIN-SUFFIX,884848.vip
   - DOMAIN-SUFFIX,8848.com
@@ -11431,8 +11432,6 @@ payload:
   - DOMAIN-SUFFIX,asm64.com
   - DOMAIN-SUFFIX,asmasm.com
   - DOMAIN-SUFFIX,asmlc.com
-  - DOMAIN-SUFFIX,asmr-200.com
-  - DOMAIN-SUFFIX,asmr.one
   - DOMAIN-SUFFIX,asmr.red
   - DOMAIN-SUFFIX,asnlab.com
   - DOMAIN-SUFFIX,asnlab.org
@@ -37605,6 +37604,7 @@ payload:
   - DOMAIN-SUFFIX,hbjkjt.com
   - DOMAIN-SUFFIX,hbjomay.com
   - DOMAIN-SUFFIX,hbjsinfo.com
+  - DOMAIN-SUFFIX,hbjsxg.com
   - DOMAIN-SUFFIX,hbjtfwxh.com
   - DOMAIN-SUFFIX,hbjubao.com
   - DOMAIN-SUFFIX,hbjuyunchang.com
@@ -42124,6 +42124,7 @@ payload:
   - DOMAIN-SUFFIX,i8i8i8.com
   - DOMAIN-SUFFIX,i8tq.com
   - DOMAIN-SUFFIX,i91pv.com
+  - DOMAIN-SUFFIX,i987.com
   - DOMAIN-SUFFIX,i9978.net
   - DOMAIN-SUFFIX,i9.org
   - DOMAIN-SUFFIX,i9rht.com
@@ -78982,6 +78983,7 @@ payload:
   - DOMAIN-SUFFIX,vipglobal.hk
   - DOMAIN-SUFFIX,vipgslb.com
   - DOMAIN-SUFFIX,vipgs.net
+  - DOMAIN-SUFFIX,viphudong.com
   - DOMAIN-SUFFIX,viphxw.com
   - DOMAIN-SUFFIX,vipjingdong.com
   - DOMAIN-SUFFIX,vipjinron.com
@@ -95124,6 +95126,7 @@ payload:
   - DOMAIN-SUFFIX,zwwltkl.com
   - DOMAIN-SUFFIX,zwwx.com
   - DOMAIN-SUFFIX,zwxww.net
+  - DOMAIN-SUFFIX,zwxx2022.com
   - DOMAIN-SUFFIX,zwying.com
   - DOMAIN-SUFFIX,zwyll.com
   - DOMAIN-SUFFIX,zwzdiy.cc
