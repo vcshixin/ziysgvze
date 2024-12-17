@@ -1,6 +1,7 @@
 payload:
   - IP-CIDR,74.48.51.8
-  - IP-CIDR,8.218.111.116
+  - IP-CIDR,8.218.111.116 #香港vps
+  - IP-CIDR,142.171.83.26 #洛杉矶vps
   - IP-CIDR,8.134.187.254 #apad dns
   - DOMAIN-SUFFIX,ibm.com
   - DOMAIN-SUFFIX,plex.tv
