@@ -15,3 +15,4 @@ payload:
   - DOMAIN-SUFFIX,yckceo.com  #源仓库
   - DOMAIN,deeplx.vcuixb.eu.org   #deeplx
   - DOMAIN-SUFFIX,deepseek.com  #deepseek ai
+  - DOMAIN-SUFFIX,linux.do  #linux.do
