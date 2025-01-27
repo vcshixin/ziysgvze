@@ -4978,6 +4978,7 @@ payload:
   - DOMAIN-SUFFIX,btdig.com
   - DOMAIN-SUFFIX,btdigg.org
   - DOMAIN-SUFFIX,btec.co.uk
+  - DOMAIN-SUFFIX,btguard.com
   - DOMAIN-SUFFIX,btku.me
   - DOMAIN-SUFFIX,btku.org
   - DOMAIN-SUFFIX,bton.ac.uk
@@ -7892,6 +7893,7 @@ payload:
   - DOMAIN-SUFFIX,dlsitestudio.com
   - DOMAIN-SUFFIX,dlyoutube.com
   - DOMAIN-SUFFIX,dm530.net
+  - DOMAIN-SUFFIX,dma.mil
   - DOMAIN-SUFFIX,dmcdn.net
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,dmed.technology
@@ -11867,7 +11869,7 @@ payload:
   - DOMAIN-SUFFIX,google.ru
   - DOMAIN-SUFFIX,google.rw
   - DOMAIN-SUFFIX,google.sc
-  - DOMAIN-SUFFIX,googlescholar.comUSA
+  - DOMAIN-SUFFIX,googlescholar.com
   - DOMAIN-SUFFIX,google.se
   - DOMAIN-SUFFIX,google.sg
   - DOMAIN-SUFFIX,google.sh
@@ -15071,7 +15073,6 @@ payload:
   - DOMAIN-SUFFIX,javxxx.me
   - DOMAIN-SUFFIX,javynow.com
   - DOMAIN-SUFFIX,javzoo.com
-  - DOMAIN-SUFFIX,ja.wikipedia.org
   - DOMAIN-SUFFIX,jayspov.net
   - DOMAIN-SUFFIX,jb22.lol
   - DOMAIN-SUFFIX,jbe-platform.com
@@ -21070,7 +21071,6 @@ payload:
   - DOMAIN-SUFFIX,phimsexnhanh.club
   - DOMAIN-SUFFIX,phmsociety.org
   - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,phobos.apple.com
   - DOMAIN-SUFFIX,phoenix.ac.uk
   - DOMAIN-SUFFIX,phosphation13.rssing.com
   - DOMAIN-SUFFIX,photodharma.net
@@ -26990,6 +26990,7 @@ payload:
   - DOMAIN-SUFFIX,u9a9.cc
   - DOMAIN-SUFFIX,u9a9.com
   - DOMAIN-SUFFIX,u9un.com
+  - DOMAIN-SUFFIX,ua5v.com
   - DOMAIN-SUFFIX,ua92.ac.uk
   - DOMAIN-SUFFIX,uaa.com
   - DOMAIN-SUFFIX,uab.com.mm
@@ -27205,6 +27206,8 @@ payload:
   - DOMAIN-SUFFIX,ultimaonline.com
   - DOMAIN-SUFFIX,ultradonkey.com
   - DOMAIN-SUFFIX,ultralab.ac.uk
+  - DOMAIN-SUFFIX,ultrasurf.us
+  - DOMAIN-SUFFIX,ultravpn.com
   - DOMAIN-SUFFIX,ultravpn.fr
   - DOMAIN-SUFFIX,ultraxs.com
   - DOMAIN-SUFFIX,umagazine.com.hk
@@ -27381,6 +27384,7 @@ payload:
   - DOMAIN-SUFFIX,usatoday.com
   - DOMAIN-SUFFIX,usatodaynetworkservice.com
   - DOMAIN-SUFFIX,uscardforum.com
+  - DOMAIN-SUFFIX,uscg.mil
   - DOMAIN-SUFFIX,uscnpm.org
   - DOMAIN-SUFFIX,uselessjunk.com
   - DOMAIN-SUFFIX,use-of-mans.ac.uk
@@ -28397,6 +28401,7 @@ payload:
   - DOMAIN-SUFFIX,vpnpick.com
   - DOMAIN-SUFFIX,vpnpop.com
   - DOMAIN-SUFFIX,vpnpronet.com
+  - DOMAIN-SUFFIX,vpnproxymaster.com
   - DOMAIN-SUFFIX,vpnreactor.com
   - DOMAIN-SUFFIX,vpnreviewz.com
   - DOMAIN-SUFFIX,vpnsecure.me
@@ -30075,6 +30080,7 @@ payload:
   - DOMAIN-SUFFIX,yasarang.net
   - DOMAIN-SUFFIX,yasni.co.uk
   - DOMAIN-SUFFIX,yastatic.net
+  - DOMAIN-SUFFIX,yasukuni.or.jp
   - DOMAIN-SUFFIX,yavtube.com
   - DOMAIN-SUFFIX,yayabay.com
   - DOMAIN-SUFFIX,yaya.cyou
@@ -30448,6 +30454,7 @@ payload:
   - DOMAIN-SUFFIX,yunlaopo.cc
   - DOMAIN-SUFFIX,yunlaopo.com
   - DOMAIN-SUFFIX,yunlaopo.net
+  - DOMAIN-SUFFIX,yunomi.tokyo
   - DOMAIN-SUFFIX,yusercontent.com
   - DOMAIN-SUFFIX,yusjb.com
   - DOMAIN-SUFFIX,yuvutu.com
