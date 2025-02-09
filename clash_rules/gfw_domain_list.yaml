@@ -1583,6 +1583,7 @@ payload:
   - DOMAIN-SUFFIX,americangreencard.com
   - DOMAIN-SUFFIX,americanunfinished.com
   - DOMAIN-SUFFIX,americasvoice.news
+  - DOMAIN-SUFFIX,americorps.gov
   - DOMAIN-SUFFIX,amerikaninsesi.com
   - DOMAIN-SUFFIX,amerikaninsesi.org
   - DOMAIN-SUFFIX,amerikaovozi.com
@@ -5600,6 +5601,7 @@ payload:
   - DOMAIN-SUFFIX,ccdc.ac.uk
   - DOMAIN-SUFFIX,ccdtr.org
   - DOMAIN-SUFFIX,ccesd.ac.uk
+  - DOMAIN-SUFFIX,ccfd.org.tw
   - DOMAIN-SUFFIX,ccfe.ac.uk
   - DOMAIN-SUFFIX,cch.ac.uk
   - DOMAIN-SUFFIX,cchere.com
@@ -11537,7 +11539,6 @@ payload:
   - DOMAIN-SUFFIX,goagentplus.com
   - DOMAIN-SUFFIX,goals.ac.uk
   - DOMAIN-SUFFIX,gobeatsye.com
-  - DOMAIN-SUFFIX,gobet.cc
   - DOMAIN-SUFFIX,gobianywhere.com
   - DOMAIN-SUFFIX,gobuildx.net
   - DOMAIN-SUFFIX,gobuyonlinestore.net
@@ -12026,6 +12027,7 @@ payload:
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,grcb.ac.uk
   - DOMAIN-SUFFIX,gre.ac.uk
+  - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,greatapedictionary.ac.uk
   - DOMAIN-SUFFIX,greatergothammini.com
   - DOMAIN-SUFFIX,greatermanchesterbiobankingnetwork.ac.uk
@@ -14561,6 +14563,7 @@ payload:
   - DOMAIN-SUFFIX,ipalter.com
   - DOMAIN-SUFFIX,i-part.com.tw
   - DOMAIN-SUFFIX,ipcc-wg3.ac.uk
+  - DOMAIN-SUFFIX,ipdefenseforum.com
   - DOMAIN-SUFFIX,ipem.ac.uk
   - DOMAIN-SUFFIX,ipfire.org
   - DOMAIN-SUFFIX,ipforesightforum.ac.uk
@@ -19582,6 +19585,7 @@ payload:
   - DOMAIN-SUFFIX,nocs.ac.uk
   - DOMAIN-SUFFIX,nodejs.org
   - DOMAIN-SUFFIX,nodes.ac.uk
+  - DOMAIN-SUFFIX,nodeseek.com
   - DOMAIN-SUFFIX,nodesource.com
   - DOMAIN-SUFFIX,nofile.io
   - DOMAIN-SUFFIX,no-ip.org
@@ -19707,7 +19711,6 @@ payload:
   - DOMAIN-SUFFIX,npr.org
   - DOMAIN-SUFFIX,npsboost.com
   - DOMAIN-SUFFIX,npsc.ac.uk
-  - DOMAIN-SUFFIX,nps.gov
   - DOMAIN-SUFFIX,nptc.ac.uk
   - DOMAIN-SUFFIX,nptcgroup.ac.uk
   - DOMAIN-SUFFIX,nptsibinbank.com
@@ -20575,6 +20578,7 @@ payload:
   - DOMAIN-SUFFIX,packer.io
   - DOMAIN-SUFFIX,packetix.net
   - DOMAIN-SUFFIX,pacloudflare.com
+  - DOMAIN-SUFFIX,pacom.mil
   - DOMAIN-SUFFIX,pacopacomama.com
   - DOMAIN-SUFFIX,pact.ac.uk
   - DOMAIN-SUFFIX,padmanet.com
@@ -27407,7 +27411,6 @@ payload:
   - DOMAIN-SUFFIX,ushare.ac.uk
   - DOMAIN-SUFFIX,ushaw.ac.uk
   - DOMAIN-SUFFIX,ushuarencity.echainhost.com
-  - DOMAIN-SUFFIX,usinfo.state.gov
   - DOMAIN-SUFFIX,usma.edu
   - DOMAIN-SUFFIX,usmc.mil
   - DOMAIN-SUFFIX,usmgtcg.ning.com
@@ -29254,7 +29257,6 @@ payload:
   - DOMAIN-SUFFIX,www8-hp.com
   - DOMAIN-SUFFIX,www.abclite.net
   - DOMAIN-SUFFIX,www.ajsands.com
-  - DOMAIN-SUFFIX,www.americorps.gov
   - DOMAIN-SUFFIX,www.antd.org
   - DOMAIN-SUFFIX,www.aolnews.com
   - DOMAIN-SUFFIX,wwwapplemusic.com
