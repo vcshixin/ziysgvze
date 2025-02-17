@@ -801,6 +801,7 @@ payload:
   - DOMAIN-SUFFIX,adas.ac.uk
   - DOMAIN-SUFFIX,adbecrsl.com
   - DOMAIN-SUFFIX,adbkm.com
+  - DOMAIN-SUFFIX,adblockcdn.com
   - DOMAIN-SUFFIX,adblockplus.org
   - DOMAIN-SUFFIX,adcex.com
   - DOMAIN-SUFFIX,adcommerce.tv
@@ -30266,6 +30267,8 @@ payload:
   - DOMAIN-SUFFIX,yourporn.sexy
   - DOMAIN-SUFFIX,yourprivatevpn.com
   - DOMAIN-SUFFIX,your-server.de
+  - DOMAIN-SUFFIX,your-storagebox.de
+  - DOMAIN-SUFFIX,your-storageshare.de
   - DOMAIN-SUFFIX,yourtrap.com
   - DOMAIN-SUFFIX,yourtv.com.au
   - DOMAIN-SUFFIX,yourupskirt.com
