@@ -18434,7 +18434,12 @@ payload:
   - DOMAIN-SUFFIX,mwrc.ac.uk
   - DOMAIN-SUFFIX,mx981.com
   - DOMAIN-SUFFIX,mx.hao123.com
+  - DOMAIN-SUFFIX,mxlogin.com
   - DOMAIN-SUFFIX,mxmcdn.net
+  - DOMAIN-SUFFIX,mxroute.com
+  - DOMAIN-SUFFIX,mxroutedocs.com
+  - DOMAIN-SUFFIX,mxroutehelp.com
+  - DOMAIN-SUFFIX,mxrouting.net
   - DOMAIN-SUFFIX,mxshm.site
   - DOMAIN-SUFFIX,my03.com
   - DOMAIN-SUFFIX,my13la.com
