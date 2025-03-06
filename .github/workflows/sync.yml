@@ -1,0 +1,51 @@
+name: Rules Update
+
+# 修复事件触发配置
+on: 
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}  # 允许手动触发
+  schedule:
+    - cron: '0 11 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python3
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas requests pyyaml
+    
+    # 新增 AdRules 处理步骤
+    - name: Download and process AdRules
+      run: |
+        mkdir -p ./clash_rules
+        curl -sSL "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt" -o temp.txt
+        echo "payload:" > ./clash_rules/AdRules.yaml
+        grep -Ev '^(#|$)' temp.txt | sed 's/^/  - DOMAIN-SUFFIX,/' >> ./clash_rules/AdRules.yaml
+        rm -f temp.txt
+
+    - name: Run script
+      run: python main.py
+    
+    - name: Commit and push updated rules
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add ./clash_rules/*.yaml
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 0
+        else
+          git commit -m "Update Clash rules"
+          git push
+        fi
