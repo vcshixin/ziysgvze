@@ -1,4 +1,4 @@
-name: Rules Update
+name: Rules 更新
 
 # 修复事件触发配置
 于: 
@@ -10,7 +10,7 @@ name: Rules Update
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-于: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -25,21 +25,21 @@ jobs:
         pip install pandas requests pyyaml
     
     # 新增 AdRules 处理步骤
-    - name: Download and process AdRules
+    - name: 下载 和 process AdRules
       run: |
         mkdir -p ./clash_rules
-        curl -sSL "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt" -o temp.txt
-        echo "payload:" > ./clash_rules/AdRules.yaml
-        grep -Ev '^(#|$)' temp.txt | sed 's/^/  - DOMAIN-SUFFIX,/' >> ./clash_rules/AdRules.yaml
-        rm -f temp.txt
+        curl -sSL "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt" -o temp。txt
+        echo "payload:" > ./clash_rules/AdRules。yaml
+        grep -Ev '^(#|$)' temp。txt | sed 's/^/  - DOMAIN-SUFFIX,/' >> ./clash_rules/AdRules。yaml
+        rm -f temp。txt
 
     - name: Run script
-      run: python main.py
+      run: python main。py
     
-    - name: Commit and push updated rules
+    - name: Commit 和 push 更新于 rules
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
+        git config --global user。email "action@github.com"
+        git config --global user。name "GitHub Action"
         git add ./clash_rules/*.yaml
         
         if git diff --staged --quiet; then
