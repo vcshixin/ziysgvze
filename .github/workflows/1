@@ -1,9 +1,9 @@
 name: Rules Update
 
 # 修复事件触发配置
-on: 
+于: 
   push:
-    branches: [ main ]
+    分支: [ main ]
   workflow_dispatch: {}  # 允许手动触发
   schedule:
     - cron: '0 11 * * *'
