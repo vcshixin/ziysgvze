@@ -23333,6 +23333,7 @@ payload:
   - DOMAIN-SUFFIX,deerma.com
   - DOMAIN-SUFFIX,deernice.com
   - DOMAIN-SUFFIX,defcoding.com
+  - DOMAIN-SUFFIX,defineabc.com
   - DOMAIN-SUFFIX,deflw.com
   - DOMAIN-SUFFIX,defoen.com
   - DOMAIN-SUFFIX,defofy.com
@@ -36285,6 +36286,7 @@ payload:
   - DOMAIN-SUFFIX,hangzhouluohu.com
   - DOMAIN-SUFFIX,hangzhoumengfa.com
   - DOMAIN-SUFFIX,hangzhouqisheng.com
+  - DOMAIN-SUFFIX,hangzhousports.com
   - DOMAIN-SUFFIX,hangzhoutianqi114.com
   - DOMAIN-SUFFIX,hangzhouyiyao.com
   - DOMAIN-SUFFIX,hangzhouyq.com
@@ -48094,6 +48096,7 @@ payload:
   - DOMAIN-SUFFIX,kazhifu.com
   - DOMAIN-SUFFIX,kazithai.com
   - DOMAIN-SUFFIX,kb9.com
+  - DOMAIN-SUFFIX,kbao123.com
   - DOMAIN-SUFFIX,kbccvwz.com
   - DOMAIN-SUFFIX,kbcdn.com
   - DOMAIN-SUFFIX,kbcmw.com
@@ -62357,6 +62360,7 @@ payload:
   - DOMAIN-SUFFIX,q77777777.com
   - DOMAIN-SUFFIX,q88b.net
   - DOMAIN-SUFFIX,q88c.net
+  - DOMAIN-SUFFIX,q8jghk.com
   - DOMAIN-SUFFIX,qacn.net
   - DOMAIN-SUFFIX,qahzp.com
   - DOMAIN-SUFFIX,qajung.xyz
@@ -64447,6 +64451,8 @@ payload:
   - DOMAIN-SUFFIX,qwbk.cc
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,qweather.net
+  - DOMAIN-SUFFIX,qwen.ai
+  - DOMAIN-SUFFIX,qwenlm.ai
   - DOMAIN-SUFFIX,qwerhost.com
   - DOMAIN-SUFFIX,qwfync.com
   - DOMAIN-SUFFIX,qwgg.com
@@ -86182,6 +86188,7 @@ payload:
   - DOMAIN-SUFFIX,ychxiex.com
   - DOMAIN-SUFFIX,ycig.com
   - DOMAIN-SUFFIX,ycigilink.com
+  - DOMAIN-SUFFIX,yciou.com
   - DOMAIN-SUFFIX,ycis-bj.com
   - DOMAIN-SUFFIX,yciyun.com
   - DOMAIN-SUFFIX,ycjmgk.com
