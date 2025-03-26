@@ -1875,6 +1875,7 @@ payload:
   - DOMAIN-SUFFIX,app0le.com
   - DOMAIN-SUFFIX,app756.com
   - DOMAIN-SUFFIX,appadvice.com
+  - DOMAIN-SUFFIX,app-analytics-services.com
   - DOMAIN-SUFFIX,app.box.com
   - DOMAIN-SUFFIX,appbrain.com
   - DOMAIN-SUFFIX,appbridge.ca
