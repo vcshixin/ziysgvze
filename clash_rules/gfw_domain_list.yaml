@@ -182,6 +182,9 @@ payload:
   - DOMAIN-SUFFIX,1mobile.com
   - DOMAIN-SUFFIX,1mobile.tw
   - DOMAIN-SUFFIX,1monsterbeatsbydreus.com
+  - DOMAIN-SUFFIX,1password.ca
+  - DOMAIN-SUFFIX,1password.com
+  - DOMAIN-SUFFIX,1password.eu
   - DOMAIN-SUFFIX,1point3acres.com
   - DOMAIN-SUFFIX,1pondo.tv
   - DOMAIN-SUFFIX,1pornlist.com
@@ -612,6 +615,7 @@ payload:
   - DOMAIN-SUFFIX,aabb1803.com
   - DOMAIN-SUFFIX,aacrjournals.org
   - DOMAIN-SUFFIX,aadmv.com
+  - DOMAIN-SUFFIX,aadrm.com
   - DOMAIN-SUFFIX,aaex.uk
   - DOMAIN-SUFFIX,aalah.me
   - DOMAIN-SUFFIX,aamacau.com
@@ -1055,6 +1059,7 @@ payload:
   - DOMAIN-SUFFIX,agendaweek.com
   - DOMAIN-SUFFIX,agenet.ac.uk
   - DOMAIN-SUFFIX,age.tv
+  - DOMAIN-SUFFIX,agilebits.com
   - DOMAIN-SUFFIX,agnesb.fr
   - DOMAIN-SUFFIX,agocg.ac.uk
   - DOMAIN-SUFFIX,agoogleaday.com
@@ -7696,7 +7701,9 @@ payload:
   - DOMAIN-SUFFIX,difangwenge.org
   - DOMAIN-SUFFIX,dify.ai
   - DOMAIN-SUFFIX,digicert-cn.com
+  - DOMAIN-SUFFIX,digicert.co.jp
   - DOMAIN-SUFFIX,digicert.com
+  - DOMAIN-SUFFIX,digicert.eu
   - DOMAIN-SUFFIX,digicert-validation.com
   - DOMAIN-SUFFIX,digiland.tw
   - DOMAIN-SUFFIX,digimap.ac.uk
@@ -9152,6 +9159,8 @@ payload:
   - DOMAIN-SUFFIX,enterprisepaging.com
   - DOMAIN-SUFFIX,enterpriseresearch.ac.uk
   - DOMAIN-SUFFIX,enterprisessl.com
+  - DOMAIN-SUFFIX,entrust.cn
+  - DOMAIN-SUFFIX,entrust.com
   - DOMAIN-SUFFIX,entrustdatacard.com
   - DOMAIN-SUFFIX,entrust.net
   - DOMAIN-SUFFIX,enveast.ac.uk
@@ -15006,6 +15015,7 @@ payload:
   - DOMAIN-SUFFIX,iwyn138.com
   - DOMAIN-SUFFIX,ixnxx.tv
   - DOMAIN-SUFFIX,ixquick.com
+  - DOMAIN-SUFFIX,ixsystems.com
   - DOMAIN-SUFFIX,ixxx.com
   - DOMAIN-SUFFIX,iyalc.com
   - DOMAIN-SUFFIX,iyf.tv
@@ -17611,6 +17621,7 @@ payload:
   - DOMAIN-SUFFIX,microsoftaffiliates.com
   - DOMAIN-SUFFIX,microsoftapp.net
   - DOMAIN-SUFFIX,microsoft.az
+  - DOMAIN-SUFFIX,microsoftazuread-sso.com
   - DOMAIN-SUFFIX,microsoftazuresponsorships.com
   - DOMAIN-SUFFIX,microsoft.be
   - DOMAIN-SUFFIX,microsoft.by
@@ -20780,6 +20791,9 @@ payload:
   - DOMAIN-SUFFIX,ozeex.com
   - DOMAIN-SUFFIX,ozodi.org
   - DOMAIN-SUFFIX,ozodlik.org
+  - DOMAIN-SUFFIX,ozone.ru
+  - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,ozonusercontent.com
   - DOMAIN-SUFFIX,ozvoice.org
   - DOMAIN-SUFFIX,ozxw.com
   - DOMAIN-SUFFIX,ozyoyo.com
@@ -21514,6 +21528,8 @@ payload:
   - DOMAIN-SUFFIX,playcover.io
   - DOMAIN-SUFFIX,player.fm
   - DOMAIN-SUFFIX,playerjs.io
+  - DOMAIN-SUFFIX,playfabapi.com
+  - DOMAIN-SUFFIX,playfab.com
   - DOMAIN-SUFFIX,playforceone.com
   - DOMAIN-SUFFIX,playhearthstone.com
   - DOMAIN-SUFFIX,playmation.com
@@ -25768,6 +25784,7 @@ payload:
   - DOMAIN-SUFFIX,s.yimg.com
   - DOMAIN-SUFFIX,sylfoundation.org
   - DOMAIN-SUFFIX,symantec.com
+  - DOMAIN-SUFFIX,symauth.com
   - DOMAIN-SUFFIX,symcb.com
   - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,symonds.ac.uk
@@ -26901,6 +26918,7 @@ payload:
   - DOMAIN-SUFFIX,truedepth3d.com
   - DOMAIN-SUFFIX,truedwg.com
   - DOMAIN-SUFFIX,truefi.io
+  - DOMAIN-SUFFIX,truenas.com
   - DOMAIN-SUFFIX,trulyergonomic.com
   - DOMAIN-SUFFIX,trunest.com
   - DOMAIN-SUFFIX,truro.ac.uk
@@ -28220,6 +28238,7 @@ payload:
   - DOMAIN-SUFFIX,visabg.com
   - DOMAIN-SUFFIX,visabusinessinsights.com
   - DOMAIN-SUFFIX,visa.ca
+  - DOMAIN-SUFFIX,visaca.com
   - DOMAIN-SUFFIX,visacarddesignlab.com
   - DOMAIN-SUFFIX,visacards.com
   - DOMAIN-SUFFIX,visacheckout.net
