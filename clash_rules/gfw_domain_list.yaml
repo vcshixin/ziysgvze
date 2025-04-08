@@ -24327,9 +24327,13 @@ payload:
   - DOMAIN-SUFFIX,sign.ac.uk
   - DOMAIN-SUFFIX,signal.art
   - DOMAIN-SUFFIX,signalbar.com
+  - DOMAIN-SUFFIX,signal.group
+  - DOMAIN-SUFFIX,signal.link
+  - DOMAIN-SUFFIX,signal.me
   - DOMAIN-SUFFIX,signal.org
   - DOMAIN-SUFFIX,signalprocessingsociety.org
   - DOMAIN-SUFFIX,signalr.net
+  - DOMAIN-SUFFIX,signal.tube
   - DOMAIN-SUFFIX,signalusers.org
   - DOMAIN-SUFFIX,sign.new
   - DOMAIN-SUFFIX,sihe.ac.uk
