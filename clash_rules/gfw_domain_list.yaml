@@ -177,6 +177,7 @@ payload:
   - DOMAIN-SUFFIX,1lib.eu
   - DOMAIN-SUFFIX,1lib.limited
   - DOMAIN-SUFFIX,1lib.pl
+  - DOMAIN-SUFFIX,1lib.sk
   - DOMAIN-SUFFIX,1lib.to
   - DOMAIN-SUFFIX,1lib.tw
   - DOMAIN-SUFFIX,1mobile.com
@@ -12087,6 +12088,7 @@ payload:
   - DOMAIN-SUFFIX,gotgayporn.com
   - DOMAIN-SUFFIX,gotgeeks.com
   - DOMAIN-SUFFIX,gothdporn.com
+  - DOMAIN-SUFFIX,go-to-library.sk
   - DOMAIN-SUFFIX,go-to-zlibrary.se
   - DOMAIN-SUFFIX,gotporn.com
   - DOMAIN-SUFFIX,gotraffic.net
@@ -14947,6 +14949,7 @@ payload:
   - DOMAIN-SUFFIX,itaeromanga.com
   - DOMAIN-SUFFIX,itaiwan.gov.tw
   - DOMAIN-SUFFIX,italiabeatsbydrdre.com
+  - DOMAIN-SUFFIX,italian-books.sk
   - DOMAIN-SUFFIX,italiatibet.org
   - DOMAIN-SUFFIX,itasoftware.com
   - DOMAIN-SUFFIX,itcanwait.com
@@ -31001,10 +31004,14 @@ payload:
   - DOMAIN-SUFFIX,zkaip.com
   - DOMAIN-SUFFIX,zlibcdn2.com
   - DOMAIN-SUFFIX,zlibcdn.com
+  - DOMAIN-SUFFIX,z-lib.gd
+  - DOMAIN-SUFFIX,z-lib.gs
   - DOMAIN-SUFFIX,z-lib.io
   - DOMAIN-SUFFIX,zlib.life
   - DOMAIN-SUFFIX,z-lib.org
+  - DOMAIN-SUFFIX,z-lib.ps
   - DOMAIN-SUFFIX,z-library.se
+  - DOMAIN-SUFFIX,z-library.sk
   - DOMAIN-SUFFIX,zmedia.com.tw
   - DOMAIN-SUFFIX,zmw.cn
   - DOMAIN-SUFFIX,zndsk.com
