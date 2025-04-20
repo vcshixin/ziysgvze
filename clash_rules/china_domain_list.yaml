@@ -10240,9 +10240,11 @@ payload:
   - DOMAIN-SUFFIX,acewill.net
   - DOMAIN-SUFFIX,acfechina.org
   - DOMAIN-SUFFIX,acftu.org
+  - DOMAIN-SUFFIX,ac.fun
   - DOMAIN-SUFFIX,acfunchina.com
   - DOMAIN-SUFFIX,acfunchina.net
   - DOMAIN-SUFFIX,acfun.com
+  - DOMAIN-SUFFIX,acfun.net
   - DOMAIN-SUFFIX,acg169.com
   - DOMAIN-SUFFIX,acg17.com
   - DOMAIN-SUFFIX,acg183.com
@@ -21844,6 +21846,8 @@ payload:
   - DOMAIN-SUFFIX,cheshipin.com
   - DOMAIN-SUFFIX,cheshirex.com
   - DOMAIN-SUFFIX,cheshizh.com
+  - DOMAIN-SUFFIX,chesicc.com
+  - DOMAIN-SUFFIX,chesicc.net
   - DOMAIN-SUFFIX,chesir.com
   - DOMAIN-SUFFIX,chesir.net
   - DOMAIN-SUFFIX,chestercharles.com
@@ -39478,6 +39482,8 @@ payload:
   - DOMAIN-SUFFIX,gfanstore.com
   - DOMAIN-SUFFIX,gf.app
   - DOMAIN-SUFFIX,gfbk.net
+  - DOMAIN-SUFFIX,gfbzb.com
+  - DOMAIN-SUFFIX,gfbzb.net
   - DOMAIN-SUFFIX,gf.cc
   - DOMAIN-SUFFIX,gfcdn.xyz
   - DOMAIN-SUFFIX,gfcity.com
@@ -50681,6 +50687,7 @@ payload:
   - DOMAIN-SUFFIX,huaweicloud-dns.net
   - DOMAIN-SUFFIX,huaweicloud-dns.org
   - DOMAIN-SUFFIX,huaweicloud-idme.com
+  - DOMAIN-SUFFIX,huaweicloud-koophone.com
   - DOMAIN-SUFFIX,huaweicloudlive.com
   - DOMAIN-SUFFIX,huaweicloudsite.com
   - DOMAIN-SUFFIX,huaweicloud-smn.com
@@ -70863,6 +70870,7 @@ payload:
   - DOMAIN-SUFFIX,modb.cc
   - DOMAIN-SUFFIX,modb.pro
   - DOMAIN-SUFFIX,modelarts-infer.com
+  - DOMAIN-SUFFIX,modelarts-maas.com
   - DOMAIN-SUFFIX,modelevel.com
   - DOMAIN-SUFFIX,modelltd.com
   - DOMAIN-SUFFIX,modelones.com
@@ -79501,6 +79509,7 @@ payload:
   - DOMAIN-SUFFIX,qgyqshz.com
   - DOMAIN-SUFFIX,qgysj.org
   - DOMAIN-SUFFIX,qgyyzs.net
+  - DOMAIN-SUFFIX,qgzb.net
   - DOMAIN-SUFFIX,qgzxx.com
   - DOMAIN-SUFFIX,qgzzz.com
   - DOMAIN-SUFFIX,qh24.com
@@ -114633,6 +114642,7 @@ payload:
   - DOMAIN-SUFFIX,zbao56.com
   - DOMAIN-SUFFIX,zbao.com
   - DOMAIN-SUFFIX,zbbar.net
+  - DOMAIN-SUFFIX,zbbm.net
   - DOMAIN-SUFFIX,zbbus.com
   - DOMAIN-SUFFIX,zbca.com
   - DOMAIN-SUFFIX,zbcars.com
