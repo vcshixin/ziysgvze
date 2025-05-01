@@ -30631,6 +30631,7 @@ payload:
   - DOMAIN-SUFFIX,djigoapi.djiservice.org
   - DOMAIN-SUFFIX,djigo.djicdn.com
   - DOMAIN-SUFFIX,djigo-hk.djiservice.org
+  - DOMAIN-SUFFIX,djiits.com
   - DOMAIN-SUFFIX,dji.net
   - DOMAIN-SUFFIX,dji-official-fe.djicdn.com
   - DOMAIN-SUFFIX,djiops.com
@@ -71052,6 +71053,7 @@ payload:
   - DOMAIN-SUFFIX,moredian.com
   - DOMAIN-SUFFIX,more-fish.com
   - DOMAIN-SUFFIX,morefood.com
+  - DOMAIN-SUFFIX,morefreegame.com
   - DOMAIN-SUFFIX,morefun-philippines.com
   - DOMAIN-SUFFIX,moregy.com
   - DOMAIN-SUFFIX,moreless.io
@@ -105363,6 +105365,7 @@ payload:
   - DOMAIN-SUFFIX,xiaomicp.com
   - DOMAIN-SUFFIX,xiaomidns.com
   - DOMAIN-SUFFIX,xiaomidns.net
+  - DOMAIN-SUFFIX,xiaomi.eu
   - DOMAIN-SUFFIX,xiaomiev.com
   - DOMAIN-SUFFIX,xiaomiflash.com
   - DOMAIN-SUFFIX,xiaomi.hk

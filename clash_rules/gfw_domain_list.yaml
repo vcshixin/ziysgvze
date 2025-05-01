@@ -4983,6 +4983,7 @@ payload:
   - DOMAIN-SUFFIX,brni.com
   - DOMAIN-SUFFIX,broadbandreports.com
   - DOMAIN-SUFFIX,broadbook.com
+  - DOMAIN-SUFFIX,broadcom.com
   - DOMAIN-SUFFIX,broadpressinc.com
   - DOMAIN-SUFFIX,broadstairscollege.ac.uk
   - DOMAIN-SUFFIX,brocaproject.com
@@ -17581,6 +17582,7 @@ payload:
   - DOMAIN-SUFFIX,metacloud.com
   - DOMAIN-SUFFIX,meta.com
   - DOMAIN-SUFFIX,metacpan.org
+  - DOMAIN-SUFFIX,metacubex.one
   - DOMAIN-SUFFIX,metadac.ac.uk
   - DOMAIN-SUFFIX,metafilter.com
   - DOMAIN-SUFFIX,metalpha.finance
@@ -18552,6 +18554,8 @@ payload:
   - DOMAIN-SUFFIX,msguancha.com
   - DOMAIN-SUFFIX,msha.gov
   - DOMAIN-SUFFIX,mshome.net
+  - DOMAIN-SUFFIX,msi.cn
+  - DOMAIN-SUFFIX,msi.com
   - DOMAIN-SUFFIX,msidentity.com
   - DOMAIN-SUFFIX,msinnovationchallenge.com
   - DOMAIN-SUFFIX,msk.ilnk.info
@@ -24419,6 +24423,7 @@ payload:
   - DOMAIN-SUFFIX,sing4.lat
   - DOMAIN-SUFFIX,sing68.com
   - DOMAIN-SUFFIX,singaporepools.com.sg
+  - DOMAIN-SUFFIX,sing-box.app
   - DOMAIN-SUFFIX,sing-box.sagernet.org
   - DOMAIN-SUFFIX,singfortibet.com
   - DOMAIN-SUFFIX,singlelogin.app
