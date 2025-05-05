@@ -5,3 +5,5 @@ payload:
   - IP-CIDR,64.181.250.108/24 #甲骨文圣何塞vps
   - DOMAIN-SUFFIX,vcuixb.top
   - DOMAIN-SUFFIX,vcuixb.eu.org
+  - DOMAIN-SUFFIX,uianxi.eu.org
+  
