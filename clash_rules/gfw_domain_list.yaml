@@ -5943,7 +5943,6 @@ payload:
   - DOMAIN-SUFFIX,chatgptvideo.xyz
   - DOMAIN-SUFFIX,chat.lmsys.org
   - DOMAIN-SUFFIX,chatnook.com
-  - DOMAIN-SUFFIX,chat.openai.com
   - DOMAIN-SUFFIX,chatsex.xxx
   - DOMAIN-SUFFIX,chatterbate.io
   - DOMAIN-SUFFIX,chatter.com
@@ -20621,7 +20620,6 @@ payload:
   - DOMAIN-SUFFIX,opensource.guide
   - DOMAIN-SUFFIX,opensourceinsight.dev
   - DOMAIN-SUFFIX,opensourceinsights.dev
-  - DOMAIN-SUFFIX,open.spotify.com
   - DOMAIN-SUFFIX,openssl.org
   - DOMAIN-SUFFIX,openstemlab.ac.uk
   - DOMAIN-SUFFIX,openstemlabs.ac.uk
@@ -24405,6 +24403,7 @@ payload:
   - DOMAIN-SUFFIX,simplecd.org
   - DOMAIN-SUFFIX,simpleproductivityblog.com
   - DOMAIN-SUFFIX,simpleswap.io
+  - DOMAIN-SUFFIX,simplex.chat
   - DOMAIN-SUFFIX,simplify.com
   - DOMAIN-SUFFIX,simplifycommerce.com
   - DOMAIN-SUFFIX,simply-hentai.com
@@ -31032,6 +31031,7 @@ payload:
   - DOMAIN-SUFFIX,zmw.cn
   - DOMAIN-SUFFIX,zndsk.com
   - DOMAIN-SUFFIX,zodgame.us
+  - DOMAIN-SUFFIX,zodgame.xyz
   - DOMAIN-SUFFIX,zohocdn.com
   - DOMAIN-SUFFIX,zoho.com
   - DOMAIN-SUFFIX,zoho.com.au
