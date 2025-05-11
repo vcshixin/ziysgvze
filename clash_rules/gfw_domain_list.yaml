@@ -178,6 +178,7 @@ payload:
   - DOMAIN-SUFFIX,1lib.eu
   - DOMAIN-SUFFIX,1lib.limited
   - DOMAIN-SUFFIX,1lib.pl
+  - DOMAIN-SUFFIX,1lib.sk
   - DOMAIN-SUFFIX,1lib.to
   - DOMAIN-SUFFIX,1lib.tw
   - DOMAIN-SUFFIX,1mobile.com
@@ -1120,7 +1121,6 @@ payload:
   - DOMAIN-SUFFIX,aiasahi.jp
   - DOMAIN-SUFFIX,aib.ac.uk
   - DOMAIN-SUFFIX,ai.binwang.me
-  - DOMAIN-SUFFIX,ai.google
   - DOMAIN-SUFFIX,ai-kan.net
   - DOMAIN-SUFFIX,aim25.ac.uk
   - DOMAIN-SUFFIX,aimei133.com
@@ -11666,6 +11666,7 @@ payload:
   - DOMAIN-SUFFIX,gmodules.com
   - DOMAIN-SUFFIX,gmoney.org
   - DOMAIN-SUFFIX,gmozomg.izihost.org
+  - DOMAIN-SUFFIX,gmp4.com
   - DOMAIN-SUFFIX,gmsa.ac.uk
   - DOMAIN-SUFFIX,gnai-dh.sbs
   - DOMAIN-SUFFIX,gnailapp.sbs
@@ -13734,6 +13735,7 @@ payload:
   - DOMAIN-SUFFIX,hyprsense.com
   - DOMAIN-SUFFIX,hysbys.ac.uk
   - DOMAIN-SUFFIX,hzmn.net
+  - DOMAIN-SUFFIX,i.111666.best
   - DOMAIN-SUFFIX,i-123-hp.com
   - DOMAIN-SUFFIX,i1.hk
   - DOMAIN-SUFFIX,i2p2.de
@@ -20512,6 +20514,7 @@ payload:
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,onenote.net
   - DOMAIN-SUFFIX,one.one.one
+  - DOMAIN-SUFFIX,one.one.one.one
   - DOMAIN-SUFFIX,onepornlist.com
   - DOMAIN-SUFFIX,onesiterip.com
   - DOMAIN-SUFFIX,onestore.ms
@@ -21575,6 +21578,7 @@ payload:
   - DOMAIN-SUFFIX,playfabapi.com
   - DOMAIN-SUFFIX,playfab.com
   - DOMAIN-SUFFIX,playforceone.com
+  - DOMAIN-SUFFIX,play.google
   - DOMAIN-SUFFIX,playhearthstone.com
   - DOMAIN-SUFFIX,playmation.com
   - DOMAIN-SUFFIX,playmeow.com
@@ -22377,6 +22381,7 @@ payload:
   - DOMAIN-SUFFIX,pure18.com
   - DOMAIN-SUFFIX,pureapk.com
   - DOMAIN-SUFFIX,pureconcepts.net
+  - DOMAIN-SUFFIX,puredns.org
   - DOMAIN-SUFFIX,pureinsight.org
   - DOMAIN-SUFFIX,purelov5.com
   - DOMAIN-SUFFIX,purelyceleb.com
@@ -22484,6 +22489,7 @@ payload:
   - DOMAIN-SUFFIX,qml.ac.uk
   - DOMAIN-SUFFIX,qmov.com
   - DOMAIN-SUFFIX,qmov.net
+  - DOMAIN-SUFFIX,qmp4.com
   - DOMAIN-SUFFIX,qmpgmc.ac.uk
   - DOMAIN-SUFFIX,qmttqg3k.me
   - DOMAIN-SUFFIX,qmu.ac.uk
@@ -23301,6 +23307,7 @@ payload:
   - DOMAIN-SUFFIX,rtings.com
   - DOMAIN-SUFFIX,rti.org.tw
   - DOMAIN-SUFFIX,rti.tw
+  - DOMAIN-SUFFIX,rtm.tnt-ea.com
   - DOMAIN-SUFFIX,rtycminnesota.org
   - DOMAIN-SUFFIX,ruanyifeng.com
   - DOMAIN-SUFFIX,rua-project.ac.uk
@@ -31025,10 +31032,15 @@ payload:
   - DOMAIN-SUFFIX,zkaip.com
   - DOMAIN-SUFFIX,zlibcdn2.com
   - DOMAIN-SUFFIX,zlibcdn.com
+  - DOMAIN-SUFFIX,z-lib.fm
+  - DOMAIN-SUFFIX,z-lib.fo
+  - DOMAIN-SUFFIX,z-lib.gd
+  - DOMAIN-SUFFIX,z-lib.gl
   - DOMAIN-SUFFIX,z-lib.io
   - DOMAIN-SUFFIX,zlib.life
   - DOMAIN-SUFFIX,z-lib.org
   - DOMAIN-SUFFIX,z-library.se
+  - DOMAIN-SUFFIX,z-library.sk
   - DOMAIN-SUFFIX,zmedia.com.tw
   - DOMAIN-SUFFIX,zmw.cn
   - DOMAIN-SUFFIX,zndsk.com
