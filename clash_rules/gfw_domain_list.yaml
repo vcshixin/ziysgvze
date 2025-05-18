@@ -3165,6 +3165,7 @@ payload:
   - DOMAIN-SUFFIX,bbsmo.com
   - DOMAIN-SUFFIX,bbs.morbell.com
   - DOMAIN-SUFFIX,bbs.mychat.to
+  - DOMAIN-SUFFIX,bbs.naixi.net
   - DOMAIN-SUFFIX,bbs.netbig.com
   - DOMAIN-SUFFIX,bbs.nyinfor.com
   - DOMAIN-SUFFIX,bbsone.com
@@ -16108,6 +16109,8 @@ payload:
   - DOMAIN-SUFFIX,lcwc.ac.uk
   - DOMAIN-SUFFIX,ld.hao123img.com
   - DOMAIN-SUFFIX,ldoc-cdt.ac.uk
+  - DOMAIN-SUFFIX,ldplayer.net
+  - DOMAIN-SUFFIX,ldplayer.tw
   - DOMAIN-SUFFIX,le.ac.uk
   - DOMAIN-SUFFIX,leadershipfoundation.ac.uk
   - DOMAIN-SUFFIX,leadershiphe.ac.uk
