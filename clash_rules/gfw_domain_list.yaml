@@ -18560,6 +18560,7 @@ payload:
   - DOMAIN-SUFFIX,msec.ac.uk
   - DOMAIN-SUFFIX,msecnd.net
   - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-SUFFIX,msftauthimages.net
   - DOMAIN-SUFFIX,msftauth.net
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msfteducation.ca
