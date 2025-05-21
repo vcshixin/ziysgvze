@@ -16125,6 +16125,7 @@ payload:
   - DOMAIN-SUFFIX,ldoc-cdt.ac.uk
   - DOMAIN-SUFFIX,ldplayer.net
   - DOMAIN-SUFFIX,ldplayer.tw
+  - DOMAIN-SUFFIX,ldstatic.com
   - DOMAIN-SUFFIX,le.ac.uk
   - DOMAIN-SUFFIX,leadershipfoundation.ac.uk
   - DOMAIN-SUFFIX,leadershiphe.ac.uk
@@ -16432,6 +16433,7 @@ payload:
   - DOMAIN-SUFFIX,linotype.com
   - DOMAIN-SUFFIX,linseysworld.com
   - DOMAIN-SUFFIX,linst.ac.uk
+  - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,linuxfoundation.org
   - DOMAIN-SUFFIX,linuxfromscratch.org
   - DOMAIN-SUFFIX,linuxmint.com
