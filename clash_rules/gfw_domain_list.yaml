@@ -1284,11 +1284,15 @@ payload:
   - DOMAIN-SUFFIX,akasha.world
   - DOMAIN-SUFFIX,akastream.com
   - DOMAIN-SUFFIX,akastream.net
+  - DOMAIN-SUFFIX,akatest.tripcdn.com
   - DOMAIN-SUFFIX,akatns.net
   - DOMAIN-SUFFIX,akiba-online.com
   - DOMAIN-SUFFIX,akiba-web.com
   - DOMAIN-SUFFIX,akinator.com
   - DOMAIN-SUFFIX,akow.org
+  - DOMAIN-SUFFIX,ak-p.tripcdn.com
+  - DOMAIN-SUFFIX,ak-s-cw.tripcdn.com
+  - DOMAIN-SUFFIX,ak-s.tripcdn.com
   - DOMAIN-SUFFIX,akthelp.com
   - DOMAIN-SUFFIX,alabout.com
   - DOMAIN-SUFFIX,alanhou.com
@@ -2841,6 +2845,7 @@ payload:
   - DOMAIN-SUFFIX,avxxc.com
   - DOMAIN-SUFFIX,avyahoo.com
   - DOMAIN-SUFFIX,awayoutgame.com
+  - DOMAIN-SUFFIX,aw-d.tripcdn.com
   - DOMAIN-SUFFIX,aweencore.com
   - DOMAIN-SUFFIX,awempire.com
   - DOMAIN-SUFFIX,awesomeent.co.kr
@@ -2849,6 +2854,7 @@ payload:
   - DOMAIN-SUFFIX,awflapp.top
   - DOMAIN-SUFFIX,awjq.cc
   - DOMAIN-SUFFIX,awlc.ac.uk
+  - DOMAIN-SUFFIX,aw-p.tripcdn.com
   - DOMAIN-SUFFIX,awsautopilot.com
   - DOMAIN-SUFFIX,awsautoscaling.com
   - DOMAIN-SUFFIX,awsbraket.com
@@ -2866,6 +2872,7 @@ payload:
   - DOMAIN-SUFFIX,awsstatic.com
   - DOMAIN-SUFFIX,awsthinkbox.com
   - DOMAIN-SUFFIX,awstrack.me
+  - DOMAIN-SUFFIX,aw-s.tripcdn.com
   - DOMAIN-SUFFIX,awstrust.com
   - DOMAIN-SUFFIX,awwcn.buzz
   - DOMAIN-SUFFIX,awwcn.xyz
