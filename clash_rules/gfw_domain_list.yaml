@@ -2451,6 +2451,7 @@ payload:
   - DOMAIN-SUFFIX,asmrbuluo.com
   - DOMAIN-SUFFIX,asmr.gay
   - DOMAIN-SUFFIX,asn-online.org
+  - DOMAIN-SUFFIX,asobostudio.com
   - DOMAIN-SUFFIX,aspbjournals.org
   - DOMAIN-SUFFIX,asp-cc.com
   - DOMAIN-SUFFIX,aspect.ac.uk
@@ -10481,6 +10482,7 @@ payload:
   - DOMAIN-SUFFIX,flickriver.com
   - DOMAIN-SUFFIX,flickr.net
   - DOMAIN-SUFFIX,fliggy.hk
+  - DOMAIN-SUFFIX,flightsimulator.com
   - DOMAIN-SUFFIX,fling.com
   - DOMAIN-SUFFIX,flipboard.com
   - DOMAIN-SUFFIX,flipfap.com
@@ -10602,6 +10604,7 @@ payload:
   - DOMAIN-SUFFIX,forum.tvb.com
   - DOMAIN-SUFFIX,forum.xinbao.de
   - DOMAIN-SUFFIX,forzamotorsport.net
+  - DOMAIN-SUFFIX,forza.net
   - DOMAIN-SUFFIX,forzaracingchampionship.com
   - DOMAIN-SUFFIX,forzarc.com
   - DOMAIN-SUFFIX,fosebook.com
