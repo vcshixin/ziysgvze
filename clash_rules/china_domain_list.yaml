@@ -105259,7 +105259,6 @@ payload:
   - DOMAIN-SUFFIX,xiaomicp.com
   - DOMAIN-SUFFIX,xiaomidns.com
   - DOMAIN-SUFFIX,xiaomidns.net
-  - DOMAIN-SUFFIX,xiaomi.eu
   - DOMAIN-SUFFIX,xiaomiev.com
   - DOMAIN-SUFFIX,xiaomiflash.com
   - DOMAIN-SUFFIX,xiaomi.hk
@@ -107055,6 +107054,7 @@ payload:
   - DOMAIN-SUFFIX,xn--54q23ckxiyx0e.com
   - DOMAIN-SUFFIX,xn--54q249denfzw9a.net
   - DOMAIN-SUFFIX,xn--54q40czz0g7xp.com
+  - DOMAIN-SUFFIX,xn--55qw42g
   - DOMAIN-SUFFIX,xn--55qw7biqf7g3d004h8yuw1ctrt04sep1cjfb.com
   - DOMAIN-SUFFIX,xn--55qwa79fh6ku8czve.com
   - DOMAIN-SUFFIX,xn--55qx2ag79c1iq.com
