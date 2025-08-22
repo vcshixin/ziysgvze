@@ -11365,6 +11365,7 @@ payload:
   - DOMAIN-SUFFIX,gitbook.com
   - DOMAIN-SUFFIX,gitbook.io
   - DOMAIN-SUFFIX,github1s.com
+  - DOMAIN-SUFFIX,github.ai
   - DOMAIN-SUFFIX,githubapp.com
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-SUFFIX,github.blog
@@ -14751,6 +14752,7 @@ payload:
   - DOMAIN-SUFFIX,itemfix.com
   - DOMAIN-SUFFIX,itfromtheinside.com
   - DOMAIN-SUFFIX,ithelp.ithome.com.tw
+  - DOMAIN-SUFFIX,itiger.com
   - DOMAIN-SUFFIX,itlearningspace-scot.ac.uk
   - DOMAIN-SUFFIX,itnel.com
   - DOMAIN-SUFFIX,itnow.ac.uk
