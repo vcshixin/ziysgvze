@@ -18805,6 +18805,7 @@ payload:
   - DOMAIN-SUFFIX,navyfamily.navy.mil
   - DOMAIN-SUFFIX,navyreserve.navy.mil
   - DOMAIN-SUFFIX,naweeklytimes.com
+  - DOMAIN-SUFFIX,naydex.net
   - DOMAIN-SUFFIX,nazarene.ac.uk
   - DOMAIN-SUFFIX,nbabot.net
   - DOMAIN-SUFFIX,nbc.co
@@ -24361,6 +24362,7 @@ payload:
   - DOMAIN-SUFFIX,sneakme.net
   - DOMAIN-SUFFIX,snjulebu.com
   - DOMAIN-SUFFIX,snk-corp.co.jp
+  - DOMAIN-SUFFIX,snk-corp.info
   - DOMAIN-SUFFIX,snkplaymore.info
   - DOMAIN-SUFFIX,snowcorp.com
   - DOMAIN-SUFFIX,snowlionpub.com
@@ -26760,7 +26762,9 @@ payload:
   - DOMAIN-SUFFIX,tubexclips.com
   - DOMAIN-SUFFIX,tubi.io
   - DOMAIN-SUFFIX,tubinge.com
+  - DOMAIN-SUFFIX,tubi.tv
   - DOMAIN-SUFFIX,tubitv.com
+  - DOMAIN-SUFFIX,tubi.video
   - DOMAIN-SUFFIX,tubsexer.com
   - DOMAIN-SUFFIX,tubxporn.com
   - DOMAIN-SUFFIX,tubxporn.xxx
@@ -30020,6 +30024,7 @@ payload:
   - DOMAIN-SUFFIX,yandex.az
   - DOMAIN-SUFFIX,yandex-bank.net
   - DOMAIN-SUFFIX,yandex.by
+  - DOMAIN-SUFFIX,yandex.cloud
   - DOMAIN-SUFFIX,yandexcloud.net
   - DOMAIN-SUFFIX,yandex.co.il
   - DOMAIN-SUFFIX,yandex.com
