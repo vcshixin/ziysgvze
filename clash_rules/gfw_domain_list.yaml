@@ -1580,6 +1580,7 @@ payload:
   - DOMAIN-SUFFIX,amazonbusinessblog.com
   - DOMAIN-SUFFIX,amazonbusiness.org
   - DOMAIN-SUFFIX,amazon.ca
+  - DOMAIN-SUFFIX,amazoncognito.com
   - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,amazon.com.au
@@ -2867,6 +2868,8 @@ payload:
   - DOMAIN-SUFFIX,awjq.cc
   - DOMAIN-SUFFIX,awlc.ac.uk
   - DOMAIN-SUFFIX,aw-p.tripcdn.com
+  - DOMAIN-SUFFIX,awsapprunner.com
+  - DOMAIN-SUFFIX,awsapps.com
   - DOMAIN-SUFFIX,awsautopilot.com
   - DOMAIN-SUFFIX,awsautoscaling.com
   - DOMAIN-SUFFIX,awsbraket.com
