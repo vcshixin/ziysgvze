@@ -688,6 +688,7 @@ payload:
   - DOMAIN-SUFFIX,aboutamazon.jp
   - DOMAIN-SUFFIX,aboutamazon.pl
   - DOMAIN-SUFFIX,aboutfacebook.com
+  - DOMAIN-SUFFIX,about.gitlab.com
   - DOMAIN-SUFFIX,aboutmcdonalds.com
   - DOMAIN-SUFFIX,about.me
   - DOMAIN-SUFFIX,aboutporno.net
