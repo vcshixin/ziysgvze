@@ -1874,6 +1874,7 @@ payload:
   - DOMAIN-SUFFIX,apigee.com
   - DOMAIN-SUFFIX,apina.biz
   - DOMAIN-SUFFIX,api.news
+  - DOMAIN-SUFFIX,api.palworldgame.com
   - DOMAIN-SUFFIX,api.pureapk.com
   - DOMAIN-SUFFIX,api.recaptcha.net
   - DOMAIN-SUFFIX,apis.ac.uk
@@ -20312,6 +20313,7 @@ payload:
   - DOMAIN-SUFFIX,ocsp-certum.com
   - DOMAIN-SUFFIX,ocsp-responder.com
   - DOMAIN-SUFFIX,october-review.org
+  - DOMAIN-SUFFIX,octocaptcha.com
   - DOMAIN-SUFFIX,ocul.us
   - DOMAIN-SUFFIX,oculus2014.com
   - DOMAIN-SUFFIX,oculus3d.com
