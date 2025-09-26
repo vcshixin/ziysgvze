@@ -29183,6 +29183,7 @@ payload:
   - DOMAIN-SUFFIX,wiki.metacubex.one
   - DOMAIN-SUFFIX,wikinews.org
   - DOMAIN-SUFFIX,wiki.oauth.net
+  - DOMAIN-SUFFIX,wikipedia.com
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,wiki.phonegap.com
   - DOMAIN-SUFFIX,wikiporn.tv
