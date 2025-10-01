@@ -1,4 +1,3 @@
 payload:
-  - DOMAIN,69shuba.cx                  #69书吧
-  - DOMAIN,claw.cloud                 #claw
+  - DOMAIN-SUFFIX,69shuba.com                 #69书吧
   - DOMAIN-SUFFIX,mangacopy.com   #拷贝漫画
