@@ -10,3 +10,4 @@ payload:
   - DOMAIN,deeplx.vcuixb.eu.org   #deeplx
   - DOMAIN-SUFFIX,bitdeer.ai    #bitdeer的api
   - DOMAIN-SUFFIX,linux.do  #linux.do
+  - DOMAIN-SUFFIX,elysia.h-e.top  #好用的claude公益站
