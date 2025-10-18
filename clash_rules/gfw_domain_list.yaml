@@ -4638,6 +4638,7 @@ payload:
   - DOMAIN-SUFFIX,bnext.com.tw
   - DOMAIN-SUFFIX,bnn.co
   - DOMAIN-SUFFIX,bnrmetal.com
+  - DOMAIN-SUFFIX,bntrace.com
   - DOMAIN-SUFFIX,bnu.ac.uk
   - DOMAIN-SUFFIX,boa.ac.uk
   - DOMAIN-SUFFIX,boardreader.com
@@ -5864,6 +5865,7 @@ payload:
   - DOMAIN-SUFFIX,ceramics-cadcam.com
   - DOMAIN-SUFFIX,cercia.ac.uk
   - DOMAIN-SUFFIX,cerdas.com
+  - DOMAIN-SUFFIX,cerebras.ai
   - DOMAIN-SUFFIX,ceredigion.ac.uk
   - DOMAIN-SUFFIX,ceri.ac.uk
   - DOMAIN-SUFFIX,cerlim.ac.uk
@@ -6366,6 +6368,8 @@ payload:
   - DOMAIN-SUFFIX,classics.ac.uk
   - DOMAIN-SUFFIX,classymomsex.com
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claudemcpclient.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,clb.org.hk
   - DOMAIN-SUFFIX,clc-london.ac.uk
@@ -15134,6 +15138,7 @@ payload:
   - DOMAIN-SUFFIX,javakiba.org
   - DOMAIN-SUFFIX,java.net
   - DOMAIN-SUFFIX,jav-angel.net
+  - DOMAIN-SUFFIX,jav.app
   - DOMAIN-SUFFIX,javbabe.net
   - DOMAIN-SUFFIX,javbangers.com
   - DOMAIN-SUFFIX,javbest.tv
@@ -17134,6 +17139,7 @@ payload:
   - DOMAIN-SUFFIX,marlin.ac.uk
   - DOMAIN-SUFFIX,marplecollege.ac.uk
   - DOMAIN-SUFFIX,marranazas.com
+  - DOMAIN-SUFFIX,marscode.com
   - DOMAIN-SUFFIX,martau.com
   - DOMAIN-SUFFIX,martsangkagyuofficial.org
   - DOMAIN-SUFFIX,maruta.be
@@ -19491,6 +19497,7 @@ payload:
   - DOMAIN-SUFFIX,nfsc.global
   - DOMAIN-SUFFIX,nfscofficial.com
   - DOMAIN-SUFFIX,nfsworld.com
+  - DOMAIN-SUFFIX,nftstatic.com
   - DOMAIN-SUFFIX,nftstorage.link
   - DOMAIN-SUFFIX,nga.mil
   - DOMAIN-SUFFIX,ngc.ac.uk
@@ -26780,6 +26787,7 @@ payload:
   - DOMAIN-SUFFIX,tracking-location.com
   - DOMAIN-SUFFIX,tradevip1.com
   - DOMAIN-SUFFIX,tradingview.com
+  - DOMAIN-SUFFIX,trae.ai
   - DOMAIN-SUFFIX,traffcoll.ac.uk
   - DOMAIN-SUFFIX,trafficmanager.net
   - DOMAIN-SUFFIX,trafford.ac.uk
