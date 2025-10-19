@@ -4729,6 +4729,7 @@ payload:
   - DOMAIN-SUFFIX,boombeach.com
   - DOMAIN-SUFFIX,boomerang.com
   - DOMAIN-SUFFIX,booru.org
+  - DOMAIN-SUFFIX,boosty.to
   - DOMAIN-SUFFIX,booth.pm
   - DOMAIN-SUFFIX,bootstrapcdn.com
   - DOMAIN-SUFFIX,bootyliciousmag.com
@@ -5781,6 +5782,7 @@ payload:
   - DOMAIN-SUFFIX,cdn.statically.io
   - DOMAIN-SUFFIX,cdn-telegram.org
   - DOMAIN-SUFFIX,cdn-terapeak.com
+  - DOMAIN-SUFFIX,cdn-vk.ru
   - DOMAIN-SUFFIX,cdp1989.org
   - DOMAIN-SUFFIX,cdp1998.org
   - DOMAIN-SUFFIX,cdp2006.org
@@ -7806,6 +7808,7 @@ payload:
   - DOMAIN-SUFFIX,diabetes-healthnet.ac.uk
   - DOMAIN-SUFFIX,diablo3.com
   - DOMAIN-SUFFIX,diabloimmortal.com
+  - DOMAIN-SUFFIX,diabrowser.com
   - DOMAIN-SUFFIX,dialga.com
   - DOMAIN-SUFFIX,dialogflow.com
   - DOMAIN-SUFFIX,diamantewebcam.com
@@ -8217,6 +8220,7 @@ payload:
   - DOMAIN-SUFFIX,domywife.com
   - DOMAIN-SUFFIX,don.ac.uk
   - DOMAIN-SUFFIX,donatecarsoh.org
+  - DOMAIN-SUFFIX,donationalerts.com
   - DOMAIN-SUFFIX,doncaster.ac.uk
   - DOMAIN-SUFFIX,dongtaiwang.com
   - DOMAIN-SUFFIX,dongtaiwang.net
@@ -12316,6 +12320,7 @@ payload:
   - DOMAIN-SUFFIX,guangming.com.my
   - DOMAIN-SUFFIX,guangming.org
   - DOMAIN-SUFFIX,guaranitermal.com
+  - DOMAIN-SUFFIX,guardarian.com
   - DOMAIN-SUFFIX,guardianapis.com
   - DOMAIN-SUFFIX,guardianapps.co.uk
   - DOMAIN-SUFFIX,guardianproject.info
@@ -17522,6 +17527,7 @@ payload:
   - DOMAIN-SUFFIX,meltoday.com
   - DOMAIN-SUFFIX,me.me
   - DOMAIN-SUFFIX,meme111.com
+  - DOMAIN-SUFFIX,memealerts.com
   - DOMAIN-SUFFIX,memehk.com
   - DOMAIN-SUFFIX,memes.tw
   - DOMAIN-SUFFIX,memrijttm.org
@@ -20391,6 +20397,7 @@ payload:
   - DOMAIN-SUFFIX,okaapps.com
   - DOMAIN-SUFFIX,okayfreedom.com
   - DOMAIN-SUFFIX,okazudouga.tokyo
+  - DOMAIN-SUFFIX,okcdn.ru
   - DOMAIN-SUFFIX,okex.com
   - DOMAIN-SUFFIX,okinawabank.co.jp
   - DOMAIN-SUFFIX,okkisokuho.com
@@ -23401,10 +23408,15 @@ payload:
   - DOMAIN-SUFFIX,samsungapps.com
   - DOMAIN-SUFFIX,samsungcloud.com
   - DOMAIN-SUFFIX,samsung.com
+  - DOMAIN-SUFFIX,samsungconsent.com
   - DOMAIN-SUFFIX,samsungdm.com
   - DOMAIN-SUFFIX,samsunggalaxyfriends.com
+  - DOMAIN-SUFFIX,samsunghealth.com
+  - DOMAIN-SUFFIX,samsungiotcloud.com
   - DOMAIN-SUFFIX,samsungknox.com
+  - DOMAIN-SUFFIX,samsungosp.com
   - DOMAIN-SUFFIX,samsungqbe.com
+  - DOMAIN-SUFFIX,samsungrs.com
   - DOMAIN-SUFFIX,sandisk.ae
   - DOMAIN-SUFFIX,sandisk.co.jp
   - DOMAIN-SUFFIX,sandisk.co.kr
@@ -25279,6 +25291,7 @@ payload:
   - DOMAIN-SUFFIX,stdavidscollege.ac.uk
   - DOMAIN-SUFFIX,stdavidsdaygroup.ac.uk
   - DOMAIN-SUFFIX,stdoms.ac.uk
+  - DOMAIN-SUFFIX,stealthex.io
   - DOMAIN-SUFFIX,s.team
   - DOMAIN-SUFFIX,steam.apac.qtlglb.com
   - DOMAIN-SUFFIX,steam-api.com
@@ -27928,6 +27941,7 @@ payload:
   - DOMAIN-SUFFIX,vercel.app
   - DOMAIN-SUFFIX,vercel.blog
   - DOMAIN-SUFFIX,vercel.com
+  - DOMAIN-SUFFIX,vercel.dev
   - DOMAIN-SUFFIX,vercel-dns.com
   - DOMAIN-SUFFIX,vercel.events
   - DOMAIN-SUFFIX,vercel.live
@@ -28354,6 +28368,7 @@ payload:
   - DOMAIN-SUFFIX,vk.cc
   - DOMAIN-SUFFIX,vk-cdn.me
   - DOMAIN-SUFFIX,vk-cdn.net
+  - DOMAIN-SUFFIX,vkcloud-static.ru
   - DOMAIN-SUFFIX,vk.com
   - DOMAIN-SUFFIX,vk.company
   - DOMAIN-SUFFIX,vk.design
