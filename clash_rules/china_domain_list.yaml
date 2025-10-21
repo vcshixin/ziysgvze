@@ -8317,6 +8317,7 @@ payload:
   - DOMAIN-SUFFIX,9000wy.com
   - DOMAIN-SUFFIX,900112.com
   - DOMAIN-SUFFIX,900501.xyz
+  - DOMAIN-SUFFIX,900cha.com
   - DOMAIN-SUFFIX,900.la
   - DOMAIN-SUFFIX,900php.com
   - DOMAIN-SUFFIX,900ppt.com
@@ -53154,6 +53155,7 @@ payload:
   - DOMAIN-SUFFIX,ips8.com
   - DOMAIN-SUFFIX,ips.com
   - DOMAIN-SUFFIX,ipsebe.com
+  - DOMAIN-SUFFIX,ipshu.com
   - DOMAIN-SUFFIX,ipshudi.com
   - DOMAIN-SUFFIX,ipsmap.com
   - DOMAIN-SUFFIX,ip-soc.com
@@ -53455,6 +53457,7 @@ payload:
   - DOMAIN-SUFFIX,istarshine.com
   - DOMAIN-SUFFIX,istartsurf.com
   - DOMAIN-SUFFIX,istcw.com
+  - DOMAIN-SUFFIX,istoreos.com
   - DOMAIN-SUFFIX,istpei.com
   - DOMAIN-SUFFIX,istrongcloud.com
   - DOMAIN-SUFFIX,istrongcloud.net
@@ -58646,6 +58649,7 @@ payload:
   - DOMAIN-SUFFIX,jxpdf.com
   - DOMAIN-SUFFIX,jxphone.com
   - DOMAIN-SUFFIX,jxphyz.com
+  - DOMAIN-SUFFIX,jxpp.com
   - DOMAIN-SUFFIX,jxpta.com
   - DOMAIN-SUFFIX,jxqcw.com
   - DOMAIN-SUFFIX,jxqtkj.com
@@ -69823,6 +69827,7 @@ payload:
   - DOMAIN-SUFFIX,mw1950.com
   - DOMAIN-SUFFIX,mwadx.com
   - DOMAIN-SUFFIX,mwave.tech
+  - DOMAIN-SUFFIX,mwcdns.com
   - DOMAIN-SUFFIX,mwclg.com
   - DOMAIN-SUFFIX,mwcloudcdn.com
   - DOMAIN-SUFFIX,mwcloudcdn.info
@@ -71118,6 +71123,7 @@ payload:
   - DOMAIN-SUFFIX,network-hk.com
   - DOMAIN-SUFFIX,networklo.com
   - DOMAIN-SUFFIX,netzonesoft.com
+  - DOMAIN-SUFFIX,netzz.net
   - DOMAIN-SUFFIX,neucrack.com
   - DOMAIN-SUFFIX,neuedu.com
   - DOMAIN-SUFFIX,neunn.com
@@ -100811,6 +100817,7 @@ payload:
   - DOMAIN-SUFFIX,wsglb0.com
   - DOMAIN-SUFFIX,wsglb0.info
   - DOMAIN-SUFFIX,wsglb0.org
+  - DOMAIN-SUFFIX,wsglb.com
   - DOMAIN-SUFFIX,wsglb.net
   - DOMAIN-SUFFIX,wsglw.com
   - DOMAIN-SUFFIX,wsglw.net
@@ -102300,6 +102307,7 @@ payload:
   - DOMAIN-SUFFIX,xd-tech.com
   - DOMAIN-SUFFIX,xdter.com
   - DOMAIN-SUFFIX,xdtev.com
+  - DOMAIN-SUFFIX,xdtool.com
   - DOMAIN-SUFFIX,xdtos.com
   - DOMAIN-SUFFIX,xduim.com
   - DOMAIN-SUFFIX,xduoo.com
