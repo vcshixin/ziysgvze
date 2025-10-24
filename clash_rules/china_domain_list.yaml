@@ -20109,6 +20109,7 @@ payload:
   - DOMAIN-SUFFIX,cfcf1958.com
   - DOMAIN-SUFFIX,cfchem.com
   - DOMAIN-SUFFIX,cfchi.com
+  - DOMAIN-SUFFIX,cf-china.info
   - DOMAIN-SUFFIX,cfchint.com
   - DOMAIN-SUFFIX,cfcpn.com
   - DOMAIN-SUFFIX,cfd163.com
@@ -28568,7 +28569,6 @@ payload:
   - DOMAIN-SUFFIX,deepin-ai.com
   - DOMAIN-SUFFIX,deepin.com
   - DOMAIN-SUFFIX,deepinghost.com
-  - DOMAIN-SUFFIX,deepin.io
   - DOMAIN-SUFFIX,deepinmind.com
   - DOMAIN-SUFFIX,deepin.org
   - DOMAIN-SUFFIX,deepinos.org
@@ -63562,6 +63562,7 @@ payload:
   - DOMAIN-SUFFIX,linglongart.com
   - DOMAIN-SUFFIX,linglong.dev
   - DOMAIN-SUFFIX,linglonglife.com
+  - DOMAIN-SUFFIX,linglong.space
   - DOMAIN-SUFFIX,linglongtech.com
   - DOMAIN-SUFFIX,lingmao.tech
   - DOMAIN-SUFFIX,lingmeijie.com
