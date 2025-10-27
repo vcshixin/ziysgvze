@@ -12592,6 +12592,7 @@ payload:
   - DOMAIN-SUFFIX,hcctraining.ac.uk
   - DOMAIN-SUFFIX,hcebusiness.ac.uk
   - DOMAIN-SUFFIX,hcfe.ac.uk
+  - DOMAIN-SUFFIX,h-chan.me
   - DOMAIN-SUFFIX,h-china.org
   - DOMAIN-SUFFIX,hclips.com
   - DOMAIN-SUFFIX,hclrg.ac.uk
@@ -12770,6 +12771,10 @@ payload:
   - DOMAIN-SUFFIX,hentaiblue.com
   - DOMAIN-SUFFIX,hentai-books.com
   - DOMAIN-SUFFIX,hentaibros.com
+  - DOMAIN-SUFFIX,hentai-chan.com
+  - DOMAIN-SUFFIX,hentai-chan.live
+  - DOMAIN-SUFFIX,hentaichan.live
+  - DOMAIN-SUFFIX,hentaichan.me
   - DOMAIN-SUFFIX,hentaicity.com
   - DOMAIN-SUFFIX,hentaicloud.com
   - DOMAIN-SUFFIX,hentaiclub.net
@@ -14299,6 +14304,7 @@ payload:
   - DOMAIN-SUFFIX,img.ly
   - DOMAIN-SUFFIX,imgmega.com
   - DOMAIN-SUFFIX,img.picgo.net
+  - DOMAIN-SUFFIX,imgschan.xyz
   - DOMAIN-SUFFIX,imgsmail.ru
   - DOMAIN-SUFFIX,imgur.com
   - DOMAIN-SUFFIX,imgurinc.com
