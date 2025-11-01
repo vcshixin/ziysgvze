@@ -8127,6 +8127,7 @@ payload:
   - DOMAIN-SUFFIX,dl-iphone.com
   - DOMAIN-SUFFIX,dlive.tv
   - DOMAIN-SUFFIX,dl-laby.jp
+  - DOMAIN-SUFFIX,dln1.ncdn.ec
   - DOMAIN-SUFFIX,dls.ac.uk
   - DOMAIN-SUFFIX,dlsite.com
   - DOMAIN-SUFFIX,dlsite.com.tw
@@ -23897,6 +23898,7 @@ payload:
   - DOMAIN-SUFFIX,sensualgirls.org
   - DOMAIN-SUFFIX,sensualmothers.com
   - DOMAIN-SUFFIX,sensueel.net
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,senzuritv.net
   - DOMAIN-SUFFIX,sepnet.ac.uk
   - DOMAIN-SUFFIX,seqing.one
