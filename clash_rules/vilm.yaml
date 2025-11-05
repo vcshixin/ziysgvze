@@ -9,5 +9,5 @@ payload:
   - DOMAIN-SUFFIX,yckceo.com  #源仓库
   - DOMAIN,deeplx.vcuixb.eu.org   #deeplx
   - DOMAIN-SUFFIX,bitdeer.ai    #bitdeer的api
-  - DOMAIN-SUFFIX,linux.do  #linux.do
+#  - DOMAIN-SUFFIX,linux.do  #linux.do
   - DOMAIN-SUFFIX,elysia.h-e.top  #好用的claude公益站
