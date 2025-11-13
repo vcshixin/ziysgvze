@@ -1033,6 +1033,8 @@ payload:
   - DOMAIN-SUFFIX,af-east-201.myhuaweicloud.com
   - DOMAIN-SUFFIX,afewmomentswith.com
   - DOMAIN-SUFFIX,affect3dstore.com
+  - DOMAIN-SUFFIX,affinity.api.serifservices.com
+  - DOMAIN-SUFFIX,affinity.studio
   - DOMAIN-SUFFIX,affirmtrust.com
   - DOMAIN-SUFFIX,afi.ac.uk
   - DOMAIN-SUFFIX,afkv28.com
@@ -3235,6 +3237,7 @@ payload:
   - DOMAIN-SUFFIX,bctcs.ac.uk
   - DOMAIN-SUFFIX,bcu.ac.uk
   - DOMAIN-SUFFIX,bcuc.ac.uk
+  - DOMAIN-SUFFIX,bcvcdn.com
   - DOMAIN-SUFFIX,bcvp0rtal.com
   - DOMAIN-SUFFIX,bcy01.com
   - DOMAIN-SUFFIX,bdc.ac.uk
@@ -3724,6 +3727,7 @@ payload:
   - DOMAIN-SUFFIX,bfsh.hk
   - DOMAIN-SUFFIX,bftv.ac.uk
   - DOMAIN-SUFFIX,bgc.ac.uk
+  - DOMAIN-SUFFIX,bgicdn.com
   - DOMAIN-SUFFIX,bgme.me
   - DOMAIN-SUFFIX,bgm.tv
   - DOMAIN-SUFFIX,bgov.com
@@ -5508,6 +5512,7 @@ payload:
   - DOMAIN-SUFFIX,canterbury.ac.uk
   - DOMAIN-SUFFIX,canterburycollege.ac.uk
   - DOMAIN-SUFFIX,canterburytrust.ac.uk
+  - DOMAIN-SUFFIX,canva.com
   - DOMAIN-SUFFIX,canyu.org
   - DOMAIN-SUFFIX,caobian.info
   - DOMAIN-SUFFIX,caochangqing.com
@@ -11933,6 +11938,7 @@ payload:
   - DOMAIN-SUFFIX,google.cat
   - DOMAIN-SUFFIX,google.cc
   - DOMAIN-SUFFIX,google.cd
+  - DOMAIN-SUFFIX,googlecensorship.org
   - DOMAIN-SUFFIX,googlecert.net
   - DOMAIN-SUFFIX,google.cf
   - DOMAIN-SUFFIX,google.cg
@@ -12289,6 +12295,7 @@ payload:
   - DOMAIN-SUFFIX,greatermanchestermedicalschool.ac.uk
   - DOMAIN-SUFFIX,greatfire.org
   - DOMAIN-SUFFIX,greatfire.us7.list-manage.com
+  - DOMAIN-SUFFIX,greatfirevpn.com
   - DOMAIN-SUFFIX,greatfirewall.biz
   - DOMAIN-SUFFIX,greatfirewallofchina.org
   - DOMAIN-SUFFIX,greatretroporn.com
@@ -19310,6 +19317,7 @@ payload:
   - DOMAIN-SUFFIX,neo-miracle.com
   - DOMAIN-SUFFIX,neonatalsociety.ac.uk
   - DOMAIN-SUFFIX,neotokyo.supertop-100.com
+  - DOMAIN-SUFFIX,neovim.io
   - DOMAIN-SUFFIX,neow.in
   - DOMAIN-SUFFIX,neowin.net
   - DOMAIN-SUFFIX,nerap.ac.uk
@@ -30972,6 +30980,7 @@ payload:
   - DOMAIN-SUFFIX,zeit-world.org
   - DOMAIN-SUFFIX,zello.com
   - DOMAIN-SUFFIX,zen8ok.xyz
+  - DOMAIN-SUFFIX,zen-browser.app
   - DOMAIN-SUFFIX,zencdn.net
   - DOMAIN-SUFFIX,zencoder.com
   - DOMAIN-SUFFIX,zendesk.com
