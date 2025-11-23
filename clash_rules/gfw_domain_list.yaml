@@ -767,6 +767,7 @@ payload:
   - DOMAIN-SUFFIX,addyoutube.com
   - DOMAIN-SUFFIX,adelaidebbs.com
   - DOMAIN-SUFFIX,adelaidenow.com.au
+  - DOMAIN-SUFFIX,adfox.ru
   - DOMAIN-SUFFIX,adgoogle.net
   - DOMAIN-SUFFIX,adguardaccount.com
   - DOMAIN-SUFFIX,adguard.app
@@ -801,6 +802,7 @@ payload:
   - DOMAIN-SUFFIX,adidas.se
   - DOMAIN-SUFFIX,adinst.com
   - DOMAIN-SUFFIX,admeld.com
+  - DOMAIN-SUFFIX,admetrica.ru
   - DOMAIN-SUFFIX,admin.recaptcha.net
   - DOMAIN-SUFFIX,admob-cn.com
   - DOMAIN-SUFFIX,admob.com
@@ -10816,6 +10818,7 @@ payload:
   - DOMAIN-SUFFIX,hf.co
   - DOMAIN-SUFFIX,hf-iphone.com
   - DOMAIN-SUFFIX,h-flash.com
+  - DOMAIN-SUFFIX,hf.space
   - DOMAIN-SUFFIX,hgamer.pro
   - DOMAIN-SUFFIX,hg.cool
   - DOMAIN-SUFFIX,hgseav.com
@@ -13412,6 +13415,7 @@ payload:
   - DOMAIN-SUFFIX,kinmen.travel
   - DOMAIN-SUFFIX,kinokuniya.com
   - DOMAIN-SUFFIX,kinopoisk.ru
+  - DOMAIN-SUFFIX,kinopoisk-ru.clstorage.net
   - DOMAIN-SUFFIX,kir2kos.net
   - DOMAIN-SUFFIX,kirbysepicyarn.com
   - DOMAIN-SUFFIX,kirbysuperstarultra.com
@@ -15924,6 +15928,7 @@ payload:
   - DOMAIN-SUFFIX,na-mexico-1.myhuaweicloud.com
   - DOMAIN-SUFFIX,namgyalmonastery.org
   - DOMAIN-SUFFIX,namgyal.org
+  - DOMAIN-SUFFIX,namu.wiki
   - DOMAIN-SUFFIX,nan-net.com
   - DOMAIN-SUFFIX,nanopool.org
   - DOMAIN-SUFFIX,nantobank.co.jp
@@ -17759,6 +17764,7 @@ payload:
   - DOMAIN-SUFFIX,pickshoesclothes.com
   - DOMAIN-SUFFIX,picnik.com
   - DOMAIN-SUFFIX,picpost.com
+  - DOMAIN-SUFFIX,picsart.com
   - DOMAIN-SUFFIX,pics.ee
   - DOMAIN-SUFFIX,picsee.co
   - DOMAIN-SUFFIX,picsee.pro
@@ -23867,6 +23873,8 @@ payload:
   - DOMAIN-SUFFIX,webtoons.com
   - DOMAIN-SUFFIX,webtoonscorp.com
   - DOMAIN-SUFFIX,webtype.com
+  - DOMAIN-SUFFIX,webvisor.com
+  - DOMAIN-SUFFIX,webvisor.org
   - DOMAIN-SUFFIX,webwarper.net
   - DOMAIN-SUFFIX,webworkerdaily.com
   - DOMAIN-SUFFIX,wechatlawsuit.com
@@ -24870,6 +24878,7 @@ payload:
   - DOMAIN-SUFFIX,yaddal.tv
   - DOMAIN-SUFFIX,yadi.sk
   - DOMAIN-SUFFIX,yadori.club
+  - DOMAIN-SUFFIX,yads.tech
   - DOMAIN-SUFFIX,yaeby.info
   - DOMAIN-SUFFIX,yaeby.pro
   - DOMAIN-SUFFIX,yahoo.ae
@@ -25065,12 +25074,14 @@ payload:
   - DOMAIN-SUFFIX,yandex.lt
   - DOMAIN-SUFFIX,yandex.lv
   - DOMAIN-SUFFIX,yandex.md
+  - DOMAIN-SUFFIX,yandexmetrica.com
   - DOMAIN-SUFFIX,yandex.net
   - DOMAIN-SUFFIX,yandex.org
   - DOMAIN-SUFFIX,yandex.pl
   - DOMAIN-SUFFIX,yandex.ru
   - DOMAIN-SUFFIX,yandex.st
   - DOMAIN-SUFFIX,yandex.sx
+  - DOMAIN-SUFFIX,yandex-team.ru
   - DOMAIN-SUFFIX,yandex.tj
   - DOMAIN-SUFFIX,yandex.tm
   - DOMAIN-SUFFIX,yandex.ua
@@ -25092,6 +25103,7 @@ payload:
   - DOMAIN-SUFFIX,yasarang.net
   - DOMAIN-SUFFIX,yasni.co.uk
   - DOMAIN-SUFFIX,yastatic.net
+  - DOMAIN-SUFFIX,yastat.net
   - DOMAIN-SUFFIX,yasukuni.or.jp
   - DOMAIN-SUFFIX,yavtube.com
   - DOMAIN-SUFFIX,yayabay.com
