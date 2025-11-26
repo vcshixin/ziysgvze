@@ -3448,7 +3448,6 @@ payload:
   - DOMAIN-SUFFIX,binancezh.sh
   - DOMAIN-SUFFIX,binancezh.top
   - DOMAIN-SUFFIX,bing123.com
-  - DOMAIN-SUFFIX,bingads.com
   - DOMAIN-SUFFIX,bingagencyawards.com
   - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,bingapistatistics.com
@@ -8070,7 +8069,6 @@ payload:
   - DOMAIN-SUFFIX,facebook30.net
   - DOMAIN-SUFFIX,facebook30.org
   - DOMAIN-SUFFIX,facebook4business.com
-  - DOMAIN-SUFFIX,facebookads.com
   - DOMAIN-SUFFIX,facebookadvertisingsecrets.com
   - DOMAIN-SUFFIX,facebookappcenter.info
   - DOMAIN-SUFFIX,facebookappcenter.net
@@ -14738,7 +14736,6 @@ payload:
   - DOMAIN-SUFFIX,microsoft365.com
   - DOMAIN-SUFFIX,microsoftaccountguard.com
   - DOMAIN-SUFFIX,microsoftadc.com
-  - DOMAIN-SUFFIX,microsoftads.com
   - DOMAIN-SUFFIX,microsoftadvertising.com
   - DOMAIN-SUFFIX,microsoftadvertisingregionalawards.com
   - DOMAIN-SUFFIX,microsoftaffiliates.com
@@ -15539,7 +15536,6 @@ payload:
   - DOMAIN-SUFFIX,mrvideosdesexo.xxx
   - DOMAIN-SUFFIX,ms365surfaceoffer.com
   - DOMAIN-SUFFIX,ms4dre.com
-  - DOMAIN-SUFFIX,msads.net
   - DOMAIN-SUFFIX,msa-it.org
   - DOMAIN-SUFFIX,msauth.net
   - DOMAIN-SUFFIX,mschallenge2018.com
@@ -19686,6 +19682,7 @@ payload:
   - DOMAIN-SUFFIX,sensualgirls.org
   - DOMAIN-SUFFIX,sensualmothers.com
   - DOMAIN-SUFFIX,sensueel.net
+  - DOMAIN-SUFFIX,sentry-cdn.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,senzuritv.net
   - DOMAIN-SUFFIX,seqing.one
