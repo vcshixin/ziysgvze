@@ -1165,6 +1165,7 @@ payload:
   - DOMAIN-SUFFIX,akow.org
   - DOMAIN-SUFFIX,ak-p.tripcdn.com
   - DOMAIN-SUFFIX,ak-s-cw.tripcdn.com
+  - DOMAIN-SUFFIX,akstat.io
   - DOMAIN-SUFFIX,ak-s.tripcdn.com
   - DOMAIN-SUFFIX,akthelp.com
   - DOMAIN-SUFFIX,alabout.com
@@ -25083,6 +25084,7 @@ payload:
   - DOMAIN-SUFFIX,yandex-team.ru
   - DOMAIN-SUFFIX,yandex.tj
   - DOMAIN-SUFFIX,yandex.tm
+  - DOMAIN-SUFFIX,yandex.tr
   - DOMAIN-SUFFIX,yandex.ua
   - DOMAIN-SUFFIX,yandex.uz
   - DOMAIN-SUFFIX,yandexwebcache.org
