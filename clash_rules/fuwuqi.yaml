@@ -3,8 +3,10 @@ payload:
   - IP-CIDR,47.79.37.249/24 #claw日本vps
   - IP-CIDR,142.171.83.26/24 #洛杉矶vps
   - IP-CIDR,64.181.250.108/24 #甲骨文圣何塞vps
-  - IP-CIDR,154.17.21.184/24 #dmit
+  - IP-CIDR,154.17.21.184/24 #dmit 
+  - DOMAIN-SUFFIX,vcuixb.de
   - DOMAIN-SUFFIX,vcuixb.top
   - DOMAIN-SUFFIX,vcuixb.eu.org
   - DOMAIN-SUFFIX,uianxi.eu.org
   - DOMAIN,dwh.yiandrive.com
+  
