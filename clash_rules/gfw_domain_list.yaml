@@ -494,6 +494,8 @@ payload:
   - DOMAIN-SUFFIX,7mmtv.sx
   - DOMAIN-SUFFIX,7mmtv.tv
   - DOMAIN-SUFFIX,7tb.cc
+  - DOMAIN-SUFFIX,7tv.app
+  - DOMAIN-SUFFIX,7tv.io
   - DOMAIN-SUFFIX,8008206616.com
   - DOMAIN-SUFFIX,8111y.top
   - DOMAIN-SUFFIX,81jia.tv
@@ -4773,6 +4775,7 @@ payload:
   - DOMAIN-SUFFIX,canon.ua
   - DOMAIN-SUFFIX,canon.uz
   - DOMAIN-SUFFIX,canva.com
+  - DOMAIN-SUFFIX,canvastatus.com
   - DOMAIN-SUFFIX,canyu.org
   - DOMAIN-SUFFIX,caobian.info
   - DOMAIN-SUFFIX,caochangqing.com
@@ -10416,6 +10419,8 @@ payload:
   - DOMAIN-SUFFIX,h528.com
   - DOMAIN-SUFFIX,h5dm.com
   - DOMAIN-SUFFIX,h5galgame.me
+  - DOMAIN-SUFFIX,habrastorage.org
+  - DOMAIN-SUFFIX,habr.com
   - DOMAIN-SUFFIX,hackday.com.au
   - DOMAIN-SUFFIX,hacken.cc
   - DOMAIN-SUFFIX,hackerfacebook.com
@@ -14693,6 +14698,7 @@ payload:
   - DOMAIN-SUFFIX,metacloud.com
   - DOMAIN-SUFFIX,meta.com
   - DOMAIN-SUFFIX,metacpan.org
+  - DOMAIN-SUFFIX,metacritic.com
   - DOMAIN-SUFFIX,metacubex.one
   - DOMAIN-SUFFIX,metafilter.com
   - DOMAIN-SUFFIX,metalpha.finance
@@ -19307,6 +19313,7 @@ payload:
   - DOMAIN-SUFFIX,rssmeme.com
   - DOMAIN-SUFFIX,rstatic.net
   - DOMAIN-SUFFIX,rtalabel.org
+  - DOMAIN-SUFFIX,rtbcdn.ru
   - DOMAIN-SUFFIX,rt.com
   - DOMAIN-SUFFIX,rthk.hk
   - DOMAIN-SUFFIX,rthklive2-lh.akamaihd.net
@@ -19359,6 +19366,7 @@ payload:
   - DOMAIN-SUFFIX,rutracker.org
   - DOMAIN-SUFFIX,rutrecker.net
   - DOMAIN-SUFFIX,rutrk.org
+  - DOMAIN-SUFFIX,rutubelist.ru
   - DOMAIN-SUFFIX,rutube.ru
   - DOMAIN-SUFFIX,ruvideos.net
   - DOMAIN-SUFFIX,rxhj.net
@@ -21458,6 +21466,7 @@ payload:
   - DOMAIN-SUFFIX,tellme.pw
   - DOMAIN-SUFFIX,tellmewhygame.com
   - DOMAIN-SUFFIX,temetube.xyz
+  - DOMAIN-SUFFIX,temp-mail.org
   - DOMAIN-SUFFIX,temu.com
   - DOMAIN-SUFFIX,tenacy.com
   - DOMAIN-SUFFIX,tenbyfotolia.com
@@ -22850,6 +22859,8 @@ payload:
   - DOMAIN-SUFFIX,vaultify.net
   - DOMAIN-SUFFIX,vaultproject.io
   - DOMAIN-SUFFIX,v-av.com
+  - DOMAIN-SUFFIX,vbcdn.com
+  - DOMAIN-SUFFIX,vbcdn.net
   - DOMAIN-SUFFIX,vbejeyv.shop
   - DOMAIN-SUFFIX,vcanedge.com
   - DOMAIN-SUFFIX,vce.com
@@ -23056,7 +23067,9 @@ payload:
   - DOMAIN-SUFFIX,viacomcbs.com
   - DOMAIN-SUFFIX,viacomcbspressexpress.com
   - DOMAIN-SUFFIX,viacom.com
+  - DOMAIN-SUFFIX,viber.co
   - DOMAIN-SUFFIX,viber.com
+  - DOMAIN-SUFFIX,viber.me
   - DOMAIN-SUFFIX,vica.info
   - DOMAIN-SUFFIX,victimsofcommunism.org
   - DOMAIN-SUFFIX,vidble.com
