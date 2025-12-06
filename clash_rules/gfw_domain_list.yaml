@@ -21936,7 +21936,10 @@ payload:
   - DOMAIN-SUFFIX,tiktokd.net
   - DOMAIN-SUFFIX,tiktokd.org
   - DOMAIN-SUFFIX,tiktokeu-cdn.com
+  - DOMAIN-SUFFIX,tiktokglobalshopv.com
+  - DOMAIN-SUFFIX,tiktokminis.us
   - DOMAIN-SUFFIX,tiktokrow-cdn.com
+  - DOMAIN-SUFFIX,tiktok-row.net
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,tiktokv.eu
   - DOMAIN-SUFFIX,tiktokv.us
@@ -25727,6 +25730,7 @@ payload:
   - DOMAIN-SUFFIX,zopim.com
   - DOMAIN-SUFFIX,zorglist.com
   - DOMAIN-SUFFIX,zorrovpn.com
+  - DOMAIN-SUFFIX,zotero.org
   - DOMAIN-SUFFIX,zozotown.com
   - DOMAIN-SUFFIX,zpn.im
   - DOMAIN-SUFFIX,zqqpwz.com
