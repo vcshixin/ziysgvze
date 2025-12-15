@@ -1,23 +1,5 @@
 payload:
-  - DOMAIN,emby.misakaf.org # MisakaF
-  - DOMAIN,stream1.misakaf.org # MisakaF
-  - DOMAIN,stream2.misakaf.org # MisakaF
-  - DOMAIN,stream3.misakaf.org # MisakaF
-  - DOMAIN,stream4.misakaf.org # MisakaF
-  - DOMAIN-SUFFIX,bangumi.ca
-  - DOMAIN-SUFFIX,789.123456.al
-  - DOMAIN-SUFFIX,micu.hk #micu公费服
-  - DOMAIN-SUFFIX,nubebelle.vip #云幕emby
-  - DOMAIN-SUFFIX,nubebelle.cn #云幕emby
   - DOMAIN,embyplus.org                       #emby纸片人
-  - DOMAIN-SUFFIX,gd.9521732.xyz           #纸片人Emby cloud自选反代
   - DOMAIN-SUFFIX,emby.wtf         #终点站emby大妹
-  - DOMAIN,film.ohhhh.org              # NMEmby
-  - DOMAIN,emby.aca.best              # ACA Emby
-  - DOMAIN,porn.aca.best             #  ACA Pron Emby
-  - DOMAIN,stream.ntrrr.top             # SYN Emby
-  - DOMAIN,e01.811920.xyz             # TDD Emby
-  - DOMAIN,free.xmsl.org           # 垃圾影音 - 中转线路
-  - DOMAIN,cf.emby.ml          # 垃圾影音 - CF线路
-  - DOMAIN,emby.pilipiliultra.top # PiliPili - 主线路
-  - DOMAIN,emby.pilipiliultra.com # PiliPili - CF路
+  - DOMAIN-SUFFIX,bangumi.ca         #nyamedia
+  - DOMAIN-SUFFIX,theluyuan.com        #linux.do 公益
