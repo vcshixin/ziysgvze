@@ -1,5 +1,6 @@
 payload:
-  - DOMAIN,embyplus.org                       #emby纸片人
+  - DOMAIN-SUFFIX,embyplus.org                       #emby纸片人
   - DOMAIN-SUFFIX,emby.wtf         #终点站emby大妹
   - DOMAIN-SUFFIX,bangumi.ca         #nyamedia
   - DOMAIN-SUFFIX,theluyuan.com        #linux.do 公益
+  - DOMAIN-SUFFIX,nijigem.by       #二次元emby
