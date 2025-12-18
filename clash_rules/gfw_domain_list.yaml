@@ -3493,6 +3493,7 @@ payload:
   - DOMAIN-SUFFIX,bisq.io
   - DOMAIN-SUFFIX,bisq.network
   - DOMAIN-SUFFIX,bisyoujyogyaruge.topaz.ne.jp
+  - DOMAIN-SUFFIX,bitbaby.com
   - DOMAIN-SUFFIX,bitballoon.com
   - DOMAIN-SUFFIX,bitbank.cc
   - DOMAIN-SUFFIX,bitbay.net
@@ -11757,6 +11758,7 @@ payload:
   - DOMAIN-SUFFIX,icuminside.com
   - DOMAIN-SUFFIX,icu-project.org
   - DOMAIN-SUFFIX,idarkdoll.com
+  - DOMAIN-SUFFIX,idcflare.com
   - DOMAIN-SUFFIX,ideal-teens.com
   - DOMAIN-SUFFIX,ideapocket.com
   - DOMAIN-SUFFIX,idea-server.com
