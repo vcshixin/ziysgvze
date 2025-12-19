@@ -2613,6 +2613,7 @@ payload:
   - DOMAIN-SUFFIX,awsbraket.com
   - DOMAIN-SUFFIX,aws.com
   - DOMAIN-SUFFIX,awscommandlineinterface.com
+  - DOMAIN-SUFFIX,aws.dev
   - DOMAIN-SUFFIX,awsedstart.com
   - DOMAIN-SUFFIX,awseducate.com
   - DOMAIN-SUFFIX,awseducate.net
