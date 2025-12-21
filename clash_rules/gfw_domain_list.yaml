@@ -6814,6 +6814,8 @@ payload:
   - DOMAIN-SUFFIX,dm-event.net
   - DOMAIN-SUFFIX,dmgmediaprivacy.co.uk
   - DOMAIN-SUFFIX,dmhy.org
+  - DOMAIN-SUFFIX,dmit.io
+  - DOMAIN-SUFFIX,dmit.sh
   - DOMAIN-SUFFIX,dml-lang.org
   - DOMAIN-SUFFIX,dmmapis.com
   - DOMAIN-SUFFIX,dmm.co.jp
@@ -7258,6 +7260,7 @@ payload:
   - DOMAIN-SUFFIX,dynu.net
   - DOMAIN-SUFFIX,dynupdate.no-ip.com
   - DOMAIN-SUFFIX,dysfz.cc
+  - DOMAIN-SUFFIX,dzcdn.net
   - DOMAIN-SUFFIX,dzeninfra.ru
   - DOMAIN-SUFFIX,dzen.ru
   - DOMAIN-SUFFIX,dzze.com
@@ -7736,6 +7739,7 @@ payload:
   - DOMAIN-SUFFIX,entrust.com
   - DOMAIN-SUFFIX,entrustdatacard.com
   - DOMAIN-SUFFIX,entrust.net
+  - DOMAIN-SUFFIX,eotarchive.org
   - DOMAIN-SUFFIX,epac.to
   - DOMAIN-SUFFIX,epicbrowser.com
   - DOMAIN-SUFFIX,epicgamescdn.com
@@ -9759,6 +9763,7 @@ payload:
   - DOMAIN-SUFFIX,ghettotube.com
   - DOMAIN-SUFFIX,ghidra-sre.org
   - DOMAIN-SUFFIX,gh.io
+  - DOMAIN-SUFFIX,ghostarchive.org
   - DOMAIN-SUFFIX,ghostgames.com
   - DOMAIN-SUFFIX,ghostpath.com
   - DOMAIN-SUFFIX,ghut.org
@@ -14760,6 +14765,7 @@ payload:
   - DOMAIN-SUFFIX,meme111.com
   - DOMAIN-SUFFIX,memealerts.com
   - DOMAIN-SUFFIX,memehk.com
+  - DOMAIN-SUFFIX,mementoweb.org
   - DOMAIN-SUFFIX,memes.tw
   - DOMAIN-SUFFIX,memrijttm.org
   - DOMAIN-SUFFIX,memri.org
@@ -17816,6 +17822,7 @@ payload:
   - DOMAIN-SUFFIX,perfecttitspics.com
   - DOMAIN-SUFFIX,periscope.tv
   - DOMAIN-SUFFIX,perl.org
+  - DOMAIN-SUFFIX,perma.cc
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,perplexity.com
   - DOMAIN-SUFFIX,persagg.com
@@ -24017,6 +24024,7 @@ payload:
   - DOMAIN-SUFFIX,webcams.tv
   - DOMAIN-SUFFIX,webcam-teen.net
   - DOMAIN-SUFFIX,webcamtubexxx.com
+  - DOMAIN-SUFFIX,webcitation.org
   - DOMAIN-SUFFIX,web.dev
   - DOMAIN-SUFFIX,webevader.org
   - DOMAIN-SUFFIX,webex.ca
