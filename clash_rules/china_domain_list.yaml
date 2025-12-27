@@ -21509,6 +21509,7 @@ payload:
   - DOMAIN-SUFFIX,chinaorganicchem.com
   - DOMAIN-SUFFIX,china-orientgroup.com
   - DOMAIN-SUFFIX,chinaorientgroup.com
+  - DOMAIN-SUFFIX,chinaott.com
   - DOMAIN-SUFFIX,chinaott.net
   - DOMAIN-SUFFIX,china-oulu.com
   - DOMAIN-SUFFIX,china-packcon.com
@@ -46182,8 +46183,10 @@ payload:
   - DOMAIN-SUFFIX,hikcreate.com
   - DOMAIN-SUFFIX,hikemobile.com
   - DOMAIN-SUFFIX,hikerfans.com
+  - DOMAIN-SUFFIX,hik-express.com
   - DOMAIN-SUFFIX,hikihj.com
   - DOMAIN-SUFFIX,hikinginternational.com
+  - DOMAIN-SUFFIX,hikiot.com
   - DOMAIN-SUFFIX,hiklife.com
   - DOMAIN-SUFFIX,hikmall.com
   - DOMAIN-SUFFIX,hikoon.com
