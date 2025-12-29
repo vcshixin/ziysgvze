@@ -2127,6 +2127,7 @@ payload:
   - DOMAIN-SUFFIX,archive.vn
   - DOMAIN-SUFFIX,archivx.to
   - DOMAIN-SUFFIX,archlinuxarm.org
+  - DOMAIN-SUFFIX,archlinuxcn.org
   - DOMAIN-SUFFIX,archlinux.org
   - DOMAIN-SUFFIX,arcraiders.com
   - DOMAIN-SUFFIX,arctosia.com
@@ -9917,6 +9918,7 @@ payload:
   - DOMAIN-SUFFIX,gockhuatviet.com
   - DOMAIN-SUFFIX,go.com
   - DOMAIN-SUFFIX,godaddy.com
+  - DOMAIN-SUFFIX,godbolt.org
   - DOMAIN-SUFFIX,go.dev
   - DOMAIN-SUFFIX,godfootsteps.org
   - DOMAIN-SUFFIX,go-disneyworldgo.com
