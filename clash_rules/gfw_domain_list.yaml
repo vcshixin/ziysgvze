@@ -2882,6 +2882,7 @@ payload:
   - DOMAIN-SUFFIX,bcbits.com
   - DOMAIN-SUFFIX,bcc.com.tw
   - DOMAIN-SUFFIX,bcchinese.net
+  - DOMAIN-SUFFIX,b-cdn.net
   - DOMAIN-SUFFIX,bcex.ca
   - DOMAIN-SUFFIX,bcicdn.com
   - DOMAIN-SUFFIX,bcmorning.com
@@ -4489,7 +4490,9 @@ payload:
   - DOMAIN-SUFFIX,bumptunes.com
   - DOMAIN-SUFFIX,bunbunhk.com
   - DOMAIN-SUFFIX,bunka.go.jp
+  - DOMAIN-SUFFIX,bunnycdn.com
   - DOMAIN-SUFFIX,bunnylust.com
+  - DOMAIN-SUFFIX,bunny.net
   - DOMAIN-SUFFIX,burningcamel.com
   - DOMAIN-SUFFIX,burstly.net
   - DOMAIN-SUFFIX,burstlyrewards.com
