@@ -1150,6 +1150,7 @@ payload:
   - DOMAIN-SUFFIX,aisex.com
   - DOMAIN-SUFFIX,aishegw.com
   - DOMAIN-SUFFIX,aiss.anws.gov.tw
+  - DOMAIN-SUFFIX,ai.studio
   - DOMAIN-SUFFIX,ait.org.tw
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiweiweiblog.com
@@ -17357,6 +17358,7 @@ payload:
   - DOMAIN-SUFFIX,onxxxtube.com
   - DOMAIN-SUFFIX,onxxxvideo.com
   - DOMAIN-SUFFIX,oojj.de
+  - DOMAIN-SUFFIX,ooni.io
   - DOMAIN-SUFFIX,ooni.org
   - DOMAIN-SUFFIX,ootbstudio.co.kr
   - DOMAIN-SUFFIX,op7979.com
@@ -19662,13 +19664,13 @@ payload:
   - DOMAIN-SUFFIX,rustup.rs
   - DOMAIN-SUFFIX,rusvpn.com
   - DOMAIN-SUFFIX,ruten.com.tw
+  - DOMAIN-SUFFIX,rutor.info
   - DOMAIN-SUFFIX,rutracker.cc
   - DOMAIN-SUFFIX,rutracker.cr
   - DOMAIN-SUFFIX,rutracker.me
   - DOMAIN-SUFFIX,rutracker.net
   - DOMAIN-SUFFIX,rutracker.nl
   - DOMAIN-SUFFIX,rutracker.org
-  - DOMAIN-SUFFIX,rutrecker.net
   - DOMAIN-SUFFIX,rutrk.org
   - DOMAIN-SUFFIX,rutubelist.ru
   - DOMAIN-SUFFIX,rutube.ru
@@ -24757,6 +24759,7 @@ payload:
   - DOMAIN-SUFFIX,xcafe.com
   - DOMAIN-SUFFIX,xcafe.in
   - DOMAIN-SUFFIX,xcams.com
+  - DOMAIN-SUFFIX,xcancel.com
   - DOMAIN-SUFFIX,x-caprice.com
   - DOMAIN-SUFFIX,xcg123.com
   - DOMAIN-SUFFIX,xchina.co
