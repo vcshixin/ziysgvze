@@ -5367,6 +5367,7 @@ payload:
   - DOMAIN-SUFFIX,chromeos.dev
   - DOMAIN-SUFFIX,chromestatus.com
   - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,chroniclesec.com
   - DOMAIN-SUFFIX,chronicle.security
   - DOMAIN-SUFFIX,cht.com.tw
@@ -12840,7 +12841,6 @@ payload:
   - DOMAIN-SUFFIX,issitedownrightnow.com
   - DOMAIN-SUFFIX,issquaredown.com
   - DOMAIN-SUFFIX,issquareup.com
-  - DOMAIN-SUFFIX,issues.chromium.org
   - DOMAIN-SUFFIX,issuu.com
   - DOMAIN-SUFFIX,istars.co.nz
   - DOMAIN-SUFFIX,istent.co.kr
@@ -16542,6 +16542,15 @@ payload:
   - DOMAIN-SUFFIX,nginx.com
   - DOMAIN-SUFFIX,nginxconfig.io
   - DOMAIN-SUFFIX,nginx.org
+  - DOMAIN-SUFFIX,ngrok.app
+  - DOMAIN-SUFFIX,ngrok.com
+  - DOMAIN-SUFFIX,ngrok.dev
+  - DOMAIN-SUFFIX,ngrok-free.app
+  - DOMAIN-SUFFIX,ngrok-free.dev
+  - DOMAIN-SUFFIX,ngrok-free.pizza
+  - DOMAIN-SUFFIX,ngrok.io
+  - DOMAIN-SUFFIX,ngrok.pizza
+  - DOMAIN-SUFFIX,ngrok.pro
   - DOMAIN-SUFFIX,nhentai.com
   - DOMAIN-SUFFIX,nhentaihaven.com
   - DOMAIN-SUFFIX,nhentaihaven.org
@@ -18063,6 +18072,8 @@ payload:
   - DOMAIN-SUFFIX,pingan.com.hk
   - DOMAIN-SUFFIX,ping.fm
   - DOMAIN-SUFFIX,pingguotv.xyz
+  - DOMAIN-SUFFIX,pinggy.io
+  - DOMAIN-SUFFIX,pinggy.link
   - DOMAIN-SUFFIX,ping.pe
   - DOMAIN-SUFFIX,ping.sx
   - DOMAIN-SUFFIX,pingxiangpuer.com
