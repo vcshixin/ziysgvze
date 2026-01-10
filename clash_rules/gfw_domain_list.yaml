@@ -673,7 +673,6 @@ payload:
   - DOMAIN-SUFFIX,aboutamazon.jp
   - DOMAIN-SUFFIX,aboutamazon.pl
   - DOMAIN-SUFFIX,aboutfacebook.com
-  - DOMAIN-SUFFIX,about.gitlab.com
   - DOMAIN-SUFFIX,aboutmcdonalds.com
   - DOMAIN-SUFFIX,about.me
   - DOMAIN-SUFFIX,aboutporno.net
@@ -5368,7 +5367,6 @@ payload:
   - DOMAIN-SUFFIX,chromeexperiments.com
   - DOMAIN-SUFFIX,chromeos.dev
   - DOMAIN-SUFFIX,chromestatus.com
-  - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,chroniclesec.com
   - DOMAIN-SUFFIX,chronicle.security
