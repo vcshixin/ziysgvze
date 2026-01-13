@@ -1,6 +1,5 @@
 payload:
-  - IP-CIDR,52.221.203.249/24 #miky新加坡vps
-  - IP-CIDR,47.79.37.249/24 #claw日本vps
+  - IP-CIDR,46.137.202.127/24 #miky新加坡vps
   - IP-CIDR,142.171.83.26/24 #洛杉矶vps
   - IP-CIDR,64.181.250.108/24 #甲骨文圣何塞vps
   - IP-CIDR,154.17.21.184/24 #dmit 
