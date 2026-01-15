@@ -20515,6 +20515,8 @@ payload:
   - DOMAIN-SUFFIX,sign.new
   - DOMAIN-SUFFIX,sigops.org
   - DOMAIN-SUFFIX,sigopt.com
+  - DOMAIN-SUFFIX,sih.app
+  - DOMAIN-SUFFIX,sih-db.com
   - DOMAIN-SUFFIX,sijihuisuo.club
   - DOMAIN-SUFFIX,sijihuisuo.com
   - DOMAIN-SUFFIX,sikiswap.com
@@ -21277,6 +21279,7 @@ payload:
   - DOMAIN-SUFFIX,steamdeck.com
   - DOMAIN-SUFFIX,steam.eca.qtlglb.com
   - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steaminventoryhelper.com
   - DOMAIN-SUFFIX,steamladder.com
   - DOMAIN-SUFFIX,steam.naeu.qtlglb.com
   - DOMAIN-SUFFIX,steamofporn.com
