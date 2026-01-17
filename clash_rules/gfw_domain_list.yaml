@@ -673,6 +673,7 @@ payload:
   - DOMAIN-SUFFIX,aboutamazon.jp
   - DOMAIN-SUFFIX,aboutamazon.pl
   - DOMAIN-SUFFIX,aboutfacebook.com
+  - DOMAIN-SUFFIX,about.gitlab.com
   - DOMAIN-SUFFIX,aboutmcdonalds.com
   - DOMAIN-SUFFIX,about.me
   - DOMAIN-SUFFIX,aboutporno.net
@@ -16945,16 +16946,20 @@ payload:
   - DOMAIN-SUFFIX,ntdimg.com
   - DOMAIN-SUFFIX,ntd.tv
   - DOMAIN-SUFFIX,ntdtv.ca
+  - DOMAIN-SUFFIX,ntdtv.co.il
   - DOMAIN-SUFFIX,ntdtv.co.kr
   - DOMAIN-SUFFIX,ntdtv.com
   - DOMAIN-SUFFIX,ntdtv.com.tw
   - DOMAIN-SUFFIX,ntdtv.cz
   - DOMAIN-SUFFIX,ntdtv-dc.com
+  - DOMAIN-SUFFIX,ntdtv.fr
   - DOMAIN-SUFFIX,ntdtv.jp
   - DOMAIN-SUFFIX,ntdtv.kr
   - DOMAIN-SUFFIX,ntdtvla.com
   - DOMAIN-SUFFIX,ntdtv.org
   - DOMAIN-SUFFIX,ntdtv.ru
+  - DOMAIN-SUFFIX,ntdtv.se
+  - DOMAIN-SUFFIX,ntdvideo.tw
   - DOMAIN-SUFFIX,ntdvn.com
   - DOMAIN-SUFFIX,ntnews.com.au
   - DOMAIN-SUFFIX,ntp0.ring.gr.jp
