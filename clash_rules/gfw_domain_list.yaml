@@ -4965,6 +4965,7 @@ payload:
   - DOMAIN-SUFFIX,castbox.fm
   - DOMAIN-SUFFIX,castingcouch-x.com
   - DOMAIN-SUFFIX,castro.fm
+  - DOMAIN-SUFFIX,cataboom.com
   - DOMAIN-SUFFIX,catalinacruz.com
   - DOMAIN-SUFFIX,catalina.hk
   - DOMAIN-SUFFIX,catbox.moe
@@ -5816,6 +5817,7 @@ payload:
   - DOMAIN-SUFFIX,conquerwithcharacter.com
   - DOMAIN-SUFFIX,conscrypt.com
   - DOMAIN-SUFFIX,conscrypt.org
+  - DOMAIN-SUFFIX,consentpro.com
   - DOMAIN-SUFFIX,constructware.com
   - DOMAIN-SUFFIX,consul.io
   - DOMAIN-SUFFIX,contactmagazine.net
@@ -17511,6 +17513,7 @@ payload:
   - DOMAIN-SUFFIX,orthopaedic-cadcam.com
   - DOMAIN-SUFFIX,orthotics-cadcam.com
   - DOMAIN-SUFFIX,osakamotion.net
+  - DOMAIN-SUFFIX,osano.com
   - DOMAIN-SUFFIX,osapublishing.org
   - DOMAIN-SUFFIX,osdn.net
   - DOMAIN-SUFFIX,osfoora.com
@@ -23102,6 +23105,7 @@ payload:
   - DOMAIN-SUFFIX,usenix.org
   - DOMAIN-SUFFIX,useplannr.com
   - DOMAIN-SUFFIX,userapi.com
+  - DOMAIN-SUFFIX,usercentrics.eu
   - DOMAIN-SUFFIX,usercontent.dev
   - DOMAIN-SUFFIX,usercontent.goog
   - DOMAIN-SUFFIX,userpxt.io
