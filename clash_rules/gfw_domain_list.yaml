@@ -9647,6 +9647,7 @@ payload:
   - DOMAIN-SUFFIX,geocities.com
   - DOMAIN-SUFFIX,geocities.jp
   - DOMAIN-SUFFIX,geodesummit.com
+  - DOMAIN-SUFFIX,geogebra.org
   - DOMAIN-SUFFIX,geolytics.com
   - DOMAIN-SUFFIX,geoport.com
   - DOMAIN-SUFFIX,geospatialimaging.com
@@ -24224,6 +24225,7 @@ payload:
   - DOMAIN-SUFFIX,wikidot.com
   - DOMAIN-SUFFIX,wikifeet.com
   - DOMAIN-SUFFIX,wiki.gamerp.jp
+  - DOMAIN-SUFFIX,wiki.gg
   - DOMAIN-SUFFIX,wikihow.com
   - DOMAIN-SUFFIX,wiki.jqueryui.com
   - DOMAIN-SUFFIX,wiki.keso.cn
@@ -24352,6 +24354,7 @@ payload:
   - DOMAIN-SUFFIX,wolfatbestbuy.com
   - DOMAIN-SUFFIX,wolfatbestbuy.net
   - DOMAIN-SUFFIX,wolfax.com
+  - DOMAIN-SUFFIX,wolframalpha.com
   - DOMAIN-SUFFIX,wolfsex-me.sbs
   - DOMAIN-SUFFIX,wolterskluwer.com
   - DOMAIN-SUFFIX,wombo.ai
