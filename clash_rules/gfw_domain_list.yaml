@@ -7684,6 +7684,8 @@ payload:
   - DOMAIN-SUFFIX,encrypt.me
   - DOMAIN-SUFFIX,encuentroscasualesoecuador.com
   - DOMAIN-SUFFIX,encyclopedia.com
+  - DOMAIN-SUFFIX,eneba.com
+  - DOMAIN-SUFFIX,eneba.games
   - DOMAIN-SUFFIX,enemabasics.com
   - DOMAIN-SUFFIX,enemaexperiences.com
   - DOMAIN-SUFFIX,enemahistory.com
@@ -17068,6 +17070,7 @@ payload:
   - DOMAIN-SUFFIX,okk.tw
   - DOMAIN-SUFFIX,okpool.me
   - DOMAIN-SUFFIX,ok.ru
+  - DOMAIN-SUFFIX,okx.cab
   - DOMAIN-SUFFIX,okx.com
   - DOMAIN-SUFFIX,okx-dns1.com
   - DOMAIN-SUFFIX,okx-dns2.com
