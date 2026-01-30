@@ -1,6 +1,5 @@
 payload:
   - IP-CIDR,46.137.202.127/24 #miky新加坡vps
-  - IP-CIDR,142.171.83.26/24 #洛杉矶vps
   - IP-CIDR,64.181.250.108/24 #甲骨文圣何塞vps
   - IP-CIDR,64.186.235.56/24 #dmit 
   - DOMAIN-SUFFIX,vcuixb.de
