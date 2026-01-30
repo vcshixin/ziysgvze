@@ -2295,7 +2295,9 @@ payload:
   - DOMAIN-SUFFIX,atlasdmt.com
   - DOMAIN-SUFFIX,atlasonepoint.com
   - DOMAIN-SUFFIX,atlassian.com
+  - DOMAIN-SUFFIX,atlassian-dev.net
   - DOMAIN-SUFFIX,atlassian.net
+  - DOMAIN-SUFFIX,atl-paas.net
   - DOMAIN-SUFFIX,atnext.com
   - DOMAIN-SUFFIX,atom.io
   - DOMAIN-SUFFIX,atos.net
@@ -8947,6 +8949,9 @@ payload:
   - DOMAIN-SUFFIX,fotolja.com
   - DOMAIN-SUFFIX,fotoscaserasx.com
   - DOMAIN-SUFFIX,foundationdb.org
+  - DOMAIN-SUFFIX,foundationdns.com
+  - DOMAIN-SUFFIX,foundationdns.net
+  - DOMAIN-SUFFIX,foundationdns.org
   - DOMAIN-SUFFIX,fountmedia.io
   - DOMAIN-SUFFIX,fourthinternational.org
   - DOMAIN-SUFFIX,fourthns.systems
@@ -13079,6 +13084,7 @@ payload:
   - DOMAIN-SUFFIX,jinrizhiyi.news
   - DOMAIN-SUFFIX,jintian.net
   - DOMAIN-SUFFIX,jinx.com
+  - DOMAIN-SUFFIX,jira.com
   - DOMAIN-SUFFIX,jitouch.com
   - DOMAIN-SUFFIX,jitsi.org
   - DOMAIN-SUFFIX,jiuse6666.com
@@ -20899,6 +20905,7 @@ payload:
   - DOMAIN-SUFFIX,sshs.club
   - DOMAIN-SUFFIX,sshs.pw
   - DOMAIN-SUFFIX,sshs.xyz
+  - DOMAIN-SUFFIX,ss-inf.net
   - DOMAIN-SUFFIX,ssl443.org
   - DOMAIN-SUFFIX,ssl-certificate.ch
   - DOMAIN-SUFFIX,ssl.com
