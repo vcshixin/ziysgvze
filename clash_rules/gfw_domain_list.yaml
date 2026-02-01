@@ -2855,6 +2855,7 @@ payload:
   - DOMAIN-SUFFIX,bbcmedia.co.uk
   - DOMAIN-SUFFIX,bbc.mp-pxcdn.com
   - DOMAIN-SUFFIX,bbc.net.uk
+  - DOMAIN-SUFFIX,bbc.pdn.tritondigital.com
   - DOMAIN-SUFFIX,bbcpersian.com
   - DOMAIN-SUFFIX,bbcpornonly.com
   - DOMAIN-SUFFIX,bbc-reporting-api.app
@@ -6193,6 +6194,7 @@ payload:
   - DOMAIN-SUFFIX,dcard.tw
   - DOMAIN-SUFFIX,d.cash
   - DOMAIN-SUFFIX,dcmilitary.com
+  - DOMAIN-SUFFIX,dcs-spotify.megaphone.fm
   - DOMAIN-SUFFIX,dctbeatsbydre.com
   - DOMAIN-SUFFIX,ddc.com.tw
   - DOMAIN-SUFFIX,ddd-smart.net
@@ -10735,6 +10737,7 @@ payload:
   - DOMAIN-SUFFIX,hellouk.org
   - DOMAIN-SUFFIX,hellporno.com
   - DOMAIN-SUFFIX,hellven.net
+  - DOMAIN-SUFFIX,help.byspotify.com
   - DOMAIN-SUFFIX,helpeachpeople.com
   - DOMAIN-SUFFIX,helpster.de
   - DOMAIN-SUFFIX,helpzhuling.org
@@ -14093,6 +14096,7 @@ payload:
   - DOMAIN-SUFFIX,lotcrap.com
   - DOMAIN-SUFFIX,lotsawahouse.org
   - DOMAIN-SUFFIX,lotuslight.org.tw
+  - DOMAIN-SUFFIX,louisvuitton.com
   - DOMAIN-SUFFIX,lovart.ai
   - DOMAIN-SUFFIX,love4porn.com
   - DOMAIN-SUFFIX,love6.tv
