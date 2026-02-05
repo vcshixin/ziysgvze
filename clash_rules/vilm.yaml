@@ -1,5 +1,6 @@
 payload:
   - IP-CIDR,47.100.138.113/24 #阿里云 
+  - DOMAIN-SUFFIX,uianxi.lol #绑定阿里的域名
   - DOMAIN-SUFFIX,ibm.com
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN-SUFFIX,steamserver.net # 用于判断用户所在地区分配下载CDN的地址
