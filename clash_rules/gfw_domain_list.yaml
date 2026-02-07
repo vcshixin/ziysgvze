@@ -3554,6 +3554,7 @@ payload:
   - DOMAIN-SUFFIX,bitstamp.net
   - DOMAIN-SUFFIX,bitstream.com
   - DOMAIN-SUFFIX,bitterwinter.org
+  - DOMAIN-SUFFIX,bittorrent.com
   - DOMAIN-SUFFIX,bittrex.com
   - DOMAIN-SUFFIX,bitvise.com
   - DOMAIN-SUFFIX,bitwarden.com
@@ -10743,6 +10744,7 @@ payload:
   - DOMAIN-SUFFIX,helpeachpeople.com
   - DOMAIN-SUFFIX,helpster.de
   - DOMAIN-SUFFIX,helpzhuling.org
+  - DOMAIN-SUFFIX,hembed.com
   - DOMAIN-SUFFIX,he.net
   - DOMAIN-SUFFIX,hentai01.com
   - DOMAIN-SUFFIX,hentai0.com
@@ -14406,6 +14408,8 @@ payload:
   - DOMAIN-SUFFIX,mantan-web.jp
   - DOMAIN-SUFFIX,mantochichi.com
   - DOMAIN-SUFFIX,manurefetish.com
+  - DOMAIN-SUFFIX,manuscdn.com
+  - DOMAIN-SUFFIX,manus.im
   - DOMAIN-SUFFIX,manytoon.com
   - DOMAIN-SUFFIX,manyvids.com
   - DOMAIN-SUFFIX,manyvoices.news
@@ -20440,6 +20444,7 @@ payload:
   - DOMAIN-SUFFIX,sketchbookpro.com
   - DOMAIN-SUFFIX,sketchfab.com
   - DOMAIN-SUFFIX,skillshare.com
+  - DOMAIN-SUFFIX,skills.sh
   - DOMAIN-SUFFIX,skimtube.com
   - DOMAIN-SUFFIX,skinstrip.net
   - DOMAIN-SUFFIX,skokka.com
@@ -22973,6 +22978,7 @@ payload:
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,v2fly.org
   - DOMAIN-SUFFIX,v2.help
+  - DOMAIN-SUFFIX,v2.hysteria.network
   - DOMAIN-SUFFIX,v2ph.com
   - DOMAIN-SUFFIX,v2raycn.com
   - DOMAIN-SUFFIX,v2ray.com
