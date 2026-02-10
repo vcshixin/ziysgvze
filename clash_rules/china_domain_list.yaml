@@ -28440,6 +28440,7 @@ payload:
   - DOMAIN-SUFFIX,ddcheshi.com
   - DOMAIN-SUFFIX,dd.ci
   - DOMAIN-SUFFIX,ddcits.com
+  - DOMAIN-SUFFIX,ddcorp.net
   - DOMAIN-SUFFIX,ddcsjw.com
   - DOMAIN-SUFFIX,ddcwl.com
   - DOMAIN-SUFFIX,dddazhe.com
@@ -28458,6 +28459,7 @@ payload:
   - DOMAIN-SUFFIX,d.design
   - DOMAIN-SUFFIX,ddfans.com
   - DOMAIN-SUFFIX,ddfchina.com
+  - DOMAIN-SUFFIX,ddfresh.net
   - DOMAIN-SUFFIX,ddfzb.com
   - DOMAIN-SUFFIX,ddgjjj.com
   - DOMAIN-SUFFIX,ddguanhuai.com
@@ -28484,7 +28486,9 @@ payload:
   - DOMAIN-SUFFIX,ddle.cc
   - DOMAIN-SUFFIX,ddlequ.com
   - DOMAIN-SUFFIX,dd.ma
+  - DOMAIN-SUFFIX,ddmaicai.net
   - DOMAIN-SUFFIX,ddmap.com
+  - DOMAIN-SUFFIX,ddmc.mobi
   - DOMAIN-SUFFIX,ddmer.com
   - DOMAIN-SUFFIX,ddmogo.com
   - DOMAIN-SUFFIX,ddnddn.com
@@ -52208,6 +52212,7 @@ payload:
   - DOMAIN-SUFFIX,imags-google.com
   - DOMAIN-SUFFIX,imahui.com
   - DOMAIN-SUFFIX,imaibo.net
+  - DOMAIN-SUFFIX,imaicai.mobi
   - DOMAIN-SUFFIX,imaijia.com
   - DOMAIN-SUFFIX,imaitu.com
   - DOMAIN-SUFFIX,imalljoy.com

@@ -5587,7 +5587,6 @@ payload:
   - DOMAIN-SUFFIX,cnet.com
   - DOMAIN-SUFFIX,cnet.de
   - DOMAIN-SUFFIX,cnetfrance.fr
-  - DOMAIN-SUFFIX,cnex.org.cn
   - DOMAIN-SUFFIX,cn.fmnnow.com
   - DOMAIN-SUFFIX,cn.freeones.com
   - DOMAIN-SUFFIX,cnineu.com
@@ -9754,6 +9753,7 @@ payload:
   - DOMAIN-SUFFIX,gettyimages.no
   - DOMAIN-SUFFIX,gettyimages.pt
   - DOMAIN-SUFFIX,gettyimages.se
+  - DOMAIN-SUFFIX,gettyimages.us
   - DOMAIN-SUFFIX,getuploader.com
   - DOMAIN-SUFFIX,getws1.com
   - DOMAIN-SUFFIX,getwsone.com
@@ -11626,6 +11626,7 @@ payload:
   - DOMAIN-SUFFIX,huobi.co
   - DOMAIN-SUFFIX,huobi.com
   - DOMAIN-SUFFIX,huobigroup.com
+  - DOMAIN-SUFFIX,huobi.li
   - DOMAIN-SUFFIX,huobi.me
   - DOMAIN-SUFFIX,huobipool.com
   - DOMAIN-SUFFIX,huobi.pro
@@ -25742,7 +25743,6 @@ payload:
   - DOMAIN-SUFFIX,zh.pokerstrategy.com
   - DOMAIN-SUFFIX,zh.pttpedia.wikia.com
   - DOMAIN-SUFFIX,zhtv01.com
-  - DOMAIN-SUFFIX,zhuanxing.cn
   - DOMAIN-SUFFIX,zhuatieba.com
   - DOMAIN-SUFFIX,zhuichaguoji.org
   - DOMAIN-SUFFIX,zh.uncyclopedia.wikia.com
