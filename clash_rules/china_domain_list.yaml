@@ -102309,6 +102309,7 @@ payload:
   - DOMAIN-SUFFIX,xhslink.com
   - DOMAIN-SUFFIX,xhslw.com
   - DOMAIN-SUFFIX,xhsmlt.com
+  - DOMAIN-SUFFIX,xhsrcdn.com
   - DOMAIN-SUFFIX,xhsrmyy.com
   - DOMAIN-SUFFIX,xhsxmt.com
   - DOMAIN-SUFFIX,xhsyqx.com
@@ -113114,6 +113115,7 @@ payload:
   - DOMAIN-SUFFIX,zhipianbang.vip
   - DOMAIN-SUFFIX,zhipin.com
   - DOMAIN-SUFFIX,zhipingke.com
+  - DOMAIN-SUFFIX,zhipucn.com
   - DOMAIN-SUFFIX,zhipuzi.com
   - DOMAIN-SUFFIX,zhiqiang.org
   - DOMAIN-SUFFIX,zhiqiapp.com
