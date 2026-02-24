@@ -4,3 +4,5 @@ payload:
   - DOMAIN,ys-l.ysepan.com  #虎码网盘下载
   - DOMAIN-SUFFIX,linux.do  #linux.do
   - DOMAIN-SUFFIX,oplist.org #openlist官方文档
+  - DOMAIN-SUFFIX,anyrouter.top #anyrouterapi公益站
+  - DOMAIN-SUFFIX,yckceo.com #阅读 源仓库
