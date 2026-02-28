@@ -23918,6 +23918,7 @@ payload:
   - DOMAIN-SUFFIX,yandex.tr
   - DOMAIN-SUFFIX,yandex.ua
   - DOMAIN-SUFFIX,yandex.uz
+  - DOMAIN-SUFFIX,yandexwebcache.net
   - DOMAIN-SUFFIX,yandexwebcache.org
   - DOMAIN-SUFFIX,yangzhi.org
   - DOMAIN-SUFFIX,yantaqu.com
