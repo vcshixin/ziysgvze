@@ -6755,6 +6755,7 @@ payload:
   - DOMAIN-SUFFIX,dowjoneson.com
   - DOMAIN-SUFFIX,download.aircrack-ng.org
   - DOMAIN-SUFFIX,download.com
+  - DOMAIN-SUFFIX,download.dappcdn.com
   - DOMAIN-SUFFIX,downloadpass.com
   - DOMAIN-SUFFIX,download.qatp1.net
   - DOMAIN-SUFFIX,downloadsforipod.com
@@ -17177,6 +17178,10 @@ payload:
   - DOMAIN-SUFFIX,pleasurebabe.com
   - DOMAIN-SUFFIX,pleasuregirl.net
   - DOMAIN-SUFFIX,pleasuremore.com
+  - DOMAIN-SUFFIX,plexapp.com
+  - DOMAIN-SUFFIX,plex.com
+  - DOMAIN-SUFFIX,plex.services
+  - DOMAIN-SUFFIX,plex.tv
   - DOMAIN-SUFFIX,plexvpn.pro
   - DOMAIN-SUFFIX,plos.org
   - DOMAIN-SUFFIX,plug.game
