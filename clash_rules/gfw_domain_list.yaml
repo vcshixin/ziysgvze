@@ -2112,6 +2112,7 @@ payload:
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,appmediagroup.com
   - DOMAIN-SUFFIX,appmedia.jp
+  - DOMAIN-SUFFIX,app-pay.jp
   - DOMAIN-SUFFIX,approvedusedbmw.com
   - DOMAIN-SUFFIX,apps5.oingo.com
   - DOMAIN-SUFFIX,apps.evozi.com
@@ -18627,6 +18628,7 @@ payload:
   - DOMAIN-SUFFIX,samsunggalaxyfriends.com
   - DOMAIN-SUFFIX,samsunghealth.com
   - DOMAIN-SUFFIX,samsungiotcloud.com
+  - DOMAIN-SUFFIX,samsungiots.com
   - DOMAIN-SUFFIX,samsungknox.com
   - DOMAIN-SUFFIX,samsungosp.com
   - DOMAIN-SUFFIX,samsungqbe.com
@@ -19480,6 +19482,7 @@ payload:
   - DOMAIN-SUFFIX,smartonesolutions.com.hk
   - DOMAIN-SUFFIX,smartonesolutions.hk
   - DOMAIN-SUFFIX,smartstream.ne.jp
+  - DOMAIN-SUFFIX,smartthings.com
   - DOMAIN-SUFFIX,smashed.xxx
   - DOMAIN-SUFFIX,smbc.co.jp
   - DOMAIN-SUFFIX,smbctb.co.jp
