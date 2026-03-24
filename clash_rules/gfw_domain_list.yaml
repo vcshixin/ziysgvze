@@ -16413,6 +16413,7 @@ payload:
   - DOMAIN-SUFFIX,openlibrary.org
   - DOMAIN-SUFFIX,openmaps.org
   - DOMAIN-SUFFIX,openreality.com
+  - DOMAIN-SUFFIX,openrec.tv
   - DOMAIN-SUFFIX,openresty.org
   - DOMAIN-SUFFIX,openreview.net
   - DOMAIN-SUFFIX,openrouter.ai
@@ -19858,6 +19859,7 @@ payload:
   - DOMAIN-SUFFIX,srebrenica360.com
   - DOMAIN-SUFFIX,s-rewards.hk
   - DOMAIN-SUFFIX,sr.ht
+  - DOMAIN-SUFFIX,s.rmimg.com
   - DOMAIN-SUFFIX,srtcdn.net
   - DOMAIN-SUFFIX,srttu.edu
   - DOMAIN-SUFFIX,ss2.us
