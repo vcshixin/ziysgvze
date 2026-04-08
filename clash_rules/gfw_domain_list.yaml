@@ -5723,6 +5723,7 @@ payload:
   - DOMAIN-SUFFIX,crackle.com
   - DOMAIN-SUFFIX,craigslist.org
   - DOMAIN-SUFFIX,crankplayer.com
+  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,crates.io
   - DOMAIN-SUFFIX,crazy-amateurs.com
   - DOMAIN-SUFFIX,crazyav.xyz
@@ -8484,7 +8485,6 @@ payload:
   - DOMAIN-SUFFIX,firebase.com
   - DOMAIN-SUFFIX,firebase.io
   - DOMAIN-SUFFIX,firebaseio.com
-  - DOMAIN-SUFFIX,firebase-settings.crashlytics.com
   - DOMAIN-SUFFIX,fireemblemawakening.com
   - DOMAIN-SUFFIX,fire-emblem-heroes.com
   - DOMAIN-SUFFIX,firefox.com
@@ -21846,7 +21846,6 @@ payload:
   - DOMAIN-SUFFIX,up01.cc
   - DOMAIN-SUFFIX,up.audio
   - DOMAIN-SUFFIX,upbit.com
-  - DOMAIN-SUFFIX,update.crashlytics.com
   - DOMAIN-SUFFIX,updates.tdesktop.com
   - DOMAIN-SUFFIX,updatetube.com
   - DOMAIN-SUFFIX,upfrontcfd.com
