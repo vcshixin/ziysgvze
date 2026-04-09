@@ -14169,7 +14169,6 @@ payload:
   - DOMAIN-SUFFIX,meetfasttrack.com
   - DOMAIN-SUFFIX,meet.new
   - DOMAIN-SUFFIX,meetsmartbook.com
-  - DOMAIN-SUFFIX,meetup.com
   - DOMAIN-SUFFIX,meetyourdevices.com
   - DOMAIN-SUFFIX,megacamz.com
   - DOMAIN-SUFFIX,mega.co.nz
@@ -18087,7 +18086,6 @@ payload:
   - DOMAIN-SUFFIX,python.com.tw
   - DOMAIN-SUFFIX,pythonhosted.org
   - DOMAIN-SUFFIX,python.org
-  - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,pzforever01.homes
   - DOMAIN-SUFFIX,pzforever.skin
   - DOMAIN-SUFFIX,pzhanfor.today
