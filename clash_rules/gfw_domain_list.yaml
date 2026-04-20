@@ -744,6 +744,7 @@ payload:
   - DOMAIN-SUFFIX,adgoogle.net
   - DOMAIN-SUFFIX,adguardaccount.com
   - DOMAIN-SUFFIX,adguard.app
+  - DOMAIN-SUFFIX,adguardcdn.com
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard-dns.com
   - DOMAIN-SUFFIX,adguard-dns.io
