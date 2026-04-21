@@ -14811,6 +14811,7 @@ payload:
   - DOMAIN-SUFFIX,mini.ma
   - DOMAIN-SUFFIX,minimarkham.ca
   - DOMAIN-SUFFIX,minimarkham.com
+  - DOMAIN-SUFFIX,minimax.io
   - DOMAIN-SUFFIX,mini.md
   - DOMAIN-SUFFIX,mini-me.com
   - DOMAIN-SUFFIX,minimoncton.ca
@@ -19270,6 +19271,7 @@ payload:
   - DOMAIN-SUFFIX,scolle.net
   - DOMAIN-SUFFIX,scoop.sh
   - DOMAIN-SUFFIX,scopus.com
+  - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,scoreclassics.com
   - DOMAIN-SUFFIX,scorediscounts.club
   - DOMAIN-SUFFIX,scoregroup.com
