@@ -6492,6 +6492,7 @@ payload:
   - DOMAIN-SUFFIX,digitalid.ch
   - DOMAIN-SUFFIX,digitalocean.com
   - DOMAIN-SUFFIX,digitaloceanspaces.com
+  - DOMAIN-SUFFIX,digitalocean-ui.com
   - DOMAIN-SUFFIX,digitalpack.com
   - DOMAIN-SUFFIX,digitalplayground.com
   - DOMAIN-SUFFIX,digitalplaygroundnetwork.com
@@ -19220,9 +19221,6 @@ payload:
   - DOMAIN-SUFFIX,sbti.unun.dev
   - DOMAIN-SUFFIX,sbuxcard.com
   - DOMAIN-SUFFIX,sbux.com.my
-  - DOMAIN-SUFFIX,scache1.vzw.com
-  - DOMAIN-SUFFIX,scache2.vzw.com
-  - DOMAIN-SUFFIX,scache.vzw.com
   - DOMAIN-SUFFIX,scala-lang.org
   - DOMAIN-SUFFIX,scala-sbt.org
   - DOMAIN-SUFFIX,scaleflex.com
@@ -20393,7 +20391,6 @@ payload:
   - DOMAIN-SUFFIX,srttu.edu
   - DOMAIN-SUFFIX,ss2.us
   - DOMAIN-SUFFIX,ss7.app
-  - DOMAIN-SUFFIX,ss7.vzw.com
   - DOMAIN-SUFFIX,ssdevrd.com
   - DOMAIN-SUFFIX,ssglobal.co
   - DOMAIN-SUFFIX,sshs.club
