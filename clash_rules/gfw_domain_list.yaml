@@ -1293,6 +1293,7 @@ payload:
   - DOMAIN-SUFFIX,alfabank.ru
   - DOMAIN-SUFFIX,alfabank.st
   - DOMAIN-SUFFIX,alfadirect.ru
+  - DOMAIN-SUFFIX,alfa.me
   - DOMAIN-SUFFIX,alfera.com.hk
   - DOMAIN-SUFFIX,alfera.com.my
   - DOMAIN-SUFFIX,alfera.in
@@ -15727,6 +15728,7 @@ payload:
   - DOMAIN-SUFFIX,mysql.com
   - DOMAIN-SUFFIX,mystrikingly.com
   - DOMAIN-SUFFIX,my-tbank.ru
+  - DOMAIN-SUFFIX,myteamspeak.com
   - DOMAIN-SUFFIX,myteenwebcam.com
   - DOMAIN-SUFFIX,mythicentertainment.com
   - DOMAIN-SUFFIX,mythicentertainment.net
@@ -21214,6 +21216,8 @@ payload:
   - DOMAIN-SUFFIX,teachparentstech.org
   - DOMAIN-SUFFIX,teamneedforspeed.com
   - DOMAIN-SUFFIX,teamskeet.com
+  - DOMAIN-SUFFIX,teamspeak.com
+  - DOMAIN-SUFFIX,teamspeak-services.com
   - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,teamviewer.us
   - DOMAIN-SUFFIX,tearapeak.com
