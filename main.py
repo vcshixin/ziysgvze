@@ -1,10 +1,7 @@
-import pandas as pd
 import requests
-import yaml
 import os
 import concurrent.futures
 import ipaddress
-from io import StringIO
 
 def is_ip_cidr(address):
     try:
@@ -21,17 +18,16 @@ def read_list_from_url(url):
     else:
         return None
 
-def parse_and_convert_to_clash(link):
-    lines = read_list_from_url(link)
-    if lines is None:
-        print(f"Failed to fetch data from {link}")
-        return None
+def clean_rules(lines):
+    return [
+        line.strip()
+        for line in lines
+        if line.strip() and not line.strip().startswith('#')
+    ]
 
+def parse_and_convert_to_clash(lines):
     clash_rules = []
-    for line in lines:
-        line = line.strip()
-        if not line or line.startswith('#'):
-            continue
+    for line in clean_rules(lines):
         if is_ip_cidr(line):
             clash_rules.append(f"  - IP-CIDR,{line}")
         else:
@@ -41,19 +37,40 @@ def parse_and_convert_to_clash(link):
 
 def process_link(link):
     try:
-        clash_rules = parse_and_convert_to_clash(link)
-        if clash_rules:
-            output_dir = "./clash_rules"
-            os.makedirs(output_dir, exist_ok=True)
-            file_name = os.path.join(output_dir, f"{os.path.basename(link).split('.')[0]}.yaml")
-            with open(file_name, 'w', encoding='utf-8') as output_file:
-                output_file.write("payload:\n")
-                output_file.write("\n".join(clash_rules))
-            print(f"Successfully processed {link}")
-            return file_name
+        lines = read_list_from_url(link)
+        if lines is None:
+            print(f"Failed to fetch data from {link}")
+            return []
+
+        rules = clean_rules(lines)
+        if not rules:
+            return []
+
+        output_dir = "./clash_rules"
+        os.makedirs(output_dir, exist_ok=True)
+        base_name = os.path.basename(link).split('.')[0]
+        generated_files = []
+
+        clash_rules = parse_and_convert_to_clash(lines)
+        yaml_file_name = os.path.join(output_dir, f"{base_name}.yaml")
+        with open(yaml_file_name, 'w', encoding='utf-8') as output_file:
+            output_file.write("payload:\n")
+            output_file.write("\n".join(clash_rules))
+        generated_files.append(yaml_file_name)
+
+        # IP 规则额外保留原始 CIDR 文本，供 mihomo ipcidr provider 和 sing-box 转换使用。
+        if all(is_ip_cidr(rule) for rule in rules):
+            txt_file_name = os.path.join(output_dir, f"{base_name}.txt")
+            with open(txt_file_name, 'w', encoding='utf-8') as output_file:
+                output_file.write("\n".join(rules))
+                output_file.write("\n")
+            generated_files.append(txt_file_name)
+
+        print(f"Successfully processed {link}")
+        return generated_files
     except Exception as e:
         print(f"Error processing {link}: {str(e)}")
-    return None
+    return []
 
 # 读取 links.txt 中的每个链接并生成对应的 YAML 文件
 with open("links.txt", 'r') as links_file:
@@ -62,9 +79,12 @@ with open("links.txt", 'r') as links_file:
 links = [l for l in links if l.strip() and not l.strip().startswith("#")]
 
 with concurrent.futures.ThreadPoolExecutor() as executor:
-    result_file_names = list(executor.map(process_link, links))
+    result_file_names = [
+        file_name
+        for file_names in executor.map(process_link, links)
+        for file_name in file_names
+    ]
 
-result_file_names = [f for f in result_file_names if f]
 print("Generated files:")
 for file_name in result_file_names:
     print(file_name)

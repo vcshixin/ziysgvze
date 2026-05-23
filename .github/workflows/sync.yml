@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pandas requests pyyaml
+        pip install requests
     - name: Run script
       run: python main.py
     - name: Commit and push updated rules
@@ -28,11 +28,12 @@ jobs:
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
         git add ./clash_rules/*.yaml
+        git add ./clash_rules/*.txt
         
         if git diff --staged --quiet; then
           echo "No changes to commit"
           exit 0
         else
-          git commit -m "Update Clash rules"
+          git commit -m "更新 Clash 规则"
           git push
         fi
