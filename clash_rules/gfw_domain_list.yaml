@@ -2299,6 +2299,7 @@ payload:
   - DOMAIN-SUFFIX,asmhentai.com
   - DOMAIN-SUFFIX,asminternational.org
   - DOMAIN-SUFFIX,asm.org
+  - DOMAIN-SUFFIX,as.mr
   - DOMAIN-SUFFIX,asmrbuluo.com
   - DOMAIN-SUFFIX,asmr.gay
   - DOMAIN-SUFFIX,asn-online.org
@@ -9473,6 +9474,7 @@ payload:
   - DOMAIN-SUFFIX,gemfire.net
   - DOMAIN-SUFFIX,gemfury.com
   - DOMAIN-SUFFIX,gemini.com
+  - DOMAIN-SUFFIX,gencraft.com
   - DOMAIN-SUFFIX,gendai.net
   - DOMAIN-SUFFIX,generated.photos
   - DOMAIN-SUFFIX,geneticconstructor.com
@@ -22720,6 +22722,7 @@ payload:
   - DOMAIN-SUFFIX,vdoav.com
   - DOMAIN-SUFFIX,vecchiescopate.casa
   - DOMAIN-SUFFIX,vector.im
+  - DOMAIN-SUFFIX,veed.io
   - DOMAIN-SUFFIX,veetarabia.com
   - DOMAIN-SUFFIX,veet.at
   - DOMAIN-SUFFIX,veetbangladesh.com
@@ -25104,7 +25107,6 @@ payload:
   - DOMAIN-SUFFIX,yhy.cool
   - DOMAIN-SUFFIX,yibaochina.com
   - DOMAIN-SUFFIX,yibei.org
-  - DOMAIN-SUFFIX,yidio.com
   - DOMAIN-SUFFIX,yigeni.com
   - DOMAIN-SUFFIX,yimg.com
   - DOMAIN-SUFFIX,yimg.jp
