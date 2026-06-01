@@ -6743,6 +6743,7 @@ payload:
   - DOMAIN-SUFFIX,disneytvajobs.com
   - DOMAIN-SUFFIX,disneyworld-go.com
   - DOMAIN-SUFFIX,disp.cc
+  - DOMAIN-SUFFIX,disq.us
   - DOMAIN-SUFFIX,disquscdn.com
   - DOMAIN-SUFFIX,disqus.com
   - DOMAIN-SUFFIX,disqusservice.com
@@ -24376,15 +24377,19 @@ payload:
   - DOMAIN-SUFFIX,xhamster18.com
   - DOMAIN-SUFFIX,xhamster18.desi
   - DOMAIN-SUFFIX,xhamster19.com
+  - DOMAIN-SUFFIX,xhamster2.com
   - DOMAIN-SUFFIX,xhamster3.com
   - DOMAIN-SUFFIX,xhamster.com
   - DOMAIN-SUFFIX,xhamster.desi
   - DOMAIN-SUFFIX,xhamsterlive.com
   - DOMAIN-SUFFIX,xhamster.xxx
   - DOMAIN-SUFFIX,xhcdn.com
+  - DOMAIN-SUFFIX,xhnews.live
   - DOMAIN-SUFFIX,xhot.pro
+  - DOMAIN-SUFFIX,xhpingcdn.com
   - DOMAIN-SUFFIX,xhpjc6-cdn-settings.appsflyersdk.com
   - DOMAIN-SUFFIX,xh-porn.com
+  - DOMAIN-SUFFIX,xhreal5.com
   - DOMAIN-SUFFIX,xhub.tv
   - DOMAIN-SUFFIX,xh.video
   - DOMAIN-SUFFIX,xiangrikui-app.com
