@@ -29677,6 +29677,7 @@ payload:
   - DOMAIN-SUFFIX,dingtalkcloud.com
   - DOMAIN-SUFFIX,dingtalk.co.jp
   - DOMAIN-SUFFIX,dingtalk.com
+  - DOMAIN-SUFFIX,dingtalkcs.com
   - DOMAIN-SUFFIX,dingtalk.net
   - DOMAIN-SUFFIX,dingteam.com
   - DOMAIN-SUFFIX,dingtoo.com
@@ -103585,6 +103586,7 @@ payload:
   - DOMAIN-SUFFIX,yaochufa.com
   - DOMAIN-SUFFIX,yao.com
   - DOMAIN-SUFFIX,yaocsoft.com
+  - DOMAIN-SUFFIX,yaodinongye.com
   - DOMAIN-SUFFIX,yaodou.net
   - DOMAIN-SUFFIX,yaodu365.com
   - DOMAIN-SUFFIX,yaoex.com
@@ -106271,6 +106273,7 @@ payload:
   - DOMAIN-SUFFIX,youxi528.com
   - DOMAIN-SUFFIX,youxi567.com
   - DOMAIN-SUFFIX,youxi8282.com
+  - DOMAIN-SUFFIX,youxi9527.com
   - DOMAIN-SUFFIX,youxiacg.com
   - DOMAIN-SUFFIX,youxia.com
   - DOMAIN-SUFFIX,youxiagushi.com
