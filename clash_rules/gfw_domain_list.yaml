@@ -672,6 +672,7 @@ payload:
   - DOMAIN-SUFFIX,accesspoint.uz
   - DOMAIN-SUFFIX,acces-vod.com
   - DOMAIN-SUFFIX,accomable.com
+  - DOMAIN-SUFFIX,accountboy.com
   - DOMAIN-SUFFIX,accountkit.com
   - DOMAIN-SUFFIX,accountpaypal.com
   - DOMAIN-SUFFIX,account-paypal.info
@@ -6546,6 +6547,7 @@ payload:
   - DOMAIN-SUFFIX,dexterhorn.com
   - DOMAIN-SUFFIX,dezyred.com
   - DOMAIN-SUFFIX,d-fukyu.com
+  - DOMAIN-SUFFIX,dfvpn.com
   - DOMAIN-SUFFIX,dgaqp.com
   - DOMAIN-SUFFIX,dgg.gg
   - DOMAIN-SUFFIX,dgwav.com
@@ -9437,6 +9439,7 @@ payload:
   - DOMAIN-SUFFIX,gamesstack.com
   - DOMAIN-SUFFIX,gametap.com
   - DOMAIN-SUFFIX,gameuxmasterguide.com
+  - DOMAIN-SUFFIX,gamewtb.com
   - DOMAIN-SUFFIX,gamez.com.tw
   - DOMAIN-SUFFIX,gaming-notebooks.com
   - DOMAIN-SUFFIX,gandhara.ru
@@ -9926,6 +9929,7 @@ payload:
   - DOMAIN-SUFFIX,gockhuatviet.com
   - DOMAIN-SUFFIX,go.com
   - DOMAIN-SUFFIX,godaddy.com
+  - DOMAIN-SUFFIX,godaddy.net
   - DOMAIN-SUFFIX,godbolt.org
   - DOMAIN-SUFFIX,go.dev
   - DOMAIN-SUFFIX,godfootsteps.org
@@ -21546,6 +21550,7 @@ payload:
   - DOMAIN-SUFFIX,tbcollege.org
   - DOMAIN-SUFFIX,tb-esim.ru
   - DOMAIN-SUFFIX,tbib.org
+  - DOMAIN-SUFFIX,tb.pro
   - DOMAIN-SUFFIX,tbr.tangbr.net
   - DOMAIN-SUFFIX,tbsec.org
   - DOMAIN-SUFFIX,tbsn.org
@@ -21968,6 +21973,7 @@ payload:
   - DOMAIN-SUFFIX,thumbzilla.com
   - DOMAIN-SUFFIX,thunderbird.net
   - DOMAIN-SUFFIX,thunderbolttechnology.net
+  - DOMAIN-SUFFIX,thundermail.com
   - DOMAIN-SUFFIX,thywords.com
   - DOMAIN-SUFFIX,thz7.net
   - DOMAIN-SUFFIX,thzu.cc
@@ -24500,6 +24506,7 @@ payload:
   - DOMAIN-SUFFIX,wrenchead.com
   - DOMAIN-SUFFIX,writesonic.com
   - DOMAIN-SUFFIX,ws-blau.com
+  - DOMAIN-SUFFIX,wsimg.com
   - DOMAIN-SUFFIX,wsjbarrons.com
   - DOMAIN-SUFFIX,wsj.com
   - DOMAIN-SUFFIX,wsj.jobs
@@ -24891,6 +24898,7 @@ payload:
   - DOMAIN-SUFFIX,xn--uis17aj9kmuf.com
   - DOMAIN-SUFFIX,xn--uis44a.xn--j6w193g
   - DOMAIN-SUFFIX,xn--urs05q.jp
+  - DOMAIN-SUFFIX,xn--vuqv2cf7wzyig79c.com
   - DOMAIN-SUFFIX,xn--wcv22d.hk
   - DOMAIN-SUFFIX,xn--wcv22d.xn--j6w193g
   - DOMAIN-SUFFIX,xn--wcvs22d1m.hk
