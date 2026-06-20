@@ -585,6 +585,7 @@ payload:
   - DOMAIN-SUFFIX,9nation.com.au
   - DOMAIN-SUFFIX,9news.com.au
   - DOMAIN-SUFFIX,9now.com.au
+  - DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com
   - DOMAIN-SUFFIX,9tak-nav.buzz
   - DOMAIN-SUFFIX,9to5google.com
   - DOMAIN-SUFFIX,9to5mac.com
@@ -1803,11 +1804,16 @@ payload:
   - DOMAIN-SUFFIX,apat1989.org
   - DOMAIN-SUFFIX,apexlegends.com
   - DOMAIN-SUFFIX,apexprint.com.hk
+  - DOMAIN-SUFFIX,api5.futunn.com
   - DOMAIN-SUFFIX,api.ai
   - DOMAIN-SUFFIX,apiary.io
   - DOMAIN-SUFFIX,apibay.org
   - DOMAIN-SUFFIX,api-extractor.com
+  - DOMAIN-SUFFIX,api.futunn.com
   - DOMAIN-SUFFIX,apigee.com
+  - DOMAIN-SUFFIX,api-gl.lbkrs.com
+  - DOMAIN-SUFFIX,api.lbkrs.com
+  - DOMAIN-SUFFIX,api.moomoobull.com
   - DOMAIN-SUFFIX,apina.biz
   - DOMAIN-SUFFIX,api.news
   - DOMAIN-SUFFIX,apiok.ru
@@ -3497,6 +3503,7 @@ payload:
   - DOMAIN-SUFFIX,bili2.cc
   - DOMAIN-SUFFIX,bili888.com
   - DOMAIN-SUFFIX,bili999.com
+  - DOMAIN-SUFFIX,bilinovel.com
   - DOMAIN-SUFFIX,biliplus.com
   - DOMAIN-SUFFIX,biliworld.com
   - DOMAIN-SUFFIX,billmelater.com
@@ -5032,6 +5039,7 @@ payload:
   - DOMAIN-SUFFIX,cdn.arstechnica.net
   - DOMAIN-SUFFIX,cdnblackmyth.club
   - DOMAIN-SUFFIX,cdn-cookieyes.com
+  - DOMAIN-SUFFIX,cdn.futustatic.com
   - DOMAIN-SUFFIX,cdn-images.mailchimp.com
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,cdnjs.com
@@ -5126,6 +5134,7 @@ payload:
   - DOMAIN-SUFFIX,cf-vanguard.com
   - DOMAIN-SUFFIX,cfwives.com
   - DOMAIN-SUFFIX,cgdepot.org
+  - DOMAIN-SUFFIX,cg.play-analytics.com
   - DOMAIN-SUFFIX,ch9.ms
   - DOMAIN-SUFFIX,chainid.network
   - DOMAIN-SUFFIX,championshipseriesleague.com
@@ -6986,6 +6995,7 @@ payload:
   - DOMAIN-SUFFIX,dowjoneson.com
   - DOMAIN-SUFFIX,download.com
   - DOMAIN-SUFFIX,download.dappcdn.com
+  - DOMAIN-SUFFIX,download.futunn.com
   - DOMAIN-SUFFIX,downloadpass.com
   - DOMAIN-SUFFIX,downloadsforipod.com
   - DOMAIN-SUFFIX,dpool.top
@@ -9353,9 +9363,21 @@ payload:
   - DOMAIN-SUFFIX,futanarihq.com
   - DOMAIN-SUFFIX,futhead.com
   - DOMAIN-SUFFIX,futpromos.com
+  - DOMAIN-SUFFIX,futu0.com
+  - DOMAIN-SUFFIX,futu1.com
+  - DOMAIN-SUFFIX,futu2.com
+  - DOMAIN-SUFFIX,futu3.com
+  - DOMAIN-SUFFIX,futu4.com
   - DOMAIN-SUFFIX,futu5.com
+  - DOMAIN-SUFFIX,futu6.com
+  - DOMAIN-SUFFIX,futu7.com
+  - DOMAIN-SUFFIX,futu8.com
+  - DOMAIN-SUFFIX,futu9.com
   - DOMAIN-SUFFIX,futuau.com
+  - DOMAIN-SUFFIX,futubull.cn
+  - DOMAIN-SUFFIX,futuchain.com
   - DOMAIN-SUFFIX,futu.cn
+  - DOMAIN-SUFFIX,futu.com
   - DOMAIN-SUFFIX,futuesop.com
   - DOMAIN-SUFFIX,futufin.com
   - DOMAIN-SUFFIX,futuhk1.com
@@ -9364,6 +9386,7 @@ payload:
   - DOMAIN-SUFFIX,futuhk.com
   - DOMAIN-SUFFIX,futuhn.com
   - DOMAIN-SUFFIX,futuholdings.com
+  - DOMAIN-SUFFIX,futuinc.com
   - DOMAIN-SUFFIX,futu.link
   - DOMAIN-SUFFIX,futunited.com
   - DOMAIN-SUFFIX,futuniuniu.com
@@ -9378,6 +9401,7 @@ payload:
   - DOMAIN-SUFFIX,futusg.com
   - DOMAIN-SUFFIX,futustatic.com
   - DOMAIN-SUFFIX,fututrade.com
+  - DOMAIN-SUFFIX,fututrustee.com
   - DOMAIN-SUFFIX,fuxporn.com
   - DOMAIN-SUFFIX,fuzokudx.com
   - DOMAIN-SUFFIX,fw.cm
@@ -14028,6 +14052,7 @@ payload:
   - DOMAIN-SUFFIX,longmabookcn.com
   - DOMAIN-SUFFIX,longmabook.com
   - DOMAIN-SUFFIX,longman.ch
+  - DOMAIN-SUFFIX,longportapp.cn
   - DOMAIN-SUFFIX,longportapp.com
   - DOMAIN-SUFFIX,longtailvideo.com
   - DOMAIN-SUFFIX,longtermly.net
@@ -17175,8 +17200,12 @@ payload:
   - DOMAIN-SUFFIX,opac-project.eu
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openamt.com
+  - DOMAIN-SUFFIX,openapi.futunn.com
+  - DOMAIN-SUFFIX,openapi.longbridge.com
   - DOMAIN-SUFFIX,openapiplatform.com
+  - DOMAIN-SUFFIX,openapi-quote.longbridge.com
   - DOMAIN-SUFFIX,openapiservice.com
+  - DOMAIN-SUFFIX,openapi-trade.longbridge.com
   - DOMAIN-SUFFIX,openart.ai
   - DOMAIN-SUFFIX,openbook.org.tw
   - DOMAIN-SUFFIX,opencas.io
@@ -18839,6 +18868,8 @@ payload:
   - DOMAIN-SUFFIX,qq.co.za
   - DOMAIN-SUFFIX,qr.ae
   - DOMAIN-SUFFIX,qstatus.com
+  - DOMAIN-SUFFIX,qtcardfthk.futufin.com
+  - DOMAIN-SUFFIX,qtcard.futunn.com
   - DOMAIN-SUFFIX,qt.io
   - DOMAIN-SUFFIX,qt-project.org
   - DOMAIN-SUFFIX,qtrac.eu
@@ -18906,6 +18937,7 @@ payload:
   - DOMAIN-SUFFIX,quoracdn.net
   - DOMAIN-SUFFIX,quora.com
   - DOMAIN-SUFFIX,quotable.com
+  - DOMAIN-SUFFIX,quote.longbridge.global
   - DOMAIN-SUFFIX,quovadisglobal.com
   - DOMAIN-SUFFIX,quran.com
   - DOMAIN-SUFFIX,qutebrowser.org
@@ -19778,6 +19810,7 @@ payload:
   - DOMAIN-SUFFIX,scholarpedia.org
   - DOMAIN-SUFFIX,schwabassetmanagement.com
   - DOMAIN-SUFFIX,schwab.com
+  - DOMAIN-SUFFIX,schwab.com.cn
   - DOMAIN-SUFFIX,schwab.com.hk
   - DOMAIN-SUFFIX,schwab.com.sg
   - DOMAIN-SUFFIX,schwab.co.uk
@@ -20154,6 +20187,7 @@ payload:
   - DOMAIN-SUFFIX,sg1lib.org
   - DOMAIN-SUFFIX,sgcheck.ru
   - DOMAIN-SUFFIX,sgp1.fun
+  - DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
   - DOMAIN-SUFFIX,sgr.com.br
   - DOMAIN-SUFFIX,sgspe.de
   - DOMAIN-SUFFIX,sgspt.buzz
@@ -20309,6 +20343,7 @@ payload:
   - DOMAIN-SUFFIX,shops-disney.com
   - DOMAIN-SUFFIX,shopspeedtv.com
   - DOMAIN-SUFFIX,shoptraivip.com
+  - DOMAIN-SUFFIX,shortconn.im.qcloud.com
   - DOMAIN-SUFFIX,shorturl.at
   - DOMAIN-SUFFIX,shotgridsoftware.com
   - DOMAIN-SUFFIX,shotgridstudio.com
@@ -21315,6 +21350,7 @@ payload:
   - DOMAIN-SUFFIX,supjav.com
   - DOMAIN-SUFFIX,supplybestjerseys.com
   - DOMAIN-SUFFIX,supportfacebook.com
+  - DOMAIN-SUFFIX,support.futunn.com
   - DOMAIN-SUFFIX,support-uber.com
   - DOMAIN-SUFFIX,supr.cl
   - DOMAIN-SUFFIX,supremacy.com
@@ -22043,6 +22079,10 @@ payload:
   - DOMAIN-SUFFIX,tiffany-towers.com
   - DOMAIN-SUFFIX,tigerbbs.cn
   - DOMAIN-SUFFIX,tigerbbs.com
+  - DOMAIN-SUFFIX,tigerbrokers.com
+  - DOMAIN-SUFFIX,tigerbrokers.net
+  - DOMAIN-SUFFIX,tigerbrokers.nz
+  - DOMAIN-SUFFIX,tigerfintech.com
   - DOMAIN-SUFFIX,tigervpn.com
   - DOMAIN-SUFFIX,tig-ol-bitties.live
   - DOMAIN-SUFFIX,tik-tokapi.com
@@ -22283,6 +22323,9 @@ payload:
   - DOMAIN-SUFFIX,tracker.gg
   - DOMAIN-SUFFIX,tracker.network
   - DOMAIN-SUFFIX,tracking-location.com
+  - DOMAIN-SUFFIX,trade.futunn.com
+  - DOMAIN-SUFFIX,trade.longportapp.com
+  - DOMAIN-SUFFIX,tradeup.com
   - DOMAIN-SUFFIX,tradevip1.com
   - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,trae.ai
@@ -25900,6 +25943,8 @@ payload:
   - DOMAIN-SUFFIX,zhengwunet.org
   - DOMAIN-SUFFIX,zhenxiang.biz
   - DOMAIN-SUFFIX,zh-hans.cfsh99.com
+  - DOMAIN-SUFFIX,zhijianfengyi.cn
+  - DOMAIN-SUFFIX,zhijianfengyi.com
   - DOMAIN-SUFFIX,zhimeishe888.com
   - DOMAIN-SUFFIX,zhizhu.top
   - DOMAIN-SUFFIX,zhongguo.ca
