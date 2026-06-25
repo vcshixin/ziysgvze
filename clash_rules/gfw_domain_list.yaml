@@ -9661,6 +9661,7 @@ payload:
   - DOMAIN-SUFFIX,getchu.com
   - DOMAIN-SUFFIX,getcloak.com
   - DOMAIN-SUFFIX,getcomposer.org
+  - DOMAIN-SUFFIX,get.dappcdn.com
   - DOMAIN-SUFFIX,get.dev
   - DOMAIN-SUFFIX,getdirect.tv
   - DOMAIN-SUFFIX,getdrebeatssale.com
