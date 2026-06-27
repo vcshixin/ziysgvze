@@ -7,5 +7,7 @@ payload:
   - DOMAIN-SUFFIX,anyrouter.top #anyrouterapi公益站
   - DOMAIN-SUFFIX,yckceo.com #阅读 源仓库
   - DOMAIN-SUFFIX,jiuuij.de5.net #Joverna公益站
-  - DOMAIN,api.ark717.com #x小鸡毛公益站
+  - DOMAIN,api.ark717.com #小鸡毛公益站
+  - DOMAIN,pool.ark717.com #小鸡毛公益站号池
+  - DOMAIN-SUFFIX,zxiaoruan.cn #ThatAPIg公益站
 
