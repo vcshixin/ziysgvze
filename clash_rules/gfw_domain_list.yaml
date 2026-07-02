@@ -3660,6 +3660,7 @@ payload:
   - DOMAIN-SUFFIX,blackstonespoliceservice.com
   - DOMAIN-SUFFIX,blacktowhite.net
   - DOMAIN-SUFFIX,blackvpn.com
+  - DOMAIN-SUFFIX,blanc.ru
   - DOMAIN-SUFFIX,blaoshi.cc
   - DOMAIN-SUFFIX,blast.io
   - DOMAIN-SUFFIX,blazor.net
@@ -4351,6 +4352,7 @@ payload:
   - DOMAIN-SUFFIX,boswp.com
   - DOMAIN-SUFFIX,botanwang.com
   - DOMAIN-SUFFIX,botframework.com
+  - DOMAIN-SUFFIX,botim.me
   - DOMAIN-SUFFIX,botmechanic.io
   - DOMAIN-SUFFIX,botorch.org
   - DOMAIN-SUFFIX,botstop.com
@@ -11192,6 +11194,9 @@ payload:
   - DOMAIN-SUFFIX,horizontal-llc.com
   - DOMAIN-SUFFIX,horizontal-systems.com
   - DOMAIN-SUFFIX,horizontalsystems.com
+  - DOMAIN-SUFFIX,hornetapp.com
+  - DOMAIN-SUFFIX,hornet.com
+  - DOMAIN-SUFFIX,hornetx.com
   - DOMAIN-SUFFIX,hornyasianmilfs.com
   - DOMAIN-SUFFIX,hornybitches.org
   - DOMAIN-SUFFIX,hornybutt.com
@@ -13939,6 +13944,7 @@ payload:
   - DOMAIN-SUFFIX,list.ru
   - DOMAIN-SUFFIX,li.taipei
   - DOMAIN-SUFFIX,litbus-anime.com
+  - DOMAIN-SUFFIX,litecoin.org
   - DOMAIN-SUFFIX,litenews.hk
   - DOMAIN-SUFFIX,literatumonline.com
   - DOMAIN-SUFFIX,literotica.com
@@ -16215,7 +16221,9 @@ payload:
   - DOMAIN-SUFFIX,netflixtechblog.com
   - DOMAIN-SUFFIX,netlify.app
   - DOMAIN-SUFFIX,netlify.com
+  - DOMAIN-SUFFIX,netlifydns.com
   - DOMAIN-SUFFIX,netlifystatus.com
+  - DOMAIN-SUFFIX,netlifyusercontent.com
   - DOMAIN-SUFFIX,netlock.hu
   - DOMAIN-SUFFIX,netme.cc
   - DOMAIN-SUFFIX,netname.com.br
@@ -16756,6 +16764,7 @@ payload:
   - DOMAIN-SUFFIX,ntdtv.se
   - DOMAIN-SUFFIX,ntdvideo.tw
   - DOMAIN-SUFFIX,ntdvn.com
+  - DOMAIN-SUFFIX,ntl.fyi
   - DOMAIN-SUFFIX,ntnews.com.au
   - DOMAIN-SUFFIX,ntp0.ring.gr.jp
   - DOMAIN-SUFFIX,ntp1.jst.mfeed.ad.jp
@@ -21654,6 +21663,7 @@ payload:
   - DOMAIN-SUFFIX,technogym.su
   - DOMAIN-SUFFIX,technologyandsociety.org
   - DOMAIN-SUFFIX,techradar.com
+  - DOMAIN-SUFFIX,techspot.com
   - DOMAIN-SUFFIX,techstreet.com
   - DOMAIN-SUFFIX,techtimes.com
   - DOMAIN-SUFFIX,techtudo.com
