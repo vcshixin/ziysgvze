@@ -2122,6 +2122,7 @@ payload:
   - DOMAIN-SUFFIX,applestore.sg
   - DOMAIN-SUFFIX,apple-store.wang
   - DOMAIN-SUFFIX,applestore.wang
+  - DOMAIN-SUFFIX,apple-studies.com
   - DOMAIN-SUFFIX,applesurveys.com
   - DOMAIN-SUFFIX,appleswift.com
   - DOMAIN-SUFFIX,appletaiwan.com
@@ -2374,6 +2375,7 @@ payload:
   - DOMAIN-SUFFIX,atlassian-dev.net
   - DOMAIN-SUFFIX,atlassian.net
   - DOMAIN-SUFFIX,atl-paas.net
+  - DOMAIN-SUFFIX,atmeta.com
   - DOMAIN-SUFFIX,atnext.com
   - DOMAIN-SUFFIX,atokara.jp
   - DOMAIN-SUFFIX,atom.io
@@ -2753,6 +2755,7 @@ payload:
   - DOMAIN-SUFFIX,aziani.com
   - DOMAIN-SUFFIX,azirevpn.com
   - DOMAIN-SUFFIX,aznude.com
+  - DOMAIN-SUFFIX,azure-api.net
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,azurecomcdn.net
   - DOMAIN-SUFFIX,azurecomm.net
@@ -2789,6 +2792,7 @@ payload:
   - DOMAIN-SUFFIX,azuresmartspaces.net
   - DOMAIN-SUFFIX,azure-sphere.com
   - DOMAIN-SUFFIX,azurestackvalidation.com
+  - DOMAIN-SUFFIX,azurestaticapps.net
   - DOMAIN-SUFFIX,azure-test.net
   - DOMAIN-SUFFIX,azurewebsites.net
   - DOMAIN-SUFFIX,b2c-digest.ru
