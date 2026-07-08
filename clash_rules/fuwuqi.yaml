@@ -1,5 +1,5 @@
 payload:
-  - IP-CIDR,13.250.11.28/24 #甲骨文圣何塞vps
+  - IP-CIDR,64.181.250.108/24 #甲骨文圣何塞vps
   - IP-CIDR,154.21.89.210/24 #dmit 
   - DOMAIN-SUFFIX,dxa.yiandrive.com #亿安云
   - DOMAIN-SUFFIX,vcuixb.de
