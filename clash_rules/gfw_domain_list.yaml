@@ -1297,7 +1297,6 @@ payload:
   - DOMAIN-SUFFIX,alefbank.com
   - DOMAIN-SUFFIX,alexa.com
   - DOMAIN-SUFFIX,alexanderstreet.com
-  - DOMAIN-SUFFIX,alfabank.oavdo.amc
   - DOMAIN-SUFFIX,alfabank.ru
   - DOMAIN-SUFFIX,alfabank.st
   - DOMAIN-SUFFIX,alfadirect.ru
@@ -5169,6 +5168,7 @@ payload:
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,chatgpt.site
   - DOMAIN-SUFFIX,chatgptvideob.buzz
   - DOMAIN-SUFFIX,chatgptvideo.xyz
   - DOMAIN-SUFFIX,chat.lmsys.org
@@ -13471,6 +13471,7 @@ payload:
   - DOMAIN-SUFFIX,khotruyentranhx.com
   - DOMAIN-SUFFIX,kichiku-doujinko.com
   - DOMAIN-SUFFIX,kichikuou.com
+  - DOMAIN-SUFFIX,kick.com
   - DOMAIN-SUFFIX,kickporn.com
   - DOMAIN-SUFFIX,kickshatchannel.com
   - DOMAIN-SUFFIX,kicksnike1.com
