@@ -4265,6 +4265,7 @@ payload:
   - DOMAIN-SUFFIX,bnn.co
   - DOMAIN-SUFFIX,bnrmetal.com
   - DOMAIN-SUFFIX,bntrace.com
+  - DOMAIN-SUFFIX,bnxz.net
   - DOMAIN-SUFFIX,boardreader.com
   - DOMAIN-SUFFIX,boboporn.com
   - DOMAIN-SUFFIX,boboporn.net
@@ -4712,6 +4713,7 @@ payload:
   - DOMAIN-SUFFIX,bypasscensorship.org
   - DOMAIN-SUFFIX,byrut.org
   - DOMAIN-SUFFIX,byspotify.com
+  - DOMAIN-SUFFIX,bystys.tech
   - DOMAIN-SUFFIX,bytedapm.com
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,bytick.com
@@ -13895,9 +13897,16 @@ payload:
   - DOMAIN-SUFFIX,lihkg.com
   - DOMAIN-SUFFIX,lihksnap.com
   - DOMAIN-SUFFIX,like.com
+  - DOMAIN-SUFFIX,likeeapp.ru
+  - DOMAIN-SUFFIX,likee.com
+  - DOMAIN-SUFFIX,likee.video
+  - DOMAIN-SUFFIX,likeevideo.com
+  - DOMAIN-SUFFIX,likeevideo.ru
   - DOMAIN-SUFFIX,likeseiyu.com
   - DOMAIN-SUFFIX,liketruyen.net
   - DOMAIN-SUFFIX,liketwice.com
+  - DOMAIN-SUFFIX,like.video
+  - DOMAIN-SUFFIX,like-video.com
   - DOMAIN-SUFFIX,likuoo.video
   - DOMAIN-SUFFIX,lilaoshibushinilaoshi.com
   - DOMAIN-SUFFIX,lilhumpers.com
@@ -17406,6 +17415,7 @@ payload:
   - DOMAIN-SUFFIX,owl.li
   - DOMAIN-SUFFIX,owltail.com
   - DOMAIN-SUFFIX,ow.ly
+  - DOMAIN-SUFFIX,owxd.xyz
   - DOMAIN-SUFFIX,oxfordaasc.com
   - DOMAIN-SUFFIX,oxfordartonline.com
   - DOMAIN-SUFFIX,oxfordbibliographies.com
@@ -23043,6 +23053,7 @@ payload:
   - DOMAIN-SUFFIX,uweb.ru
   - DOMAIN-SUFFIX,uwpcommunitytoolkit.com
   - DOMAIN-SUFFIX,uxthemes.com
+  - DOMAIN-SUFFIX,uxzw.club
   - DOMAIN-SUFFIX,uyghuraa.org
   - DOMAIN-SUFFIX,uyghuramerican.org
   - DOMAIN-SUFFIX,uyghurbiz.org
@@ -25907,6 +25918,7 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,ytn.co.kr
   - DOMAIN-SUFFIX,yuanming.net
+  - DOMAIN-SUFFIX,yucf.top
   - DOMAIN-SUFFIX,yuenuge113.xyz
   - DOMAIN-SUFFIX,yuenuge18.cc
   - DOMAIN-SUFFIX,yugioh-card.com
