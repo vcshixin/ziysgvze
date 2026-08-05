@@ -6293,6 +6293,8 @@ payload:
   - DOMAIN-SUFFIX,deepfreeze.tech
   - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepwiki.com
+  - DOMAIN-SUFFIX,deepwiki.org
   - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,definebabe.com
   - DOMAIN-SUFFIX,definefetish.com
@@ -8892,8 +8894,11 @@ payload:
   - DOMAIN-SUFFIX,fluidpreview.com
   - DOMAIN-SUFFIX,flutterapp.com
   - DOMAIN-SUFFIX,flutter.dev
+  - DOMAIN-SUFFIX,fly.dev
   - DOMAIN-SUFFIX,flyflv.com
   - DOMAIN-SUFFIX,flyingjizz.com
+  - DOMAIN-SUFFIX,fly.io
+  - DOMAIN-SUFFIX,flyio.net
   - DOMAIN-SUFFIX,flypool.org
   - DOMAIN-SUFFIX,flyvpn.com
   - DOMAIN-SUFFIX,flyyindh-cc.sbs
@@ -9913,6 +9918,7 @@ payload:
   - DOMAIN-SUFFIX,glasamerike.net
   - DOMAIN-SUFFIX,glass8.eu
   - DOMAIN-SUFFIX,gleline.com
+  - DOMAIN-SUFFIX,glitchwave.com
   - DOMAIN-SUFFIX,global.bing.com
   - DOMAIN-SUFFIX,globaledu.org
   - DOMAIN-SUFFIX,globaljihad.net
@@ -17481,6 +17487,7 @@ payload:
   - DOMAIN-SUFFIX,ozeex.com
   - DOMAIN-SUFFIX,ozodi.org
   - DOMAIN-SUFFIX,ozodlik.org
+  - DOMAIN-SUFFIX,ozon.app
   - DOMAIN-SUFFIX,ozon.by
   - DOMAIN-SUFFIX,ozoncamp.pro
   - DOMAIN-SUFFIX,ozoncard.ru
@@ -17494,9 +17501,11 @@ payload:
   - DOMAIN-SUFFIX,ozon-dostavka.ru
   - DOMAIN-SUFFIX,ozone.ru
   - DOMAIN-SUFFIX,ozon.express
+  - DOMAIN-SUFFIX,ozon.global
   - DOMAIN-SUFFIX,ozonglobalevents.com
   - DOMAIN-SUFFIX,ozon.kz
   - DOMAIN-SUFFIX,ozon.li
+  - DOMAIN-SUFFIX,ozon.market
   - DOMAIN-SUFFIX,ozonpartners.by
   - DOMAIN-SUFFIX,ozonpartners.ru
   - DOMAIN-SUFFIX,ozonrocet.by
@@ -19706,12 +19715,14 @@ payload:
   - DOMAIN-SUFFIX,rutrk.org
   - DOMAIN-SUFFIX,rutubelist.ru
   - DOMAIN-SUFFIX,rutube.ru
+  - DOMAIN-SUFFIX,rutube.sport
   - DOMAIN-SUFFIX,ruvideos.net
   - DOMAIN-SUFFIX,rwbautomation.ru
   - DOMAIN-SUFFIX,rwbautomation.tech
   - DOMAIN-SUFFIX,rwbgeo.ru
   - DOMAIN-SUFFIX,rwb.ru
   - DOMAIN-SUFFIX,rxhj.net
+  - DOMAIN-SUFFIX,rym.fm
   - DOMAIN-SUFFIX,ryokoyomiuri.co.jp
   - DOMAIN-SUFFIX,ryukyubank.co.jp
   - DOMAIN-SUFFIX,rzr.to
@@ -20752,6 +20763,7 @@ payload:
   - DOMAIN-SUFFIX,snk-corp.co.jp
   - DOMAIN-SUFFIX,snk-corp.info
   - DOMAIN-SUFFIX,snkplaymore.info
+  - DOMAIN-SUFFIX,snmc.io
   - DOMAIN-SUFFIX,snowcorp.com
   - DOMAIN-SUFFIX,snow.me
   - DOMAIN-SUFFIX,snowmiku.com
@@ -20818,6 +20830,8 @@ payload:
   - DOMAIN-SUFFIX,solveforx.com
   - DOMAIN-SUFFIX,solv.finance
   - DOMAIN-SUFFIX,somee.com
+  - DOMAIN-SUFFIX,sonematic.net
+  - DOMAIN-SUFFIX,sonemic.com
   - DOMAIN-SUFFIX,so-net.ne.jp
   - DOMAIN-SUFFIX,so-net.net.tw
   - DOMAIN-SUFFIX,songjianjun.com
