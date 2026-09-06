@@ -32,6 +32,8 @@ payload:
   - DOMAIN-SUFFIX,114bank.co.jp
   - DOMAIN-SUFFIX,119474.xyz
   - DOMAIN-SUFFIX,11jav.com
+  - DOMAIN-SUFFIX,123av.com
+  - DOMAIN-SUFFIX,123av.me
   - DOMAIN-SUFFIX,123bin.cc
   - DOMAIN-SUFFIX,123dapp.com
   - DOMAIN-SUFFIX,123dappipad.com
@@ -19624,6 +19626,7 @@ payload:
   - DOMAIN-SUFFIX,rockstargames.com
   - DOMAIN-SUFFIX,rockstarnorth.com
   - DOMAIN-SUFFIX,rockylinux.org
+  - DOMAIN-SUFFIX,roc-taiwan.org
   - DOMAIN-SUFFIX,rojo.com
   - DOMAIN-SUFFIX,roku.com
   - DOMAIN-SUFFIX,rokutime.com
@@ -19655,6 +19658,7 @@ payload:
   - DOMAIN-SUFFIX,roudaosp.cc
   - DOMAIN-SUFFIX,roughebonysex.com
   - DOMAIN-SUFFIX,roughman.net
+  - DOMAIN-SUFFIX,roushuwo.com
   - DOMAIN-SUFFIX,routerboard.com
   - DOMAIN-SUFFIX,routledgehandbooks.com
   - DOMAIN-SUFFIX,rou.video
@@ -21756,6 +21760,7 @@ payload:
   - DOMAIN-SUFFIX,taipeitimes.com
   - DOMAIN-SUFFIX,taisounds.com
   - DOMAIN-SUFFIX,taiwanadultexpo.com
+  - DOMAIN-SUFFIX,taiwanembassy.org
   - DOMAIN-SUFFIX,taiwanhot.net
   - DOMAIN-SUFFIX,taiwanjustice.net
   - DOMAIN-SUFFIX,taiwanncf.org.tw
@@ -24838,6 +24843,7 @@ payload:
   - DOMAIN-SUFFIX,wsjshop.com
   - DOMAIN-SUFFIX,wsjwine.com
   - DOMAIN-SUFFIX,ws-tcg.com
+  - DOMAIN-SUFFIX,wtfpass.com
   - DOMAIN-SUFFIX,wtfpeople.com
   - DOMAIN-SUFFIX,wtmobile.com
   - DOMAIN-SUFFIX,wto.org
