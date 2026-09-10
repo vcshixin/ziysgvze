@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "deeplx.vcuixb.eu.org"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "((GEOIP",
+        "apad.pro",
+        "bitdeer.ai",
+        "elysia.h-e.top",
+        "hybgzs.com",
+        "ibm.com",
+        "muyuan.do",
+        "plex.tv",
+        "steamserver.net",
+        "uianxi.lol",
+        "vx-cdn.com",
+        "vxtrans.com",
+        "yckceo.com"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "47.100.138.113/24"
+      ]
+    }
+  ]
+}

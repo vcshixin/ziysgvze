@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "dwh.yiandrive.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "dxa.yiandrive.com",
+        "uianxi.eu.org",
+        "vcuixb.de",
+        "vcuixb.eu.org",
+        "vcuixb.top"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "179.253.245.119/24",
+        "64.181.250.108/24"
+      ]
+    }
+  ]
+}

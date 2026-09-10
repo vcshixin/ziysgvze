@@ -1,39 +1,89 @@
-name: Rules Update
+name: Sync and Compile Rules
 
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'custom_rules/**'
+      - 'external_links.txt'
+      - 'build.py'
+      - '.github/workflows/sync.yml'
   workflow_dispatch:
   schedule:
-    - cron: '0 11 * * *'
+    - cron: '0 12 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python3
-      uses: actions/setup-python@v2
+    - name: Checkout repository
+      uses: actions/checkout@v4
       with:
-        python-version: 3.x
-    - name: Install dependencies
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Cache sing-box deb
+      id: cache-singbox
+      uses: actions/cache@v4
+      with:
+        path: /tmp/sing-box.deb
+        key: sing-box-1.10.0-alpha.27-amd64
+
+    - name: Setup sing-box CLI
+      env:
+        SING_BOX_DEB_URL: "https://github.com/SagerNet/sing-box/releases/download/v1.10.0-alpha.27/sing-box_1.10.0-alpha.27_linux_amd64.deb"
+      run: |
+        set -Eeuo pipefail
+        if [ ! -f /tmp/sing-box.deb ]; then
+          wget -O /tmp/sing-box.deb "$SING_BOX_DEB_URL"
+        fi
+        sudo dpkg -i /tmp/sing-box.deb
+        sing-box version
+
+    - name: Set up Python 3
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+
+    - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests
-    - name: Run script
-      run: python main.py
-    - name: Commit and push updated rules
+        pip install pyyaml
+
+    - name: Run Rule Build Engine & Self-Test
+      run: python build.py
+
+    - name: Commit and push rules
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git add ./clash_rules/*.yaml
-        git add ./clash_rules/*.txt
-        
+        set -Eeuo pipefail
+        git config user.email "action@github.com"
+        git config user.name "GitHub Action"
+
+        git add -A ./clash_rules ./rule || true
+
         if git diff --staged --quiet; then
-          echo "No changes to commit"
+          echo "No changes detected. Working tree clean."
           exit 0
-        else
-          git commit -m "更新 Clash 规则"
-          git push
         fi
+
+        git commit -m "Automated build: sync and compile rules"
+
+        for i in 1 2 3; do
+          git fetch origin main
+          if git pull --rebase origin main; then
+            if git push origin HEAD:main; then
+              echo "Push successfully completed!"
+              exit 0
+            fi
+          fi
+          echo "Push conflict, retrying $i..."
+          git rebase --abort 2>/dev/null || true
+          sleep 3
+        done
+
+        echo "Failed to push after retries"
+        exit 1

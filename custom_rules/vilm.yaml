@@ -1,0 +1,17 @@
+payload:
+  - IP-CIDR,47.100.138.113/24 #阿里云 
+  - DOMAIN-SUFFIX,uianxi.lol #绑定阿里的域名
+  - DOMAIN-SUFFIX,ibm.com
+  - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,steamserver.net # 用于判断用户所在地区分配下载CDN的地址
+  - AND,((GEOIP,CN),(DOMAIN,pitaya.bytedance.com)) # 此为抖音和TikTok共用域名，仅国外解析结果走代理
+  - DOMAIN-SUFFIX,vxtrans.com   #钛盘上传
+  - DOMAIN-SUFFIX,vx-cdn.com    #钛盘下载
+  - DOMAIN-SUFFIX,apad.pro  #dns
+  - DOMAIN-SUFFIX,yckceo.com  #源仓库
+  - DOMAIN,deeplx.vcuixb.eu.org   #deeplx
+  - DOMAIN-SUFFIX,bitdeer.ai    #bitdeer的api
+#  - DOMAIN-SUFFIX,linux.do  #linux.do
+  - DOMAIN-SUFFIX,elysia.h-e.top  #好用的claude公益站
+  - DOMAIN-SUFFIX,hybgzs.com        #黑与白公益站
+  - DOMAIN-SUFFIX,muyuan.do        #君の的公益

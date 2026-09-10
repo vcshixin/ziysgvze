@@ -1,0 +1,15 @@
+payload:
+  - DOMAIN-SUFFIX,69shuba.com                 #69书吧
+  - DOMAIN-SUFFIX,mangacopy.com   #拷贝漫画
+  - DOMAIN,ys-l.ysepan.com  #虎码网盘下载
+  - DOMAIN-SUFFIX,linux.do  #linux.do
+  - DOMAIN-SUFFIX,oplist.org #openlist官方文档
+  - DOMAIN-SUFFIX,anyrouter.top #anyrouterapi公益站
+  - DOMAIN-SUFFIX,yckceo.com #阅读 源仓库
+  - DOMAIN-SUFFIX,jiuuij.de5.net #Joverna公益站
+  - DOMAIN,api.ark717.com #小鸡毛公益站
+  - DOMAIN,pool.ark717.com #小鸡毛公益站号池
+  - DOMAIN-SUFFIX,zxiaoruan.cn #ThatAPIg公益站
+  - DOMAIN-SUFFIX,bgm.tv #bgm番剧
+  - DOMAIN-SUFFIX,opencode.ai #opencode
+  - DOMAIN-SUFFIX,llmhost.net #llmhost

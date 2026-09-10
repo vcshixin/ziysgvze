@@ -1,0 +1,28 @@
+# ==========================================
+# 外部公共规则源订阅列表 (External Sources)
+# 支持在 URL 尾部添加 #alias 自定义输出文件名
+# ==========================================
+
+# --- 基础中国与 GFW 规则源 (pmkol/easymosdns) ---
+https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_ip_list.txt
+https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
+https://raw.githubusercontent.com/pmkol/easymosdns/rules/gfw_ip_list.txt
+https://raw.githubusercontent.com/pmkol/easymosdns/rules/gfw_domain_list.txt
+
+# --- 应用与流媒体规则源 (blackmatrix7/ios_rule_script) ---
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownload/GameDownload.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
+
+# --- 专精全量海外 AI 代理规则 (VPSDance/ai-proxy-rules，纯海外，已排除国内AI) ---
+https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/main/rules/sing-box/global.json#ai-all

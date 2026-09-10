@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "bangumi.ca",
+        "emby.moe",
+        "emby.wtf",
+        "embyplus.org",
+        "nijigem.by",
+        "origamiart.uk",
+        "origmiart.uk",
+        "theluyuan.com"
+      ]
+    }
+  ]
+}

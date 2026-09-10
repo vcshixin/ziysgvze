@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "api.ark717.com",
+        "pool.ark717.com",
+        "ys-l.ysepan.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "69shuba.com",
+        "anyrouter.top",
+        "bgm.tv",
+        "jiuuij.de5.net",
+        "linux.do",
+        "llmhost.net",
+        "mangacopy.com",
+        "opencode.ai",
+        "oplist.org",
+        "yckceo.com",
+        "zxiaoruan.cn"
+      ]
+    }
+  ]
+}
