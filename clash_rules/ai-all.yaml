@@ -1,5 +1,7 @@
 payload:
+  - DOMAIN,ai.developer.meta.com
   - DOMAIN,ai.meta.com
+  - DOMAIN,aidemos.meta.com
   - DOMAIN,alkalicore-pa.clients6.google.com
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
   - DOMAIN,anthropic-com.ghost.io
@@ -26,11 +28,13 @@ payload:
   - DOMAIN,copilot-workspace.githubnext.com
   - DOMAIN,copilotprodattachments.blob.core.windows.net
   - DOMAIN,daily-cloudcode-pa.googleapis.com
+  - DOMAIN,developer.meta.com
   - DOMAIN,gateway.bingviz.microsoft.net
   - DOMAIN,gateway.bingviz.microsoftapp.net
   - DOMAIN,idetoolkits-hostedfiles.amazonaws.com
   - DOMAIN,idetoolkits.amazonwebservices.com
   - DOMAIN,in.appcenter.ms
+  - DOMAIN,llama.developer.meta.com
   - DOMAIN,location.microsoft.com
   - DOMAIN,notebooklm-pa.googleapis.com
   - DOMAIN,notebooklm.googleapis.com
@@ -193,6 +197,7 @@ payload:
   - DOMAIN-SUFFIX,leonardo.ai
   - DOMAIN-SUFFIX,lf3-static.bytednsdoc.com
   - DOMAIN-SUFFIX,llama.com
+  - DOMAIN-SUFFIX,llamameta.net
   - DOMAIN-SUFFIX,lmarena.ai
   - DOMAIN-SUFFIX,lmstudio.ai
   - DOMAIN-SUFFIX,lovable.dev
