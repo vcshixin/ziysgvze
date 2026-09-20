@@ -5,9 +5,9 @@
 Sing-box & Clash 统一规则构建引擎 V3
 特性:
   1. 纯海外 AI 规则全自动脱手 (排除国内百炼/通义/文心/DeepSeek/Kimi)
-  2. 顶级双源广告规则自动聚合 (Cats-Team/AdRules + TG-Twilight/秋风广告 深度去重合并)
-     - 统一标准产物: rule/category-ads-all.json, rule/category-ads-all.srs, clash_rules/category-ads-all.yaml
-     - 彻底废除旧版多余的 AdRules.* / adrules_domainset.* 冗余文件
+  2. 广告规则双源独立产出，不再合并为 category-ads-all
+     - 秋风: rule/awavenue.json, clash_rules/awavenue.yaml
+     - Cats-Team/AdRules: rule/adrules.json, clash_rules/adrules.yaml
   3. 智能内容感知 (Smart Diff Write): 内容不变不碰磁盘，杜绝 Git 脏提交
   4. 故障熔断保护 (Fail-Safe): 抓取异常时保留上一健康版本，绝不清空
   5. 自动化测试门禁 (Self-Test Suite): 关键规则与 SRS 完整性断言
@@ -73,7 +73,9 @@ stats = {
     "failed_links": [],
     "retained_count": 0,
     "total_rules": 0,
-    "ad_rules_count": 0
+    "ad_rules_count": 0,
+    "awavenue_count": 0,
+    "adrules_count": 0
 }
 stats_lock = threading.Lock()
 
@@ -303,84 +305,98 @@ def process_external_link(entry: str):
         stats["total_rules"] += len(parsed)
     print(f"  [+] External: {base_name} ({len(parsed)} rules)")
 
-def merge_and_build_ads():
+def write_ad_source(name: str, domains, suffixes, keywords) -> int:
+    domains = set(domains)
+    suffixes = set(suffixes)
+    keywords = set(keywords)
+    rules_list = []
+    if domains:
+        rules_list.append({"domain": sorted(domains)})
+    if suffixes:
+        rules_list.append({"domain_suffix": sorted(suffixes)})
+    if keywords:
+        rules_list.append({"domain_keyword": sorted(keywords)})
+    if not rules_list:
+        return 0
+
+    out_singbox = os.path.join(OUTPUT_SINGBOX_DIR, f"{name}.json")
+    out_clash = os.path.join(OUTPUT_CLASH_DIR, f"{name}.yaml")
+    json_str = json.dumps({"version": 2, "rules": rules_list}, ensure_ascii=False, indent=2) + "\n"
+    smart_write_file(out_singbox, json_str)
+
+    clash_parsed = []
+    for d in sorted(domains):
+        clash_parsed.append(('domain', d))
+    for s in sorted(suffixes):
+        clash_parsed.append(('domain_suffix', s))
+    for k in sorted(keywords):
+        clash_parsed.append(('domain_keyword', k))
+    smart_write_file(out_clash, render_clash_yaml(clash_parsed))
+    return len(domains) + len(suffixes) + len(keywords)
+
+
+def preserve_ad_source(name: str, reason: str) -> bool:
+    out_singbox = os.path.join(OUTPUT_SINGBOX_DIR, f"{name}.json")
+    out_clash = os.path.join(OUTPUT_CLASH_DIR, f"{name}.yaml")
+    if os.path.exists(out_singbox) and os.path.exists(out_clash):
+        print(f"  [!] Preserved previous {name} ({reason})")
+        stats["retained_count"] += 1
+        return True
+    print(f"  [-] Error: {name} unavailable ({reason})")
+    return False
+
+
+def build_separate_ads():
     """
-    自主双源聚合: Cats-Team/AdRules + TG-Twilight/秋风广告规则
-    唯一标准产出:
-      - rule/category-ads-all.json & rule/category-ads-all.srs
-      - clash_rules/category-ads-all.yaml
-    彻底不生成任何冗余的 AdRules.* / adrules_domainset.* 兼容文件
+    秋风(AWAvenue) 与 Cats-Team/AdRules 分开产出，不再合并。
+      - rule/awavenue.json, clash_rules/awavenue.yaml
+      - rule/adrules.json, clash_rules/adrules.yaml
     """
-    print("[*] Merging dual-source Ad blocking rules (Cats-Team + AWAvenue 秋风)...")
+    print("[*] Building separate ad rule sets (AWAvenue 秋风 + Cats-Team AdRules)...")
     url_cats = 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt'
     url_aw = 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Singbox.json'
 
-    cats_content = fetch_url(url_cats)
     aw_content = fetch_url(url_aw)
+    cats_content = fetch_url(url_cats)
 
-    out_singbox = os.path.join(OUTPUT_SINGBOX_DIR, "category-ads-all.json")
-    out_clash = os.path.join(OUTPUT_CLASH_DIR, "category-ads-all.yaml")
+    aw_domains, aw_suffixes, aw_keywords = set(), set(), set()
+    if aw_content:
+        try:
+            aw_json = json.loads(aw_content)
+            for r in aw_json.get('rules', []):
+                aw_domains.update(r.get('domain', []) or [])
+                aw_suffixes.update(r.get('domain_suffix', []) or [])
+                aw_keywords.update(r.get('domain_keyword', []) or [])
+        except Exception as e:
+            print(f"  [-] Warning: parsing AWAvenue json failed: {e}")
+            aw_content = ""
 
-    if not cats_content and not aw_content:
-        if os.path.exists(out_singbox):
-            print("  [!] Preserved previous category-ads-all (both ad sources fetch failed)")
-            stats["retained_count"] += 1
-            return
-        print("  [-] Error: Failed to fetch ad sources.")
-        return
+    if aw_domains or aw_suffixes or aw_keywords:
+        n = write_ad_source('awavenue', aw_domains, aw_suffixes, aw_keywords)
+        stats["awavenue_count"] = n
+        stats["ad_rules_count"] += n
+        stats["total_rules"] += n
+        print(f"  [✓] 秋风 awavenue: {n:,} rules")
+    else:
+        preserve_ad_source('awavenue', 'AWAvenue fetch/parse failed')
 
-    merged_suffixes = set()
-    merged_domains = set()
-    merged_keywords = set()
-
+    cats_suffixes = set()
     if cats_content:
         for line in cats_content.splitlines():
             line = line.strip()
             if line and not line.startswith('#'):
                 clean = line.lstrip('+.')
                 if clean:
-                    merged_suffixes.add(clean)
+                    cats_suffixes.add(clean)
 
-    if aw_content:
-        try:
-            aw_json = json.loads(aw_content)
-            for r in aw_json.get('rules', []):
-                merged_domains.update(r.get('domain', []))
-                merged_suffixes.update(r.get('domain_suffix', []))
-                merged_keywords.update(r.get('domain_keyword', []))
-        except Exception as e:
-            print(f"  [-] Warning: parsing AWAvenue json failed: {e}")
-
-    rules_list = []
-    if merged_domains:
-        rules_list.append({"domain": sorted(list(merged_domains))})
-    if merged_suffixes:
-        rules_list.append({"domain_suffix": sorted(list(merged_suffixes))})
-    if merged_keywords:
-        rules_list.append({"domain_keyword": sorted(list(merged_keywords))})
-
-    singbox_data = {
-        "version": 2,
-        "rules": rules_list
-    }
-    json_str = json.dumps(singbox_data, ensure_ascii=False, indent=2) + "\n"
-    smart_write_file(out_singbox, json_str)
-
-    clash_parsed = []
-    for d in merged_domains:
-        clash_parsed.append(('domain', d))
-    for s in merged_suffixes:
-        clash_parsed.append(('domain_suffix', s))
-    for k in merged_keywords:
-        clash_parsed.append(('domain_keyword', k))
-
-    yaml_str = render_clash_yaml(clash_parsed)
-    smart_write_file(out_clash, yaml_str)
-
-    total_ads = len(merged_domains) + len(merged_suffixes) + len(merged_keywords)
-    stats["ad_rules_count"] = total_ads
-    stats["total_rules"] += total_ads
-    print(f"  [✓] Unified category-ads-all: {total_ads:,} rules")
+    if cats_suffixes:
+        n = write_ad_source('adrules', set(), cats_suffixes, set())
+        stats["adrules_count"] = n
+        stats["ad_rules_count"] += n
+        stats["total_rules"] += n
+        print(f"  [✓] Cats-Team adrules: {n:,} rules")
+    else:
+        preserve_ad_source('adrules', 'Cats-Team fetch/parse failed')
 
 def clean_deprecated_files():
     """
@@ -394,6 +410,9 @@ def clean_deprecated_files():
         os.path.join(OUTPUT_SINGBOX_DIR, "AdRules.txt"),
         os.path.join(OUTPUT_SINGBOX_DIR, "adrules_domainset.json"),
         os.path.join(OUTPUT_SINGBOX_DIR, "adrules_domainset.srs"),
+        os.path.join(OUTPUT_CLASH_DIR, "category-ads-all.yaml"),
+        os.path.join(OUTPUT_SINGBOX_DIR, "category-ads-all.json"),
+        os.path.join(OUTPUT_SINGBOX_DIR, "category-ads-all.srs"),
     ]
     for p in deprecated:
         if os.path.exists(p):
@@ -431,7 +450,7 @@ def run_self_test():
     print("[*] Running automated verification & sanity checks...")
     print("="*50)
 
-    critical_rules = ['emby', 'ddli', 'vilm', 'nas', 'fuwuqi', 'ai-all', 'category-ads-all']
+    critical_rules = ['emby', 'ddli', 'vilm', 'nas', 'fuwuqi', 'ai-all', 'awavenue', 'adrules']
     for cr in critical_rules:
         json_file = os.path.join(OUTPUT_SINGBOX_DIR, f"{cr}.json")
         yaml_file = os.path.join(OUTPUT_CLASH_DIR, f"{cr}.yaml")
@@ -470,11 +489,15 @@ def run_self_test():
         assert "PROCESS-NAME,codex" in ai_yaml_content or "PROCESS-NAME,cursor" in ai_yaml_content, "ai-all.yaml missing PROCESS-NAME rules!"
         assert "DOMAIN-SUFFIX,cowork-svc.exe" not in ai_yaml_content, "ai-all.yaml wrongly mapped cowork-svc.exe as DOMAIN-SUFFIX!"
 
-    # 检查广告规则条目数
-    with open(os.path.join(OUTPUT_SINGBOX_DIR, "category-ads-all.json"), 'r', encoding='utf-8') as f:
-        ads_data = json.load(f)
-        total_ad_domains = sum(len(v) for r in ads_data.get('rules', []) for k, v in r.items())
-        assert total_ad_domains > 150000, f"Ad rules too few: {total_ad_domains}"
+    def _ad_count(name: str) -> int:
+        with open(os.path.join(OUTPUT_SINGBOX_DIR, f"{name}.json"), 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return sum(len(v) for r in data.get('rules', []) for k, v in r.items() if isinstance(v, list))
+
+    aw_n = _ad_count('awavenue')
+    cats_n = _ad_count('adrules')
+    assert aw_n > 500, f"秋风 awavenue too few: {aw_n}"
+    assert cats_n > 10000, f"Cats-Team adrules too few: {cats_n}"
 
     print("[✓] ALL SANITY CHECKS PASSED! Integrity 100% verified.")
 
@@ -491,7 +514,8 @@ def write_github_summary(duration: float, srs_count: int):
         f"- **⏱️ Total Build Time**: `{duration:.2f}s`",
         f"- **📦 Total Custom Rules**: `{stats['custom_count']}` sets",
         f"- **🌐 Total External Sources**: `{stats['external_count']}` sets",
-        f"- **🛡️ Unified Ad Block**: `{stats['ad_rules_count']:,}` rules (Cats-Team + 秋风)",
+        f"- **🛡️ 秋风 AWAvenue**: `{stats['awavenue_count']:,}` rules",
+        f"- **🛡️ Cats-Team AdRules**: `{stats['adrules_count']:,}` rules",
         f"- **⚙️ Compiled SRS Binaries**: `{srs_count}` files\n",
         "### 📊 Artifacts Breakdown\n",
         f"| Directory | Format | Total Files |",
@@ -525,8 +549,8 @@ def main():
                 except Exception as e:
                     print(f"[-] Worker error: {e}")
 
-    # 3. 自主双源合并构建广告拦截规则 (唯一产出: category-ads-all)
-    merge_and_build_ads()
+    # 3. 秋风 / Cats-Team 广告规则分开产出，不合并
+    build_separate_ads()
 
     # 4. 清理废弃的旧版 AdRules / adrules_domainset 文件
     clean_deprecated_files()
