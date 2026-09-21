@@ -152,6 +152,7 @@ payload:
   - DOMAIN-SUFFIX,firefly.adobe.io
   - DOMAIN-SUFFIX,fireworks.ai
   - DOMAIN-SUFFIX,flow.google
+  - DOMAIN-SUFFIX,flow.google.com
   - DOMAIN-SUFFIX,gamma.app
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,gemini.google
@@ -216,6 +217,7 @@ payload:
   - DOMAIN-SUFFIX,modelcontextprotocol.net
   - DOMAIN-SUFFIX,modelcontextprotocol.org
   - DOMAIN-SUFFIX,muthos.com
+  - DOMAIN-SUFFIX,notebook.google
   - DOMAIN-SUFFIX,notebook.google.com
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
