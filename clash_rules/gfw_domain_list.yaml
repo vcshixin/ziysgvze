@@ -5361,6 +5361,7 @@ payload:
   - DOMAIN-SUFFIX,chinesen.de
   - DOMAIN-SUFFIX,chinesenews.net.au
   - DOMAIN-SUFFIX,chinese-porn-videos.com
+  - DOMAIN-SUFFIX,chineseposters.net
   - DOMAIN-SUFFIX,chineseradioseattle.com
   - DOMAIN-SUFFIX,chinesespanking.com
   - DOMAIN-SUFFIX,chineseupress.com
@@ -16850,6 +16851,7 @@ payload:
   - DOMAIN-SUFFIX,norsk.mobi
   - DOMAIN-SUFFIX,norton.com
   - DOMAIN-SUFFIX,nos.nl
+  - DOMAIN-SUFFIX,note.com
   - DOMAIN-SUFFIX,notegpt.io
   - DOMAIN-SUFFIX,notepad-plus-plus.org
   - DOMAIN-SUFFIX,noticias-rt.com
