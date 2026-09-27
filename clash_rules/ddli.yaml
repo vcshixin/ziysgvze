@@ -13,3 +13,4 @@ payload:
   - DOMAIN-SUFFIX,bgm.tv #bgm番剧
   - DOMAIN-SUFFIX,opencode.ai #opencode
   - DOMAIN-SUFFIX,llmhost.net #llmhost
+  - DOMAIN,api.elevenlabs.io #elevenlabs

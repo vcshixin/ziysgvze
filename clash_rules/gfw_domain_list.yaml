@@ -5181,6 +5181,7 @@ payload:
   - DOMAIN-SUFFIX,cf-vanguard.com
   - DOMAIN-SUFFIX,cfwives.com
   - DOMAIN-SUFFIX,cgdepot.org
+  - DOMAIN-SUFFIX,c.go-mpulse.net
   - DOMAIN-SUFFIX,cg.play-analytics.com
   - DOMAIN-SUFFIX,ch9.ms
   - DOMAIN-SUFFIX,chainid.network
@@ -23334,6 +23335,7 @@ payload:
   - DOMAIN-SUFFIX,vaultify.info
   - DOMAIN-SUFFIX,vaultify.net
   - DOMAIN-SUFFIX,vaultproject.io
+  - DOMAIN-SUFFIX,vava8.com
   - DOMAIN-SUFFIX,v-av.com
   - DOMAIN-SUFFIX,vbcdn.com
   - DOMAIN-SUFFIX,vbcdn.net
