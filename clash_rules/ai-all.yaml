@@ -31,6 +31,8 @@ payload:
   - DOMAIN,developer.meta.com
   - DOMAIN,gateway.bingviz.microsoft.net
   - DOMAIN,gateway.bingviz.microsoftapp.net
+  - DOMAIN,geminiweb-pa.clients.google.com
+  - DOMAIN,geminiweb-pa.clients6.google.com
   - DOMAIN,idetoolkits-hostedfiles.amazonaws.com
   - DOMAIN,idetoolkits.amazonwebservices.com
   - DOMAIN,in.appcenter.ms
@@ -191,6 +193,7 @@ payload:
   - DOMAIN-SUFFIX,kiro.dev
   - DOMAIN-SUFFIX,labs.google
   - DOMAIN-SUFFIX,labs.google.com
+  - DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
   - DOMAIN-SUFFIX,langchain.com
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,lcicat.org
@@ -210,12 +213,14 @@ payload:
   - DOMAIN-SUFFIX,marscode.com
   - DOMAIN-SUFFIX,mcpservertest.online
   - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,metaaivm.com
   - DOMAIN-SUFFIX,midjourney.com
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,modelcontextprotocol.com
   - DOMAIN-SUFFIX,modelcontextprotocol.io
   - DOMAIN-SUFFIX,modelcontextprotocol.net
   - DOMAIN-SUFFIX,modelcontextprotocol.org
+  - DOMAIN-SUFFIX,muse.ai
   - DOMAIN-SUFFIX,muthos.com
   - DOMAIN-SUFFIX,notebook.google
   - DOMAIN-SUFFIX,notebook.google.com
