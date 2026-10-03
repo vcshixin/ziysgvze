@@ -105,6 +105,7 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.app
   - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claude.dev
   - DOMAIN-SUFFIX,claude.new
   - DOMAIN-SUFFIX,claude.site
   - DOMAIN-SUFFIX,claudemcpclient.com

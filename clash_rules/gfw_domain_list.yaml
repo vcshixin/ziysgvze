@@ -5522,6 +5522,7 @@ payload:
   - DOMAIN-SUFFIX,clau.de
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claude.dev
   - DOMAIN-SUFFIX,claudemcpclient.com
   - DOMAIN-SUFFIX,claudemcpcontent.com
   - DOMAIN-SUFFIX,claudeusercontent.com
@@ -20669,6 +20670,7 @@ payload:
   - DOMAIN-SUFFIX,sing68.com
   - DOMAIN-SUFFIX,singaporepools.com.sg
   - DOMAIN-SUFFIX,sing-box.app
+  - DOMAIN-SUFFIX,sing-box.sagernet.org
   - DOMAIN-SUFFIX,singlelogin.app
   - DOMAIN-SUFFIX,singlelogin.me
   - DOMAIN-SUFFIX,singlelogin.re
