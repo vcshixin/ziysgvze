@@ -14,3 +14,4 @@ payload:
   - DOMAIN-SUFFIX,opencode.ai #opencode
   - DOMAIN-SUFFIX,llmhost.net #llmhost
   - DOMAIN,api.elevenlabs.io #elevenlabs
+  - DOMAIN,ycoo.net #源论坛
