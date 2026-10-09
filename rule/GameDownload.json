@@ -31,10 +31,12 @@
         "steam.eca.qtlglb.com",
         "steam.naeu.qtlglb.com",
         "steam.ru.qtlglb.com",
+        "steambroadcast.akamaized.net",
         "steampipe-kr.akamaized.net",
         "steampipe-partner.akamaized.net",
         "steampipe.akamaized.net",
         "steamusercontent-a.akamaihd.net",
+        "steamvideo.akamaized.net",
         "uplaypc-s-ubisoft.cdn.ubionline.com.cn",
         "us.cdn.blizzard.com",
         "xvcf1.xboxlive.com",
@@ -43,8 +45,18 @@
     },
     {
       "domain_suffix": [
+        "arkdedicated.com",
+        "cdn.modrinth.com",
         "cdn.ubi.com",
+        "cursecdn.com",
         "dyn.riotcdn.net",
+        "edge.forgecdn.net",
+        "forgecdn.net",
+        "mediafilez.forgecdn.net",
+        "modrinth.com",
+        "nexus-cdn.com",
+        "nexusmods.com",
+        "overwolf.com",
         "steamcontent.com"
       ]
     }

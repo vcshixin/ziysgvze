@@ -38,3 +38,15 @@ payload:
   - DOMAIN-SUFFIX,cdn.ubi.com
   - DOMAIN-SUFFIX,dyn.riotcdn.net
   - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,forgecdn.net
+  - DOMAIN-SUFFIX,mediafilez.forgecdn.net
+  - DOMAIN-SUFFIX,edge.forgecdn.net
+  - DOMAIN-SUFFIX,cursecdn.com
+  - DOMAIN-SUFFIX,overwolf.com
+  - DOMAIN-SUFFIX,arkdedicated.com
+  - DOMAIN-SUFFIX,nexusmods.com
+  - DOMAIN-SUFFIX,nexus-cdn.com
+  - DOMAIN-SUFFIX,modrinth.com
+  - DOMAIN-SUFFIX,cdn.modrinth.com
+  - DOMAIN,steambroadcast.akamaized.net
+  - DOMAIN,steamvideo.akamaized.net
