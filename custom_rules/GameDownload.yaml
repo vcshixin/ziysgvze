@@ -1,0 +1,22 @@
+payload:
+  # CurseForge / ForgeCDN (Minecraft, ARK 等模组下载 CDN)
+  - DOMAIN-SUFFIX,forgecdn.net
+  - DOMAIN-SUFFIX,mediafilez.forgecdn.net
+  - DOMAIN-SUFFIX,edge.forgecdn.net
+  - DOMAIN-SUFFIX,cursecdn.com
+  - DOMAIN-SUFFIX,overwolf.com
+
+  # 方舟 (ARK: Survival Evolved / Ascended) 专用 CDN
+  - DOMAIN-SUFFIX,arkdedicated.com
+
+  # Nexus Mods (各大单机游戏 Mod 模组下载)
+  - DOMAIN-SUFFIX,nexusmods.com
+  - DOMAIN-SUFFIX,nexus-cdn.com
+
+  # Modrinth (Minecraft 新兴模组平台)
+  - DOMAIN-SUFFIX,modrinth.com
+  - DOMAIN-SUFFIX,cdn.modrinth.com
+
+  # Steam / 游戏流媒体与更新 CDN 补充
+  - DOMAIN,steambroadcast.akamaized.net
+  - DOMAIN,steamvideo.akamaized.net

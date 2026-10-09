@@ -204,10 +204,27 @@ def render_singbox_json(parsed_rules) -> str:
     }
     return json.dumps(data, ensure_ascii=False, indent=2) + "\n"
 
-def process_custom_rules():
+def get_external_base_names() -> set:
+    names = set()
+    if os.path.exists(EXTERNAL_LINKS_FILE):
+        with open(EXTERNAL_LINKS_FILE, 'r', encoding='utf-8') as f:
+            for l in f:
+                l = l.strip()
+                if l and not l.startswith('#'):
+                    if '#' in l:
+                        bname = l.split('#', 1)[1].strip()
+                    else:
+                        bname = os.path.basename(l.split('?')[0]).split('.')[0]
+                    names.add(bname)
+    return names
+
+def process_custom_rules(external_base_names=None):
     print("[*] Processing custom rules (Priority Top)...")
     if not os.path.exists(CUSTOM_RULES_DIR):
         return
+
+    if external_base_names is None:
+        external_base_names = get_external_base_names()
 
     for fname in sorted(os.listdir(CUSTOM_RULES_DIR)):
         fpath = os.path.join(CUSTOM_RULES_DIR, fname)
@@ -224,6 +241,10 @@ def process_custom_rules():
             parsed = parse_yaml_or_text(content)
             stats["custom_count"] += 1
             stats["total_rules"] += len(parsed)
+
+            if base_name in external_base_names:
+                print(f"  [+] Custom Patch detected: {base_name} ({len(parsed)} rules, will merge with upstream)")
+                continue
 
             out_clash = os.path.join(OUTPUT_CLASH_DIR, f"{base_name}.yaml")
             if ext in ['.yaml', '.yml']:
@@ -291,6 +312,26 @@ def process_external_link(entry: str):
                 return
             stats["failed_links"].append(url)
             return
+
+    # 检查是否存在用户自定义增量合并补丁 (custom_rules/{base_name}.*)
+    for patch_ext in ['.yaml', '.yml', '.txt', '.list']:
+        patch_path = os.path.join(CUSTOM_RULES_DIR, f"{base_name}{patch_ext}")
+        if os.path.isfile(patch_path):
+            try:
+                with open(patch_path, 'r', encoding='utf-8') as pf:
+                    patch_parsed = parse_yaml_or_text(pf.read())
+                if patch_parsed:
+                    seen_rules = set(parsed)
+                    added_count = 0
+                    for r in patch_parsed:
+                        if r not in seen_rules:
+                            parsed.append(r)
+                            seen_rules.add(r)
+                            added_count += 1
+                    print(f"  [+] Merged custom patch for {base_name}: +{added_count} rules (Total: {len(parsed)})")
+            except Exception as e:
+                print(f"  [-] Failed to merge custom patch for {base_name}: {e}")
+            break
 
     smart_write_file(out_clash, render_clash_yaml(parsed))
     smart_write_file(out_json, render_singbox_json(parsed))
@@ -401,26 +442,28 @@ def build_separate_ads():
 def clean_deprecated_files():
     """
     清理不再需要的旧版 AdRules / adrules_domainset 冗余文件
+    注意：在 Windows 不区分大小写的文件系统下，必须通过 os.listdir 精确匹配大小写，
+    避免误删大小写不同的新版文件（如小写 adrules.json）。
     """
-    deprecated = [
-        os.path.join(OUTPUT_CLASH_DIR, "AdRules.yaml"),
-        os.path.join(OUTPUT_CLASH_DIR, "adrules_domainset.yaml"),
-        os.path.join(OUTPUT_SINGBOX_DIR, "AdRules.json"),
-        os.path.join(OUTPUT_SINGBOX_DIR, "AdRules.srs"),
-        os.path.join(OUTPUT_SINGBOX_DIR, "AdRules.txt"),
-        os.path.join(OUTPUT_SINGBOX_DIR, "adrules_domainset.json"),
-        os.path.join(OUTPUT_SINGBOX_DIR, "adrules_domainset.srs"),
-        os.path.join(OUTPUT_CLASH_DIR, "category-ads-all.yaml"),
-        os.path.join(OUTPUT_SINGBOX_DIR, "category-ads-all.json"),
-        os.path.join(OUTPUT_SINGBOX_DIR, "category-ads-all.srs"),
+    deprecated_clash = ["AdRules.yaml", "adrules_domainset.yaml", "category-ads-all.yaml"]
+    deprecated_singbox = [
+        "AdRules.json", "AdRules.srs", "AdRules.txt",
+        "adrules_domainset.json", "adrules_domainset.srs",
+        "category-ads-all.json", "category-ads-all.srs",
     ]
-    for p in deprecated:
-        if os.path.exists(p):
-            try:
-                os.remove(p)
-                print(f"  [x] Removed deprecated file: {p}")
-            except Exception as e:
-                print(f"  [-] Error removing {p}: {e}")
+
+    for ddir, dlist in [(OUTPUT_CLASH_DIR, deprecated_clash), (OUTPUT_SINGBOX_DIR, deprecated_singbox)]:
+        if not os.path.exists(ddir):
+            continue
+        existing_exact_names = set(os.listdir(ddir))
+        for target_name in dlist:
+            if target_name in existing_exact_names:
+                p = os.path.join(ddir, target_name)
+                try:
+                    os.remove(p)
+                    print(f"  [x] Removed deprecated file: {p}")
+                except Exception as e:
+                    print(f"  [-] Error removing {p}: {e}")
 
 def compile_srs():
     sing_box_bin = shutil.which("sing-box")
@@ -489,6 +532,20 @@ def run_self_test():
         assert "PROCESS-NAME,codex" in ai_yaml_content or "PROCESS-NAME,cursor" in ai_yaml_content, "ai-all.yaml missing PROCESS-NAME rules!"
         assert "DOMAIN-SUFFIX,cowork-svc.exe" not in ai_yaml_content, "ai-all.yaml wrongly mapped cowork-svc.exe as DOMAIN-SUFFIX!"
 
+    # 检查 GameDownload 是否成功合并自定义 Mod / 游戏 CDN 补丁
+    gd_clash = os.path.join(OUTPUT_CLASH_DIR, "GameDownload.yaml")
+    gd_json = os.path.join(OUTPUT_SINGBOX_DIR, "GameDownload.json")
+    assert os.path.exists(gd_clash), "GameDownload.yaml missing!"
+    assert os.path.exists(gd_json), "GameDownload.json missing!"
+    with open(gd_clash, 'r', encoding='utf-8') as f:
+        gd_clash_text = f.read()
+        assert "forgecdn.net" in gd_clash_text, "GameDownload.yaml missing forgecdn.net patch!"
+        assert "arkdedicated.com" in gd_clash_text, "GameDownload.yaml missing arkdedicated.com patch!"
+    with open(gd_json, 'r', encoding='utf-8') as f:
+        gd_json_text = f.read()
+        assert "forgecdn.net" in gd_json_text, "GameDownload.json missing forgecdn.net patch!"
+        assert "arkdedicated.com" in gd_json_text, "GameDownload.json missing arkdedicated.com patch!"
+
     def _ad_count(name: str) -> int:
         with open(os.path.join(OUTPUT_SINGBOX_DIR, f"{name}.json"), 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -532,8 +589,10 @@ def main():
     os.makedirs(OUTPUT_CLASH_DIR, exist_ok=True)
     os.makedirs(OUTPUT_SINGBOX_DIR, exist_ok=True)
 
+    external_base_names = get_external_base_names()
+
     # 1. 优先处理用户私有规则
-    process_custom_rules()
+    process_custom_rules(external_base_names)
 
     # 2. 并发下载外部公共源
     if os.path.exists(EXTERNAL_LINKS_FILE):
