@@ -18343,6 +18343,7 @@ payload:
   - DOMAIN-SUFFIX,playshowtv.com
   - DOMAIN-SUFFIX,playstation.com
   - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
   - DOMAIN-SUFFIX,playvalorant.com
   - DOMAIN-SUFFIX,playvids.com
   - DOMAIN-SUFFIX,playwarcraft3.com
@@ -20095,6 +20096,7 @@ payload:
   - DOMAIN-SUFFIX,sc-cdn.net
   - DOMAIN-SUFFIX,sc.com
   - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,scea.com
   - DOMAIN-SUFFIX,scene7.com
   - DOMAIN-SUFFIX,scenesource.me
   - DOMAIN-SUFFIX,sc-gw.com
@@ -21063,6 +21065,7 @@ payload:
   - DOMAIN-SUFFIX,sony.com.pa
   - DOMAIN-SUFFIX,sony.com.pe
   - DOMAIN-SUFFIX,sony.com.ph
+  - DOMAIN-SUFFIX,sony.com.py
   - DOMAIN-SUFFIX,sony.com.sg
   - DOMAIN-SUFFIX,sony.com.sv
   - DOMAIN-SUFFIX,sony.com.tr
@@ -21089,6 +21092,7 @@ payload:
   - DOMAIN-SUFFIX,sony.hr
   - DOMAIN-SUFFIX,sony.hu
   - DOMAIN-SUFFIX,sony.ie
+  - DOMAIN-SUFFIX,sonyinteractive.com
   - DOMAIN-SUFFIX,sony.it
   - DOMAIN-SUFFIX,sonykigyo.jp
   - DOMAIN-SUFFIX,sony.kz
@@ -21098,6 +21102,7 @@ payload:
   - DOMAIN-SUFFIX,sony.lu
   - DOMAIN-SUFFIX,sony.lv
   - DOMAIN-SUFFIX,sony-mea.com
+  - DOMAIN-SUFFIX,sonymusic.com.hk
   - DOMAIN-SUFFIX,sony.net
   - DOMAIN-SUFFIX,sonynetwork.co.jp
   - DOMAIN-SUFFIX,sony.nl
