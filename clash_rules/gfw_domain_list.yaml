@@ -5884,6 +5884,7 @@ payload:
   - DOMAIN-SUFFIX,conscrypt.org
   - DOMAIN-SUFFIX,consentmanager.net
   - DOMAIN-SUFFIX,consentpro.com
+  - DOMAIN-SUFFIX,console.typesafe.ai
   - DOMAIN-SUFFIX,constructware.com
   - DOMAIN-SUFFIX,consul.io
   - DOMAIN-SUFFIX,contactossexoecuador.com
@@ -9619,6 +9620,7 @@ payload:
   - DOMAIN-SUFFIX,gaikaex.com
   - DOMAIN-SUFFIX,gainstech.ru
   - DOMAIN-SUFFIX,gaito.xyz
+  - DOMAIN-SUFFIX,ga.jspm.io
   - DOMAIN-SUFFIX,galaxyappstore.com
   - DOMAIN-SUFFIX,galaxymobile.jp
   - DOMAIN-SUFFIX,gale.com
