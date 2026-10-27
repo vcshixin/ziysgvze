@@ -763,6 +763,7 @@ payload:
   - DOMAIN-SUFFIX,addthis.com
   - DOMAIN-SUFFIX,addthisedge.com
   - DOMAIN-SUFFIX,addtoany.com
+  - DOMAIN-SUFFIX,addtodropbox.com
   - DOMAIN-SUFFIX,addyoutube.com
   - DOMAIN-SUFFIX,adelaidenow.com.au
   - DOMAIN-SUFFIX,adgoogle.net
@@ -6290,6 +6291,7 @@ payload:
   - DOMAIN-SUFFIX,darwinsource.com
   - DOMAIN-SUFFIX,darwinsource.org
   - DOMAIN-SUFFIX,dasaob.online
+  - DOMAIN-SUFFIX,dash.ai
   - DOMAIN-SUFFIX,dashlane.com
   - DOMAIN-SUFFIX,dashly.app
   - DOMAIN-SUFFIX,dashly.help
@@ -7048,6 +7050,7 @@ payload:
   - DOMAIN-SUFFIX,doc.new
   - DOMAIN-SUFFIX,do.co
   - DOMAIN-SUFFIX,docs.com
+  - DOMAIN-SUFFIX,docsend.com
   - DOMAIN-SUFFIX,docs.new
   - DOMAIN-SUFFIX,docs.rs
   - DOMAIN-SUFFIX,docs.rw
@@ -7244,12 +7247,15 @@ payload:
   - DOMAIN-SUFFIX,dropboxcaptcha.com
   - DOMAIN-SUFFIX,dropbox.com
   - DOMAIN-SUFFIX,dropbox-dns.com
+  - DOMAIN-SUFFIX,dropboxexperiment.com
   - DOMAIN-SUFFIX,dropboxforum.com
   - DOMAIN-SUFFIX,dropboxforums.com
   - DOMAIN-SUFFIX,dropboxinsiders.com
+  - DOMAIN-SUFFIX,dropboxlegal.com
   - DOMAIN-SUFFIX,dropboxmail.com
   - DOMAIN-SUFFIX,dropboxpartners.com
   - DOMAIN-SUFFIX,dropboxstatic.com
+  - DOMAIN-SUFFIX,dropboxteam.com
   - DOMAIN-SUFFIX,dropbox.tech
   - DOMAIN-SUFFIX,dropboxusercontent.com
   - DOMAIN-SUFFIX,drpc.org
@@ -10982,9 +10988,11 @@ payload:
   - DOMAIN-SUFFIX,helixstudios.net
   - DOMAIN-SUFFIX,helloandroid.com
   - DOMAIN-SUFFIX,helloavgirls.com
+  - DOMAIN-SUFFIX,hellofax.com
   - DOMAIN-SUFFIX,hellokittybeats.com
   - DOMAIN-SUFFIX,hellomoto.com
   - DOMAIN-SUFFIX,helloqueer.com
+  - DOMAIN-SUFFIX,hellosign.com
   - DOMAIN-SUFFIX,hellosmartbook.com
   - DOMAIN-SUFFIX,hellporno.com
   - DOMAIN-SUFFIX,hellven.net
@@ -14084,6 +14092,7 @@ payload:
   - DOMAIN-SUFFIX,libraryofthumbs.com
   - DOMAIN-SUFFIX,library.usc.cuhk.edu.hk
   - DOMAIN-SUFFIX,libredd.it
+  - DOMAIN-SUFFIX,librewolf.dev
   - DOMAIN-SUFFIX,librewolf.net
   - DOMAIN-SUFFIX,libsolutions.app
   - DOMAIN-SUFFIX,libsolutions.domains
@@ -20862,7 +20871,6 @@ payload:
   - DOMAIN-SUFFIX,situero.com
   - DOMAIN-SUFFIX,six9dy.pw
   - DOMAIN-SUFFIX,six-degrees.io
-  - DOMAIN-SUFFIX,sixte.st
   - DOMAIN-SUFFIX,sjcollect.com
   - DOMAIN-SUFFIX,sjhsp1.buzz
   - DOMAIN-SUFFIX,skate2.com
@@ -22146,29 +22154,6 @@ payload:
   - DOMAIN-SUFFIX,teslamotors.com
   - DOMAIN-SUFFIX,tesla.services
   - DOMAIN-SUFFIX,teslazta.net
-  - DOMAIN-SUFFIX,test-ipv6.alpinedc.ch
-  - DOMAIN-SUFFIX,test-ipv6.arauc.br
-  - DOMAIN-SUFFIX,test-ipv6.belwue.net
-  - DOMAIN-SUFFIX,test-ipv6.carnet.hr
-  - DOMAIN-SUFFIX,test-ipv6.cl
-  - DOMAIN-SUFFIX,test-ipv6.com
-  - DOMAIN-SUFFIX,test-ipv6.csclub.uwaterloo.ca
-  - DOMAIN-SUFFIX,test-ipv6.cs.umd.edu
-  - DOMAIN-SUFFIX,test-ipv6.cz
-  - DOMAIN-SUFFIX,testipv6.de
-  - DOMAIN-SUFFIX,test-ipv6.epic.network
-  - DOMAIN-SUFFIX,test-ipv6.fratec.net
-  - DOMAIN-SUFFIX,test-ipv6.freerangecloud.com
-  - DOMAIN-SUFFIX,test-ipv6.go6.si
-  - DOMAIN-SUFFIX,test-ipv6.hu
-  - DOMAIN-SUFFIX,test-ipv6.is
-  - DOMAIN-SUFFIX,test-ipv6.iu13.net
-  - DOMAIN-SUFFIX,test-ipv6.ke.liquidtelecom.net
-  - DOMAIN-SUFFIX,test-ipv6.noroutetohost.net
-  - DOMAIN-SUFFIX,test-ipv6.roedu.net
-  - DOMAIN-SUFFIX,test-ipv6.se
-  - DOMAIN-SUFFIX,test-ipv6.sin.vr.org
-  - DOMAIN-SUFFIX,test-ipv6.ttk.ru
   - DOMAIN-SUFFIX,testonfox.com
   - DOMAIN-SUFFIX,tetrika-school.ru
   - DOMAIN-SUFFIX,tettediferro.it
