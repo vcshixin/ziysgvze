@@ -12,6 +12,9 @@ payload:
   - DOMAIN,api.cloudflare.com
   - DOMAIN,api.msn.com
   - DOMAIN,api.statsig.com
+  - DOMAIN,appsgenaiserver-pa.clients.google.com
+  - DOMAIN,appsgenaiserver-pa.clients6.google.com
+  - DOMAIN,appsgenaiserver-pa.googleapis.com
   - DOMAIN,assets.msn.com
   - DOMAIN,aws-language-servers.us-east-1.amazonaws.com
   - DOMAIN,aws-toolkit-language-servers.amazonaws.com
@@ -217,6 +220,7 @@ payload:
   - DOMAIN-SUFFIX,marscode.com
   - DOMAIN-SUFFIX,mcpservertest.online
   - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,metaaiusercontent.com
   - DOMAIN-SUFFIX,metaaivm.com
   - DOMAIN-SUFFIX,midjourney.com
   - DOMAIN-SUFFIX,mistral.ai
