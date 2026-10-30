@@ -365,8 +365,7 @@ def write_ad_source(name: str, domains, suffixes, keywords, ips=None) -> int:
 
     out_singbox = os.path.join(OUTPUT_SINGBOX_DIR, f"{name}.json")
     out_clash = os.path.join(OUTPUT_CLASH_DIR, f"{name}.yaml")
-    json_str = json.dumps({"version": 2, "rules": rules_list}, ensure_ascii=False, indent=2) + "
-"
+    json_str = json.dumps({"version": 2, "rules": rules_list}, ensure_ascii=False, indent=2) + "\n"
     smart_write_file(out_singbox, json_str)
 
     clash_parsed = []
