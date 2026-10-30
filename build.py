@@ -346,10 +346,11 @@ def process_external_link(entry: str):
         stats["total_rules"] += len(parsed)
     print(f"  [+] External: {base_name} ({len(parsed)} rules)")
 
-def write_ad_source(name: str, domains, suffixes, keywords) -> int:
+def write_ad_source(name: str, domains, suffixes, keywords, ips=None) -> int:
     domains = set(domains)
     suffixes = set(suffixes)
     keywords = set(keywords)
+    ips = set(ips or [])
     rules_list = []
     if domains:
         rules_list.append({"domain": sorted(domains)})
@@ -357,23 +358,28 @@ def write_ad_source(name: str, domains, suffixes, keywords) -> int:
         rules_list.append({"domain_suffix": sorted(suffixes)})
     if keywords:
         rules_list.append({"domain_keyword": sorted(keywords)})
+    if ips:
+        rules_list.append({"ip_cidr": sorted(ips)})
     if not rules_list:
         return 0
 
     out_singbox = os.path.join(OUTPUT_SINGBOX_DIR, f"{name}.json")
     out_clash = os.path.join(OUTPUT_CLASH_DIR, f"{name}.yaml")
-    json_str = json.dumps({"version": 2, "rules": rules_list}, ensure_ascii=False, indent=2) + "\n"
+    json_str = json.dumps({"version": 2, "rules": rules_list}, ensure_ascii=False, indent=2) + "
+"
     smart_write_file(out_singbox, json_str)
 
     clash_parsed = []
     for d in sorted(domains):
-        clash_parsed.append(('domain', d))
+        clash_parsed.append(("domain", d))
     for s in sorted(suffixes):
-        clash_parsed.append(('domain_suffix', s))
+        clash_parsed.append(("domain_suffix", s))
     for k in sorted(keywords):
-        clash_parsed.append(('domain_keyword', k))
+        clash_parsed.append(("domain_keyword", k))
+    for ip in sorted(ips):
+        clash_parsed.append(("ip_cidr", ip))
     smart_write_file(out_clash, render_clash_yaml(clash_parsed))
-    return len(domains) + len(suffixes) + len(keywords)
+    return len(domains) + len(suffixes) + len(keywords) + len(ips)
 
 
 def preserve_ad_source(name: str, reason: str) -> bool:
@@ -430,8 +436,26 @@ def build_separate_ads():
                 if clean:
                     cats_suffixes.add(clean)
 
+    wechat_httpdns_domains = {
+        "dns.weixin.qq.com",
+        "dns.weixin.qq.com.cn",
+        "aedns.weixin.qq.com",
+        "httpdns.weixin.qq.com",
+        "httpsdns.weixin.qq.com",
+    }
+    wechat_httpdns_ips = {
+        "42.187.182.106/32",
+        "42.187.182.123/32",
+        "42.187.184.154/32",
+        "42.81.232.18/32",
+        "123.151.54.50/32",
+        "119.29.29.98/32",
+        "119.29.29.99/32",
+        "2402:4e00:1900:1700:0:9554:1ad9:c3a/128",
+        "240e:928:1400:10::25/128",
+    }
     if cats_suffixes:
-        n = write_ad_source('adrules', set(), cats_suffixes, set())
+        n = write_ad_source("adrules", wechat_httpdns_domains, cats_suffixes, set(), wechat_httpdns_ips)
         stats["adrules_count"] = n
         stats["ad_rules_count"] += n
         stats["total_rules"] += n
