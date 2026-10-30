@@ -2,6 +2,15 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        "aedns.weixin.qq.com",
+        "dns.weixin.qq.com",
+        "dns.weixin.qq.com.cn",
+        "httpdns.weixin.qq.com",
+        "httpsdns.weixin.qq.com"
+      ]
+    },
+    {
       "domain_suffix": [
         "0.avmarket.rs",
         "0.myikas.com",
@@ -205046,6 +205055,19 @@
         "zzzoraclecloudsupportp01e10-app-hs.eloquademos.com",
         "zzzoraclecloudsupportp02e10-app-hs.eloquademos.com",
         "zzzoraclecloudsupportp07e10-img-enh-cdn.eloquademos.com"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "119.29.29.98/32",
+        "119.29.29.99/32",
+        "123.151.54.50/32",
+        "2402:4e00:1900:1700:0:9554:1ad9:c3a/128",
+        "240e:928:1400:10::25/128",
+        "42.187.182.106/32",
+        "42.187.182.123/32",
+        "42.187.184.154/32",
+        "42.81.232.18/32"
       ]
     }
   ]

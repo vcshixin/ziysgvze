@@ -1,4 +1,9 @@
 payload:
+  - DOMAIN,aedns.weixin.qq.com
+  - DOMAIN,dns.weixin.qq.com
+  - DOMAIN,dns.weixin.qq.com.cn
+  - DOMAIN,httpdns.weixin.qq.com
+  - DOMAIN,httpsdns.weixin.qq.com
   - DOMAIN-SUFFIX,0.avmarket.rs
   - DOMAIN-SUFFIX,0.myikas.com
   - DOMAIN-SUFFIX,0.net.easyjet.com
@@ -205042,3 +205047,12 @@ payload:
   - DOMAIN-SUFFIX,zzzoraclecloudsupportp01e10-app-hs.eloquademos.com
   - DOMAIN-SUFFIX,zzzoraclecloudsupportp02e10-app-hs.eloquademos.com
   - DOMAIN-SUFFIX,zzzoraclecloudsupportp07e10-img-enh-cdn.eloquademos.com
+  - IP-CIDR,119.29.29.98/32
+  - IP-CIDR,119.29.29.99/32
+  - IP-CIDR,123.151.54.50/32
+  - IP-CIDR,2402:4e00:1900:1700:0:9554:1ad9:c3a/128
+  - IP-CIDR,240e:928:1400:10::25/128
+  - IP-CIDR,42.187.182.106/32
+  - IP-CIDR,42.187.182.123/32
+  - IP-CIDR,42.187.184.154/32
+  - IP-CIDR,42.81.232.18/32
