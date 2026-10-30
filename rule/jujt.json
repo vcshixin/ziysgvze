@@ -6,11 +6,15 @@
         "aedns.weixin.qq.com",
         "apiauth.quickconnect.to",
         "dns.weixin.qq.com",
-        "dns.weixin.qq.com.cn"
+        "dns.weixin.qq.com.cn",
+        "httpdns.weixin.qq.com",
+        "httpsdns.weixin.qq.com"
       ]
     },
     {
       "ip_cidr": [
+        "119.29.29.98/32",
+        "119.29.29.99/32",
         "123.151.54.50/32",
         "2402:4e00:1900:1700:0:9554:1ad9:c3a/128",
         "240e:928:1400:10::25/128",
