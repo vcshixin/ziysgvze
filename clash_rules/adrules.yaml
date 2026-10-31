@@ -47653,8 +47653,6 @@ payload:
   - DOMAIN-SUFFIX,dns.jd.com
   - DOMAIN-SUFFIX,dns.qiyipic.iqiyi.com
   - DOMAIN-SUFFIX,dns.weibo.cn
-  - DOMAIN-SUFFIX,dns.weixin.qq.com
-  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn
   - DOMAIN-SUFFIX,dns1.rottne.com
   - DOMAIN-SUFFIX,dns2.net1.it
   - DOMAIN-SUFFIX,dnsclocknow.com

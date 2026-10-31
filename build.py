@@ -426,13 +426,20 @@ def build_separate_ads():
     else:
         preserve_ad_source('awavenue', 'AWAvenue fetch/parse failed')
 
+    cats_whitelist = {
+        "dns.weixin.qq.com",
+        "dns.weixin.qq.com.cn",
+        "aedns.weixin.qq.com",
+        "httpdns.weixin.qq.com",
+        "httpsdns.weixin.qq.com",
+    }
     cats_suffixes = set()
     if cats_content:
         for line in cats_content.splitlines():
             line = line.strip()
             if line and not line.startswith('#'):
                 clean = line.lstrip('+.')
-                if clean:
+                if clean and clean not in cats_whitelist:
                     cats_suffixes.add(clean)
 
     if cats_suffixes:
