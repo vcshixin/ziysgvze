@@ -435,26 +435,8 @@ def build_separate_ads():
                 if clean:
                     cats_suffixes.add(clean)
 
-    wechat_httpdns_domains = {
-        "dns.weixin.qq.com",
-        "dns.weixin.qq.com.cn",
-        "aedns.weixin.qq.com",
-        "httpdns.weixin.qq.com",
-        "httpsdns.weixin.qq.com",
-    }
-    wechat_httpdns_ips = {
-        "42.187.182.106/32",
-        "42.187.182.123/32",
-        "42.187.184.154/32",
-        "42.81.232.18/32",
-        "123.151.54.50/32",
-        "119.29.29.98/32",
-        "119.29.29.99/32",
-        "2402:4e00:1900:1700:0:9554:1ad9:c3a/128",
-        "240e:928:1400:10::25/128",
-    }
     if cats_suffixes:
-        n = write_ad_source("adrules", wechat_httpdns_domains, cats_suffixes, set(), wechat_httpdns_ips)
+        n = write_ad_source("adrules", set(), cats_suffixes, set())
         stats["adrules_count"] = n
         stats["ad_rules_count"] += n
         stats["total_rules"] += n
