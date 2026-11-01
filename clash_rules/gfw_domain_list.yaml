@@ -1853,6 +1853,7 @@ payload:
   - DOMAIN-SUFFIX,api.shuaiapi.com
   - DOMAIN-SUFFIX,apisof.net
   - DOMAIN-SUFFIX,api.steampowered.com
+  - DOMAIN-SUFFIX,api.themoviedb.org
   - DOMAIN-SUFFIX,api-verify.recaptcha.net
   - DOMAIN-SUFFIX,apkbank.ru
   - DOMAIN-SUFFIX,apkcombo.com
@@ -22722,6 +22723,7 @@ payload:
   - DOMAIN-SUFFIX,torproject.org
   - DOMAIN-SUFFIX,torrentgalaxy.to
   - DOMAIN-SUFFIX,torrentkitty.tv
+  - DOMAIN-SUFFIX,torrentleech.org
   - DOMAIN-SUFFIX,torrentprivacy.com
   - DOMAIN-SUFFIX,torrentproject.se
   - DOMAIN-SUFFIX,torrenty.org
@@ -26309,6 +26311,7 @@ payload:
   - DOMAIN-SUFFIX,youtube.ug
   - DOMAIN-SUFFIX,youtube.uy
   - DOMAIN-SUFFIX,youtube.vn
+  - DOMAIN-SUFFIX,youversionapi.com
   - DOMAIN-SUFFIX,youversion.com
   - DOMAIN-SUFFIX,youwin.com
   - DOMAIN-SUFFIX,youwuss.com
