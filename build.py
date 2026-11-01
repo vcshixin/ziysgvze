@@ -432,6 +432,8 @@ def build_separate_ads():
         "aedns.weixin.qq.com",
         "httpdns.weixin.qq.com",
         "httpsdns.weixin.qq.com",
+        "wl.jd.com",
+        "cactus.jd.com",
     }
     cats_suffixes = set()
     if cats_content:
