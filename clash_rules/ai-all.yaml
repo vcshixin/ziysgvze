@@ -50,6 +50,7 @@ payload:
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
   - DOMAIN,pplx-res.cloudinary.com
+  - DOMAIN,production-copilot-host-westus.webpubsub.azure.com
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,q-developer-integration.us-east-1.api.aws
   - DOMAIN,self.events.data.microsoft.com
@@ -176,6 +177,7 @@ payload:
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,grok.x.com
+  - DOMAIN-SUFFIX,grokbot.com
   - DOMAIN-SUFFIX,grokipedia.com
   - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,h2o.ai
