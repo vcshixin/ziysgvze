@@ -155,6 +155,7 @@ payload:
   - DOMAIN-SUFFIX,eigent.ai
   - DOMAIN-SUFFIX,elevenlabs.com
   - DOMAIN-SUFFIX,elevenlabs.io
+  - DOMAIN-SUFFIX,elevenlabsusercontent.com
   - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,factory.ai
   - DOMAIN-SUFFIX,featuregates.org
