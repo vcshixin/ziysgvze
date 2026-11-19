@@ -7806,6 +7806,7 @@ payload:
   - DOMAIN-SUFFIX,elephanttubenew.com
   - DOMAIN-SUFFIX,elevenlabs.com
   - DOMAIN-SUFFIX,elevenlabs.io
+  - DOMAIN-SUFFIX,elevenlabsusercontent.com
   - DOMAIN-SUFFIX,elgaronline.com
   - DOMAIN-SUFFIX,elgoog.im
   - DOMAIN-SUFFIX,elifesciences.org
@@ -25977,7 +25978,6 @@ payload:
   - DOMAIN-SUFFIX,yandex.ua
   - DOMAIN-SUFFIX,yandex.uz
   - DOMAIN-SUFFIX,yandexwebcache.net
-  - DOMAIN-SUFFIX,yandexwebcache.org
   - DOMAIN-SUFFIX,yango.africa
   - DOMAIN-SUFFIX,yango.ao
   - DOMAIN-SUFFIX,yango-b2b.com
