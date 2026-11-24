@@ -17,3 +17,4 @@ payload:
   - DOMAIN-SUFFIX,muyuan.do        #君の的公益
   - DOMAIN-SUFFIX,msftconnecttest.com # Windows网络连通性探测(NCSI)，避免系统误判无Internet连接
   - DOMAIN-SUFFIX,msftncsi.com # Windows网络连通性探测(NCSI)，防止微软商店报0x800704cf
+  - DOMAIN-SUFFIX,131479.xyz   #AI API 中转（api.131479.xyz）
