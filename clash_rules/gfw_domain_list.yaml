@@ -4783,6 +4783,7 @@ payload:
   - DOMAIN-SUFFIX,cabletvdirectv.com
   - DOMAIN-SUFFIX,cachefly.com
   - DOMAIN-SUFFIX,cachefly.net
+  - DOMAIN-SUFFIX,cachix.org
   - DOMAIN-SUFFIX,cacnw.com
   - DOMAIN-SUFFIX,cactusvpn.com
   - DOMAIN-SUFFIX,cadcamsystemsinc.com
@@ -8643,7 +8644,9 @@ payload:
   - DOMAIN-SUFFIX,fastlane.ci
   - DOMAIN-SUFFIX,fastlane.tools
   - DOMAIN-SUFFIX,fastly.com
+  - DOMAIN-SUFFIX,fastlydns.net
   - DOMAIN-SUFFIX,fastly-edge.com
+  - DOMAIN-SUFFIX,fastly-insights.com
   - DOMAIN-SUFFIX,fastly.io
   - DOMAIN-SUFFIX,fastlylabs.com
   - DOMAIN-SUFFIX,fastlylb.net
@@ -23946,6 +23949,7 @@ payload:
   - DOMAIN-SUFFIX,viu.tv
   - DOMAIN-SUFFIX,vivaldi.com
   - DOMAIN-SUFFIX,vivaxnxx.com
+  - DOMAIN-SUFFIX,vivox.com
   - DOMAIN-SUFFIX,vivthomas.com
   - DOMAIN-SUFFIX,vixen.com
   - DOMAIN-SUFFIX,vixengroup.com
